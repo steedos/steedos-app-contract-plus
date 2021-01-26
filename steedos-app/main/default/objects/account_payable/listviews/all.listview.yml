@@ -1,0 +1,20 @@
+name: all
+label: 所有
+columns:
+  - contract
+  - scomment
+  - customer
+  - money
+  - pk_currtype
+  - invoiceno
+  - taxrate
+  - supplier
+  - same_payable_plan
+  - invoice_type
+  - total_amount
+  - nc_billno
+  - created
+  - subject
+sort:
+  - - created
+    - desc

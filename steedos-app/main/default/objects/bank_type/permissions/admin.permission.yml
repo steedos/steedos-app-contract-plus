@@ -1,5 +1,5 @@
 permission_set_id: admin
-allowCreate: false
+allowCreate: true
 allowDelete: false
 allowEdit: false
 allowRead: true

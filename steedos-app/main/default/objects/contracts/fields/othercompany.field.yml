@@ -1,0 +1,13 @@
+name: othercompany
+type: lookup
+relatedList: true
+label: 签约对象
+searchable: true
+reference_to: accounts
+multiple: true
+filters:
+  - - status
+    - eq
+    - '2'
+create: false
+sort_no: 140

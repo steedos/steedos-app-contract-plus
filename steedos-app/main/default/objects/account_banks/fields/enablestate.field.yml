@@ -1,0 +1,13 @@
+name: enablestate
+label: 启用状态
+type: select
+options:
+  - label: 未启用
+    value: '1'
+  - label: 已启用
+    value: '2'
+  - label: 已停用
+    value: '3'
+required: true
+defaultValue: '2'
+sort_no: 200

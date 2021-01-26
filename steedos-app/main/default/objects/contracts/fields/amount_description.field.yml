@@ -1,0 +1,6 @@
+name: amount_description
+label: 金额说明
+type: textarea
+group: 合同主要内容
+is_wide: true
+sort_no: 370

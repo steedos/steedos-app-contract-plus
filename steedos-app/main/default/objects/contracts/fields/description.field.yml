@@ -1,0 +1,5 @@
+name: description
+label: 说明
+group: 合同主要内容
+type: textarea
+sort_no: 420

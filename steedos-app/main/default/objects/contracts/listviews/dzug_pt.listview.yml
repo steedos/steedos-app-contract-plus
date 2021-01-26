@@ -1,0 +1,63 @@
+name: dzug_pt
+label: 平台公司合同
+filter_scope: space
+filters: |-
+  function anonymous(
+  ) {
+
+      return [
+        [
+          ["company_id","=","0001A2100000000036V0"],
+          "or",
+          ["company_id","=","0001A2100000000036U9"],
+          "or",
+          ["company_id","=","0001A2100000000036UU"],
+          "or",
+          ["company_id","=","0001A2100000000036VX"],
+          "or",
+          ["company_id","=","0001A2100000000036W3"],
+          "or",
+          ["company_id","=","0001A2100000000036X3"],
+          "or",
+          ["company_id","=","0001B21000000000YAZ1"]
+        ],
+        ["contract_state","<>","terminated"]
+      ];
+
+  }
+columns:
+  - field: create_date
+    width: 120
+    wrap: true
+  - field: company_id
+    width: 200
+    wrap: true
+  - field: othercompany
+    width: 200
+    wrap: true
+  - field: name
+    width: 280
+    wrap: true
+  - field: amount
+    width: 120
+    wrap: true
+  - field: currency_type
+    width: 120
+    wrap: true
+  - field: contract_type
+    width: 120
+    wrap: true
+  - field: 'no'
+    width: 120
+    wrap: true
+  - field: serial_number
+    width: 120
+    wrap: true
+filter_fields:
+  - contract_type
+  - signed_date
+  - othercompany
+  - contract_state
+sort:
+  - - create_date
+    - desc

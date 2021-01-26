@@ -1,0 +1,6 @@
+name: money
+label: 申请开票金额/确认收入金额
+type: currency
+readonly: true
+defaultValue: 0
+sort_no: 150

@@ -1,0 +1,17 @@
+name: receive_payment_type
+type: select
+label: 收/付款方式
+group: 合同主要内容
+defaultValue: 一次性
+options:
+  - label: 一次性
+    value: 一次性
+  - label: 分期
+    value: 分期
+  - label: 无金额
+    value: 无金额
+allowedValues:
+  - 一次性
+  - 分期
+  - 无金额
+sort_no: 380

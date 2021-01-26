@@ -1,0 +1,14 @@
+name: all
+label: 所有
+columns:
+  - contract
+  - name
+  - amount
+  - due_date
+  - account
+  - currency
+  - subject
+filter_scope: space
+sort:
+  - - due_date
+    - desc

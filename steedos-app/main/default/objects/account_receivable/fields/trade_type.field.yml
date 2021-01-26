@@ -1,0 +1,11 @@
+name: trade_type
+label: 交易类型
+type: select
+options:
+  - label: 应收单1
+    value: F0-Cxx-01
+  - label: 应收单2
+    value: F0-Cxx-02
+hidden: true
+defaultValue: F0-Cxx-01
+sort_no: 320

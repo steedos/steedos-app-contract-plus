@@ -1,0 +1,7 @@
+name: synced_from_odoo
+label: 从odoo导入
+type: boolean
+omit: true
+hidden: true
+readonly: true
+sort_no: 610

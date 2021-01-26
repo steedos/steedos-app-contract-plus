@@ -1,0 +1,9 @@
+name: revenue_recognition
+label: 确认收入
+type: lookup
+relatedList: true
+reference_to: revenue_recognition
+hidden: true
+index: true
+create: false
+sort_no: 330

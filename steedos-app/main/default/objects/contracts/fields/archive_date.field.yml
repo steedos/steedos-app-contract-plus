@@ -1,0 +1,7 @@
+name: archive_date
+label: 备案文件日期
+type: date
+group: 合同备案信息
+sortable: true
+filterable: true
+sort_no: 580

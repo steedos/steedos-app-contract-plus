@@ -1,0 +1,5 @@
+name: account_receipt
+label: 收款记录
+icon: account
+enable_api: true
+enable_share: true

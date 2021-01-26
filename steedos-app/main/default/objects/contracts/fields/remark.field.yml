@@ -1,0 +1,5 @@
+name: remark
+label: 备注
+group: 合同主要内容
+type: textarea
+sort_no: 410

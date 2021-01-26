@@ -1,0 +1,7 @@
+name: pk_currtype
+label: 币种
+type: lookup
+reference_to: currency
+required: true
+create: false
+sort_no: 160

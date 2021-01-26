@@ -1,0 +1,7 @@
+name: taxrate
+label: 税率
+type: lookup
+reference_to: account_tax
+required: true
+create: false
+sort_no: 140

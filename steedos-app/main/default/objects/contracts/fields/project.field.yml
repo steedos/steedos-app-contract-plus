@@ -1,0 +1,7 @@
+name: project
+type: lookup
+label: 项目
+filterable: true
+reference_to: account_project
+create: false
+sort_no: 150

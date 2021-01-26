@@ -1,0 +1,22 @@
+name: account_banks
+label: 签约对象银行信息
+icon: account
+enable_api: true
+enable_trash: true
+enable_audit: true
+enable_share: true
+form:
+  validate: !<tag:yaml.org,2002:js/function> |-
+    function anonymous(formValues
+    ) {
+
+      var combinenum = '';
+      if(formValues && formValues.pk_bankdoc){
+        var bank = Creator.odata.get("bank", formValues.pk_bankdoc, 'combinenum');
+        if(bank){
+          combinenum = bank.combinenum
+        }
+      }
+      $("[name='combinenum']").val(combinenum);
+
+    }

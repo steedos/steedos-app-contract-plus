@@ -1,0 +1,9 @@
+name: owner
+label: 执行人
+sortable: true
+type: lookup
+reference_to: users
+omit: false
+hidden: false
+create: false
+sort_no: 240

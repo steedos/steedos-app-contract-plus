@@ -1,0 +1,5 @@
+name: department
+label: 经办部门
+icon: account
+enable_api: true
+enable_trash: true

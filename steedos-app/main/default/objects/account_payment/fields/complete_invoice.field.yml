@@ -1,0 +1,10 @@
+name: complete_invoice
+label: 发票齐全
+type: select
+options:
+  - label: 是
+    value: 是
+  - label: 否
+    value: 否
+required: true
+sort_no: 200

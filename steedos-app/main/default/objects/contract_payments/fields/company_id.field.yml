@@ -1,0 +1,7 @@
+name: company_id
+required: true
+omit: false
+hidden: false
+type: lookup
+create: false
+sort_no: 170

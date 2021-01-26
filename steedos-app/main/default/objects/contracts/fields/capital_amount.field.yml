@@ -1,0 +1,6 @@
+name: capital_amount
+label: 大写金额
+type: text
+group: 合同主要内容
+readonly: true
+sort_no: 340

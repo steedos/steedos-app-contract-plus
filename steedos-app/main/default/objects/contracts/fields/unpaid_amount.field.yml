@@ -1,0 +1,9 @@
+name: unpaid_amount
+label: 未支付付款总金额
+group: 合同收付款信息
+type: currency
+scale: 2
+sortable: true
+readonly: true
+defaultValue: 0
+sort_no: 470

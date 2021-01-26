@@ -2,5 +2,6 @@ name: pk_banktype
 label: 银行类别
 type: master_detail
 reference_to: bank_type
+write_requires_master_read: true
 create: false
 sort_no: 130

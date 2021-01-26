@@ -1,0 +1,7 @@
+name: company_id
+label: 上级部门
+type: lookup
+reference_to: company
+hidden: false
+required: false
+sort_no: 120

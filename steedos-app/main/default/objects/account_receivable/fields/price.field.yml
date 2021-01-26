@@ -1,0 +1,6 @@
+name: price
+label: 单价
+type: currency
+required: true
+defaultValue: 0
+sort_no: 140

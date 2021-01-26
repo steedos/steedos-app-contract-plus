@@ -1,0 +1,9 @@
+name: received_amount
+label: 已收款总金额
+group: 合同收付款信息
+type: currency
+scale: 2
+sortable: true
+readonly: true
+defaultValue: 0
+sort_no: 500

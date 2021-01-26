@@ -1,0 +1,6 @@
+name: scomment
+label: 应收说明
+type: text
+is_name: true
+required: true
+sort_no: 170

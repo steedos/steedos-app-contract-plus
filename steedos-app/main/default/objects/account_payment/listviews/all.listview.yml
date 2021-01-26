@@ -1,0 +1,21 @@
+name: all
+label: 所有
+columns:
+  - contract
+  - scomment
+  - payment_date
+  - money
+  - currtype
+  - payment_company_id
+  - supplier
+  - actual_payment_amount
+  - actual_payment_date
+  - nc_billno
+  - payment_status
+  - nc_approvestatus
+  - nc_vapper
+  - created
+  - subject
+sort:
+  - - created
+    - desc

@@ -1,0 +1,15 @@
+name: accstate
+label: 账户状态
+type: select
+options:
+  - label: 正常
+    value: '0'
+  - label: 冻结
+    value: '1'
+  - label: 部分冻结
+    value: '2'
+  - label: 销户
+    value: '3'
+required: true
+defaultValue: '0'
+sort_no: 190

@@ -1,0 +1,17 @@
+name: amount_type
+type: select
+label: 金额类型
+group: 合同主要内容
+defaultValue: 固定
+options:
+  - label: 固定
+    value: 固定
+  - label: 浮动
+    value: 浮动
+  - label: 无金额
+    value: 无金额
+allowedValues:
+  - 固定
+  - 浮动
+  - 无金额
+sort_no: 360

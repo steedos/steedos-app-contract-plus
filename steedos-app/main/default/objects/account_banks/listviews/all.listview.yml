@@ -1,0 +1,8 @@
+name: all
+label: 所有
+columns:
+  - accnum
+  - accname
+  - pk_banktype
+  - pk_bankdoc
+  - enablestate

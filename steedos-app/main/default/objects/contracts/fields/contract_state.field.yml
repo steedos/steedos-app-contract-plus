@@ -1,0 +1,23 @@
+name: contract_state
+type: select
+label: 合同状态
+group: 合同主要内容
+searchable: true
+options:
+  - label: 审批中
+    value: pending
+  - label: 已核准
+    value: approved
+  - label: 已驳回
+    value: rejected
+  - label: 已取消
+    value: terminated
+  - label: 已签订
+    value: signed
+  - label: 已归档
+    value: archived
+  - label: 已作废
+    value: droped
+  - label: 已完成
+    value: completed
+sort_no: 430

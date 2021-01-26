@@ -1,0 +1,12 @@
+name: contract_action_type
+label: 合同类型
+type: select
+group: 合同变更
+options:
+  - label: 新增
+    value: 新增
+  - label: 变更
+    value: 变更
+readonly: true
+omit: true
+sort_no: 560

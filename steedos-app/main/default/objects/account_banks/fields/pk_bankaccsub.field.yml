@@ -1,0 +1,7 @@
+name: pk_bankaccsub
+label: NC客商银行主键
+type: text
+omit: true
+hidden: true
+readonly: true
+sort_no: 150

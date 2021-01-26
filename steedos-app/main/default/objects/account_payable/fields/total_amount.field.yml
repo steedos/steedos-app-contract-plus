@@ -1,0 +1,7 @@
+name: total_amount
+label: 历史收票总金额
+type: currency
+inlineHelpText: 首次添加单据时填写
+defaultValue: 0
+readonly: true
+sort_no: 200

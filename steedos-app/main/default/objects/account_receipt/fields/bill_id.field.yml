@@ -1,0 +1,6 @@
+name: bill_id
+label: 收款单ID
+omit: true
+hidden: true
+type: text
+sort_no: 200

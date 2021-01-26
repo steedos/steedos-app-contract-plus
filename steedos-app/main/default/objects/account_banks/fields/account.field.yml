@@ -1,0 +1,7 @@
+name: account
+label: 签约对象
+type: master_detail
+reference_to: accounts
+required: true
+create: false
+sort_no: 100

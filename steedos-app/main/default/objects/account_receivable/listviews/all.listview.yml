@@ -1,0 +1,22 @@
+name: all
+label: 所有
+columns:
+  - contract
+  - scomment
+  - customer
+  - money
+  - pk_currtype
+  - company_id
+  - taxrate
+  - same_payable_plan
+  - invoice_type
+  - unit
+  - invoice_remark
+  - nc_billno
+  - nc_approvestatus
+  - nc_vapper
+  - created
+  - subject
+sort:
+  - - created
+    - desc

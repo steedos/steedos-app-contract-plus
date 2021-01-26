@@ -1,0 +1,7 @@
+name: all
+label: 所有
+columns:
+  - name
+  - code
+  - company_id
+  - modified

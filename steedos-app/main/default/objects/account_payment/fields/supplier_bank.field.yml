@@ -1,0 +1,33 @@
+name: supplier_bank
+label: 收款方银行账号
+type: lookup
+reference_to: account_banks
+required: true
+create: false
+depend_on:
+  - supplier
+optionsFunction: |-
+  function anonymous(values
+  ) {
+
+    if (!values || !values.supplier) {
+      return [];
+    }
+    var accountId = _.isObject(values.supplier) ? values.supplier._id : values.supplier;;
+    var options, result, supplier_banks;
+    result = [];
+    options = {
+      $filter: `(account eq '${accountId}') and (enablestate eq '2')`,
+      $select: 'accnum'
+    };
+    supplier_banks = Creator.odata.query('account_banks', options, true);
+    supplier_banks.forEach(function (sb) {
+      return result.push({
+        label: sb.accnum,
+        value: sb._id
+      });
+    })
+    return result;
+
+  }
+sort_no: 140

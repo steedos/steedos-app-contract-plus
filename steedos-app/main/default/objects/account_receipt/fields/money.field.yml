@@ -1,0 +1,5 @@
+name: money
+label: 收款金额
+type: currency
+required: true
+sort_no: 110

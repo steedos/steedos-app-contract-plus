@@ -1,0 +1,10 @@
+name: virtual_contract
+label: 付款依据
+type: select
+options:
+  - label: 合同
+    value: 合同
+  - label: 非合同
+    value: 非合同
+defaultValue: 合同
+sort_no: 280

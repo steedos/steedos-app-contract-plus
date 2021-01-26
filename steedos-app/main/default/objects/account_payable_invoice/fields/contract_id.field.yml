@@ -1,0 +1,8 @@
+name: contract_id
+label: 合同/业务
+type: master_detail
+reference_to: contracts
+required: true
+index: true
+create: false
+sort_no: 150

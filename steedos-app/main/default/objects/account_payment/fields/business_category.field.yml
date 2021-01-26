@@ -1,0 +1,7 @@
+name: business_category
+label: 业务分类
+type: lookup
+reference_to: business_categories
+omit: true
+hidden: true
+sort_no: 360

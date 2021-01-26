@@ -1,0 +1,4 @@
+name: billno
+label: 收款单单据号
+type: text
+sort_no: 160

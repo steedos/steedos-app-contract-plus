@@ -1,0 +1,4 @@
+name: total_amount
+label: 历史收款金额
+type: currency
+sort_no: 190

@@ -1,0 +1,30 @@
+name: account_payable
+label: 应付记录
+icon: account
+enable_api: true
+enable_share: true
+form:
+  initialValues: !<tag:yaml.org,2002:js/function> |-
+    function anonymous(
+    ) {
+
+      if(Session.get("record_id")){
+        var mainRecord = Creator.odata.get(Session.get("object_name"), Session.get("record_id"), 'company_id,currency_type,othercompany');
+        var customer = '';
+        var pk_currtype = '';
+        var supplier = '';
+        if(mainRecord){
+          customer = mainRecord.company_id
+          pk_currtype = mainRecord.currency_type
+          if(_.isArray(mainRecord.othercompany) && mainRecord.othercompany.length > 0){
+            supplier = mainRecord.othercompany[0];
+          }
+        }
+        return {
+          company_id: customer,
+          pk_currtype: pk_currtype,
+          supplier: supplier
+        } 
+      }
+
+    }

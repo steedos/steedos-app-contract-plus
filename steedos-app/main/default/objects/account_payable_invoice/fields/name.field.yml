@@ -1,0 +1,6 @@
+name: name
+label: 发票号
+type: text
+inlineHelpText: '填写多张发票号时请用“,”隔开'
+required: true
+sort_no: 100

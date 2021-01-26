@@ -1,0 +1,3 @@
+permission_set_id: company_contract_manager
+uneditable_fields:
+  - complete_invoice

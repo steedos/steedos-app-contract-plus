@@ -1,0 +1,4 @@
+name: receipt_date
+label: 收款日期
+type: datetime
+sort_no: 100

@@ -1,0 +1,4 @@
+permission_set_id: owner
+uneditable_fields:
+  - complete_invoice
+uneditable_related_list: []

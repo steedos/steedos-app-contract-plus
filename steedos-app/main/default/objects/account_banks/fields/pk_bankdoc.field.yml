@@ -1,0 +1,11 @@
+name: pk_bankdoc
+label: 开户银行
+type: lookup
+reference_to: bank
+required: true
+create: false
+filters:
+  - - enablestate
+    - eq
+    - '2'
+sort_no: 130

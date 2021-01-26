@@ -1,0 +1,7 @@
+name: quantity
+label: 数量
+type: number
+scale: 2
+required: true
+defaultValue: 0
+sort_no: 130

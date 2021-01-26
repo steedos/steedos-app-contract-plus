@@ -1,0 +1,6 @@
+name: amount
+label: 总金额
+type: currency
+required: true
+defaultValue: 0
+sort_no: 120

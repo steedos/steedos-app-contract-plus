@@ -1,0 +1,11 @@
+name: accountproperty
+label: 账户性质
+type: select
+options:
+  - label: 公司
+    value: '0'
+  - label: 个人
+    value: '1'
+required: true
+defaultValue: '0'
+sort_no: 170

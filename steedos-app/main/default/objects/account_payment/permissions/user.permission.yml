@@ -1,0 +1,24 @@
+permission_set_id: user
+allowCreate: true
+allowDelete: true
+allowEdit: true
+allowRead: true
+modifyAllRecords: false
+viewAllRecords: false
+modifyCompanyRecords: false
+viewCompanyRecords: false
+uneditable_fields:
+  - supplier
+  - scomment
+  - money
+  - currtype
+  - supplier_bank
+  - payment_company_id
+  - total_amount
+  - contract
+  - total_number_of_periods
+  - current_payment_period
+  - invoice
+  - complete_invoice
+uneditable_related_list:
+  - cms_files

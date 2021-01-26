@@ -1,0 +1,6 @@
+name: scomment
+label: 收款说明
+type: text
+is_name: true
+required: true
+sort_no: 230

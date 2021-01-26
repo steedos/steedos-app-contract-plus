@@ -1,0 +1,9 @@
+name: company_id
+label: 收款单位
+type: lookup
+required: true
+reference_to: company
+omit: false
+hidden: false
+create: false
+sort_no: 180

@@ -1,0 +1,17 @@
+permission_set_id: company_accounting_manager
+modifyCompanyRecords: true
+viewCompanyRecords: true
+uneditable_fields:
+  - supplier
+  - scomment
+  - money
+  - currtype
+  - supplier_bank
+  - payment_company_id
+  - total_amount
+  - contract
+  - total_number_of_periods
+  - current_payment_period
+  - invoice
+uneditable_related_list:
+  - cms_files

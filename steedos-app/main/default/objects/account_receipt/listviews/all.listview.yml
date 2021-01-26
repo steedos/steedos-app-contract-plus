@@ -1,0 +1,18 @@
+name: all
+label: 所有
+columns:
+  - contract
+  - scomment
+  - receipt_date
+  - money
+  - pk_currtype
+  - company_id
+  - customer
+  - billmaker
+  - billno
+  - total_amount
+  - created
+  - subject
+sort:
+  - - created
+    - desc

@@ -1,0 +1,11 @@
+name: company_id
+label: 我方单位
+required: true
+omit: false
+hidden: false
+sortable: true
+type: lookup
+relatedList: true
+reference_to: company
+create: false
+sort_no: 130

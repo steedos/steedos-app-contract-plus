@@ -1,0 +1,7 @@
+name: business_category
+label: 业务分类
+type: lookup
+reference_to: business_categories
+required: true
+create: false
+sort_no: 220

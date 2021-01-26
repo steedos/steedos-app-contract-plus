@@ -1,0 +1,7 @@
+name: syncErrMsg
+label: 同步错误信息
+type: object
+omit: true
+blackbox: true
+hidden: true
+sort_no: 260

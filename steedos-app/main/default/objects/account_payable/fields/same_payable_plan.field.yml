@@ -1,0 +1,14 @@
+name: same_payable_plan
+type: select
+label: 同付款计划
+defaultValue: 否
+options:
+  - label: 是
+    value: 是
+  - label: 否
+    value: 否
+allowedValues:
+  - 是
+  - 否
+required: true
+sort_no: 170

@@ -1,0 +1,30 @@
+name: contracts
+label: 合同
+icon: contract
+enable_files: true
+enable_search: true
+enable_notes: false
+enable_events: true
+enable_audit: true
+enable_api: true
+enable_instances: true
+enable_trash: true
+enable_workflow: true
+enable_share: true
+relatedList:
+  - contract_subject_amount
+  - cms_files
+  - contract_stamps
+  - contract_payments
+  - account_payable_invoice
+  - account_payable
+  - account_payment
+  - contract_receipts
+  - account_receivable
+  - account_receipt
+  - revenue_recognition
+  - lease_invoice
+  - cost_recognition
+  - events
+  - instances
+  - audit_records

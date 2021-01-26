@@ -1,0 +1,8 @@
+name: currency_type
+label: 币种
+type: lookup
+relatedList: true
+group: 合同主要内容
+reference_to: currency
+create: false
+sort_no: 350

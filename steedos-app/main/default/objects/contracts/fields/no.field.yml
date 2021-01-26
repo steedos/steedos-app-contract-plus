@@ -1,0 +1,6 @@
+name: 'no'
+type: text
+label: 合同编号
+sortable: true
+filterable: true
+sort_no: 100

@@ -16,5 +16,5 @@ objects:
   - settlement_way
   - country
   - business_categories
-  - accounts
+  - department
 visible: true

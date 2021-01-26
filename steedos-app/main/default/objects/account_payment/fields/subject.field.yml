@@ -1,0 +1,7 @@
+name: subject
+label: 工程费用科目
+type: lookup
+reference_to: account_types
+required: false
+create: false
+sort_no: 380

@@ -1,0 +1,12 @@
+name: accopendate
+label: 开户日期
+type: datetime
+required: true
+defaultValue: |-
+  function anonymous(
+  ) {
+
+    return new Date();
+
+  }
+sort_no: 180

@@ -1,0 +1,20 @@
+name: invoice_type
+type: select
+label: 发票类型
+defaultValue: 普通发票
+options:
+  - label: 电子发票
+    value: 电子发票
+  - label: 普通发票
+    value: 普通发票
+  - label: 专用发票
+    value: 专用发票
+  - label: 无发票
+    value: 无发票
+allowedValues:
+  - 电子发票
+  - 普通发票
+  - 专用发票
+  - 无发票
+required: true
+sort_no: 180

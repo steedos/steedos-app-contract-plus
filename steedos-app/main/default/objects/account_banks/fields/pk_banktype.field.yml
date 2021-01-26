@@ -1,0 +1,28 @@
+name: pk_banktype
+label: 银行类别
+type: lookup
+reference_to: bank_type
+required: true
+create: false
+depend_on:
+  - pk_bankdoc
+optionsFunction: |-
+  function anonymous(values
+  ) {
+
+    var _options = [];
+    var pk_bankdoc = _.isObject(values.pk_bankdoc) ? values.pk_bankdoc._id : values.pk_bankdoc;
+    if (!pk_bankdoc) {
+      return;
+    }
+    var bank = Creator.getObjectRecord('bank', pk_bankdoc, 'pk_banktype');
+    if (bank) {
+      var banktype = Creator.getObjectRecord('bank_type', bank.pk_banktype, 'name');
+      if (banktype){
+        _options = [{value: banktype._id, label: banktype.name}];
+      }
+    }
+    return _options;
+
+  }
+sort_no: 140

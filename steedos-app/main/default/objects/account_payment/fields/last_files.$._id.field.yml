@@ -1,0 +1,5 @@
+name: last_files.$._id
+type: text
+hidden: true
+omit: true
+sort_no: 310

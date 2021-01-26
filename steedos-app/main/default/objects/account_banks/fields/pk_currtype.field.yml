@@ -1,0 +1,16 @@
+name: pk_currtype
+label: 币种
+type: lookup
+reference_to: currency
+create: false
+required: true
+defaultValue: |-
+  function anonymous(
+  ) {
+
+    if(Meteor.isClient) {
+      return '1002Z0100000000001K1';
+    }
+
+  }
+sort_no: 210

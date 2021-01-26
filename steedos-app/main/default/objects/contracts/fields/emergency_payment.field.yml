@@ -1,0 +1,10 @@
+name: emergency_payment
+label: 紧急付款
+type: select
+options:
+  - label: 是
+    value: 是
+  - label: 否
+    value: 否
+defaultValue: 否
+sort_no: 290

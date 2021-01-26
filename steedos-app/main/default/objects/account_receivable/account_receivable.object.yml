@@ -1,0 +1,45 @@
+name: account_receivable
+label: 应收记录
+icon: account
+enable_api: true
+enable_approvals: true
+enable_share: true
+form:
+  initialValues: !<tag:yaml.org,2002:js/function> |-
+    function anonymous(
+    ) {
+
+      if(Session.get("record_id")){
+        var mainRecord = Creator.odata.get(Session.get("object_name"), Session.get("record_id"), 'company_id,currency_type,othercompany');
+        var supplier = '';
+        var customer = '';
+        var pk_currtype = '';
+        if(mainRecord){
+          supplier = mainRecord.company_id;
+          pk_currtype = mainRecord.currency_type;
+          if(_.isArray(mainRecord.othercompany) && mainRecord.othercompany.length > 0){
+            customer = mainRecord.othercompany[0];
+          }
+        }
+        return {
+          customer: customer,
+          company_id: supplier,
+          pk_currtype: pk_currtype,
+        } 
+      }
+
+    }
+  validate: !<tag:yaml.org,2002:js/function> |-
+    function anonymous(formValues
+    ) {
+
+      if (!formValues){
+        return;
+      }
+      var money = '0';
+      var quantity = parseFloat(formValues.quantity || "0");
+      var price = parseFloat(formValues.price || "0");
+      money = (quantity.toFixed(2) * price.toFixed(2)).toFixed(2);
+      $("[name='money']").val(money);
+
+    }

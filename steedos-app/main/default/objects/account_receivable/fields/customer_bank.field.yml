@@ -1,0 +1,32 @@
+name: customer_bank
+label: 客户银行账户
+type: lookup
+reference_to: account_banks
+create: false
+depend_on:
+  - customer
+optionsFunction: |-
+  function anonymous(values
+  ) {
+
+    if (!values || !values.customer) {
+      return [];
+    }
+    var accountId = _.isObject(values.customer) ? values.customer._id : values.customer;;
+    var options, result, customer_banks;
+    result = [];
+    options = {
+      $filter: `(account eq '${accountId}') and (enablestate eq '2')`,
+      $select: 'accnum'
+    };
+    customer_banks = Creator.odata.query('account_banks', options, true);
+    customer_banks.forEach(function (sb) {
+      return result.push({
+        label: sb.accnum,
+        value: sb._id
+      });
+    })
+    return result;
+
+  }
+sort_no: 120

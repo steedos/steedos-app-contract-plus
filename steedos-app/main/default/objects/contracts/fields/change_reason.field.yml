@@ -1,0 +1,6 @@
+name: change_reason
+label: 变更原因
+type: text
+group: 合同变更
+readonly: true
+sort_no: 570

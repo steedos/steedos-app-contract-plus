@@ -7,4 +7,4 @@ is_creator: true
 sort: 90
 objects:
   - bugdet__c
-visible: true
+visible: false

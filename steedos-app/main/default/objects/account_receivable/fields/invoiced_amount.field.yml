@@ -1,0 +1,6 @@
+name: invoiced_amount
+label: 历史已完成开票金额
+type: currency
+inlineHelpText: 首次添加单据时填写
+defaultValue: 0
+sort_no: 190

@@ -1,0 +1,19 @@
+name: nc_billstatus
+label: 单据状态
+type: select
+options:
+  - label: 保存
+    value: '-1'
+  - label: 审批通过
+    value: '1'
+  - label: 审批中
+    value: '2'
+  - label: 签字
+    value: '8'
+  - label: 未确认
+    value: '9'
+  - label: 暂存
+    value: '-99'
+readonly: true
+omit: true
+sort_no: 260
