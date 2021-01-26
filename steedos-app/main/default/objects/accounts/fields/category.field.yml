@@ -1,0 +1,14 @@
+name: category
+label: 签约对象类别（企业、个人、其它）
+type: select
+sortable: true
+required: true
+defaultValue: '1'
+options:
+  - label: 企业
+    value: '1'
+  - label: 个人
+    value: '2'
+  - label: 其它
+    value: '3'
+sort_no: 150

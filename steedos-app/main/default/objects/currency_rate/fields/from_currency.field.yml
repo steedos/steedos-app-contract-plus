@@ -1,0 +1,5 @@
+name: from_currency
+label: 源币种
+type: lookup
+reference_to: currency
+sort_no: 110

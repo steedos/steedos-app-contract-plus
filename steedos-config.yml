@@ -28,3 +28,5 @@ tenant:
 plugins:
   - "@steedos/accounts"
   - "@steedos/app-crm"
+  - "@steedos/metadata-api"
+  - "@steedos/word-template"

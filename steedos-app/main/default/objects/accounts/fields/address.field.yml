@@ -1,0 +1,6 @@
+name: address
+type: text
+label: 公司地址
+defaultValue: ''
+required: true
+sort_no: 130

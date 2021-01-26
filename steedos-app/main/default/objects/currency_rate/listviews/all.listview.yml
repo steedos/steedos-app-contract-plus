@@ -1,0 +1,7 @@
+name: all
+label: 所有
+columns:
+  - name
+  - from_currency
+  - to_currency
+  - conversion_rate

@@ -1,0 +1,5 @@
+name: account_id
+label: 老供应商id
+type: text
+hidden: true
+sort_no: 310

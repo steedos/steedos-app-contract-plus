@@ -1,0 +1,8 @@
+permission_set_id: company_contract_manager
+allowCreate: true
+allowEdit: true
+allowDelete: false
+viewCompanyRecords: true
+modifyCompanyRecords: true
+uneditable_fields:
+  - company_ids

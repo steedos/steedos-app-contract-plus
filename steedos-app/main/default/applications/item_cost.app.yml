@@ -1,0 +1,10 @@
+code: item_cost
+_id: item_cost
+name: 项目成本
+description: 项目成本
+icon_slds: announcement
+is_creator: true
+sort: 90
+objects:
+  - item_cost__c
+visible: true

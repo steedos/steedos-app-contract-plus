@@ -1,0 +1,5 @@
+name: invoice_phone
+label: 电话
+group: 开票信息（开票信息中内容不填写，会默认为签约对象中的信息）
+type: text
+sort_no: 270

@@ -1,0 +1,11 @@
+name: mine
+label: 我的单位
+columns:
+  - name
+  - phone
+  - address
+  - registered_capital
+  - category
+  - credit_code
+  - status
+filter_scope: mine

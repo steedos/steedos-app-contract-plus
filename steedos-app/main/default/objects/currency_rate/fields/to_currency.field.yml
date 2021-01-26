@@ -1,0 +1,5 @@
+name: to_currency
+label: 目的币种
+type: lookup
+reference_to: currency
+sort_no: 120

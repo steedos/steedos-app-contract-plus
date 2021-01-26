@@ -1,0 +1,7 @@
+name: synced
+label: 已同步
+type: boolean
+omit: true
+index: true
+hidden: true
+sort_no: 300

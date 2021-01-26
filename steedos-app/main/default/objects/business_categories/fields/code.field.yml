@@ -1,0 +1,6 @@
+name: code
+label: 编码
+type: text
+required: true
+unique: true
+sort_no: 110

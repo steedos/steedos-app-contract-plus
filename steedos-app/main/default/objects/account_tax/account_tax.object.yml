@@ -1,0 +1,5 @@
+name: account_tax
+label: 税码
+icon: account
+enable_api: true
+enable_share: true

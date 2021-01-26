@@ -1,0 +1,5 @@
+name: account_project
+label: 项目
+icon: account
+enable_api: true
+enable_share: true

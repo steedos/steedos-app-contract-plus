@@ -1,0 +1,5 @@
+name: bank_type
+label: 银行类别
+icon: account
+enable_api: true
+enable_share: true

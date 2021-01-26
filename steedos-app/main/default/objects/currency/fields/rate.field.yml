@@ -1,0 +1,5 @@
+name: rate
+label: 当前汇率
+type: number
+scale: 5
+sort_no: 120

@@ -1,0 +1,7 @@
+name: country
+type: lookup
+label: 国家/地区
+reference_to: country
+required: true
+create: false
+sort_no: 160

@@ -1,0 +1,6 @@
+name: pk_banktype
+label: 银行类别
+type: master_detail
+reference_to: bank_type
+create: false
+sort_no: 130

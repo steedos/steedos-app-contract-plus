@@ -1,0 +1,14 @@
+name: status
+label: 启用状态
+type: select
+sortable: true
+options:
+  - label: 未启用
+    value: '1'
+  - label: 已启用
+    value: '2'
+  - label: 停用
+    value: '3'
+defaultValue: '2'
+required: true
+sort_no: 200

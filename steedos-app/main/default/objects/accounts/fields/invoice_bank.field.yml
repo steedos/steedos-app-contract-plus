@@ -1,0 +1,11 @@
+name: invoice_bank
+label: 开户行
+group: 开票信息（开票信息中内容不填写，会默认为签约对象中的信息）
+type: lookup
+reference_to: bank
+create: false
+filters:
+  - - enablestate
+    - eq
+    - '2'
+sort_no: 280

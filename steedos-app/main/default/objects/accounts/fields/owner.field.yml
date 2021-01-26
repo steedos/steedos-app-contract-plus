@@ -1,0 +1,8 @@
+name: owner
+label: 录入人
+readonly: true
+type: lookup
+reference_to: users
+hidden: false
+create: false
+sort_no: 100

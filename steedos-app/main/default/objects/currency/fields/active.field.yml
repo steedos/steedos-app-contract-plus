@@ -1,0 +1,5 @@
+name: active
+label: 有效
+type: boolean
+defaultValue: true
+sort_no: 140

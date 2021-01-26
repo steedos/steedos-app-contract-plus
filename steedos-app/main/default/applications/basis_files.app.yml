@@ -1,0 +1,20 @@
+code: basis_files
+_id: basis_files
+name: 基础档案
+description: 合同分类、项目、币种、汇率、银行、银行类别、税码、结算方式、国家/地区、预算科目
+icon_slds: announcement
+is_creator: true
+sort: 90
+objects:
+  - contract_types
+  - account_project
+  - currency
+  - currency_rate
+  - bank
+  - bank_type
+  - account_tax
+  - settlement_way
+  - country
+  - business_categories
+  - accounts
+visible: true

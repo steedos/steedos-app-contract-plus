@@ -1,0 +1,4 @@
+name: decimal_places
+label: 小数位数
+type: number
+sort_no: 130

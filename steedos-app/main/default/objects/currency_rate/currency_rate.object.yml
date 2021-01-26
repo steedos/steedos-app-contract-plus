@@ -1,0 +1,4 @@
+name: currency_rate
+label: 汇率
+icon: account
+enable_api: true

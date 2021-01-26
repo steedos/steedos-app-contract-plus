@@ -1,0 +1,10 @@
+code: bugdet
+_id: bugdet
+name: 预算
+description: 预算
+icon_slds: announcement
+is_creator: true
+sort: 90
+objects:
+  - bugdet__c
+visible: true
