@@ -1,0 +1,14 @@
+name: all
+label: 所有
+columns:
+  - name
+  - serial_number
+  - total_amount
+  - amount
+  - project
+  - startTime
+  - declare_water_price
+  - buildDays
+  - irr
+  - roe
+  - instance_state

@@ -1,10 +1,14 @@
 code: bugdet
 _id: bugdet
 name: 预算
-description: 预算
+description: 预算科目、项目科目预算、合同科目金额
 icon_slds: announcement
 is_creator: true
 sort: 90
 objects:
-  - bugdet__c
-visible: false
+  - account_types
+  - engineering_project_acceptance_subject_budget
+  - contract_subject_amount
+  - engineering_project_acceptance
+  - engineering_projects
+visible: true

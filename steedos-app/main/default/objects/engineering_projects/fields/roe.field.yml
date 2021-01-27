@@ -1,0 +1,7 @@
+name: roe
+label: 预计ROE
+type: text
+sortable: true
+filterable: true
+readonly: true
+sort_no: 320

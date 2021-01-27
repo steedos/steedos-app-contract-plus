@@ -1,0 +1,25 @@
+name: project_state
+type: select
+label: 项目状态
+searchable: true
+options:
+  - label: 审核中
+    value: under_review
+  - label: 进行中
+    value: processing
+  - label: 已暂停
+    value: paused
+  - label: 已废止
+    value: droped
+  - label: 已结束
+    value: completed
+  - label: 已取消
+    value: cancelled
+allowedValues:
+  - under_review
+  - processing
+  - paused
+  - droped
+  - completed
+readonly: true
+sort_no: 190

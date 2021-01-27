@@ -1,0 +1,7 @@
+name: irr
+label: 预计IRR
+type: text
+sortable: true
+filterable: true
+readonly: true
+sort_no: 300

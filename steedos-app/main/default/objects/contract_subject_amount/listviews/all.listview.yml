@@ -1,0 +1,7 @@
+name: all
+label: 所有
+columns:
+  - contract
+  - account_project
+  - subject
+  - amount

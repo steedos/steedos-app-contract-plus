@@ -1,0 +1,5 @@
+name: irr_finally
+label: 实际IRR
+type: text
+readonly: true
+sort_no: 310

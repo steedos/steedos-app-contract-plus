@@ -1,0 +1,7 @@
+name: amount
+label: 金额
+type: currency
+scale: 2
+required: true
+sortable: true
+sort_no: 130

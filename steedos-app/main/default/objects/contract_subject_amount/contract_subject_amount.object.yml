@@ -1,0 +1,4 @@
+name: contract_subject_amount
+label: 合同科目金额
+icon: orders
+enable_share: true

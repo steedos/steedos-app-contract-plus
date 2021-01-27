@@ -1,0 +1,7 @@
+name: amount
+label: 项目决算总金额
+type: currency
+scale: 2
+sortable: true
+omit: true
+sort_no: 130

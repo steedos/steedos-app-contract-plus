@@ -1,0 +1,5 @@
+name: declare_water_price
+type: text
+label: 预计申报水价
+readonly: true
+sort_no: 260

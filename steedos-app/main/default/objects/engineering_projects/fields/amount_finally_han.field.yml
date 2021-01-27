@@ -1,0 +1,5 @@
+name: amount_finally_han
+label: 项目决算金额（大写）
+type: text
+readonly: true
+sort_no: 230

@@ -1,0 +1,99 @@
+name: engineering_projects
+label: 工程项目
+icon: contract
+enable_files: true
+enable_search: true
+enable_audit: true
+enable_api: true
+enable_instances: true
+enable_trash: true
+enable_workflow: true
+enable_share: true
+relatedList:
+  - cms_files
+  - engineering_project_subject_budget
+  - objectName: contracts
+    filters: !<tag:yaml.org,2002:js/function> |-
+      function anonymous(parentRecord
+      ) {
+
+        var account_project_id = _.isString(parentRecord.account_project) ? parentRecord.account_project : parentRecord.account_project._id;
+        return [["project","=",account_project_id],[["contract_state","=","approved"],'or', ["contract_state","=","signed"],'or', ["contract_state","=","archived"],'or', ["contract_state","=","completed"]] ]
+
+      }
+  - objectName: contract_receipts
+    filters: !<tag:yaml.org,2002:js/function> |-
+      function anonymous(parentRecord
+      ) {
+
+        var account_project_id = _.isString(parentRecord.account_project) ? parentRecord.account_project : parentRecord.account_project._id;
+        return [["project","=",account_project_id],[["contract_state","=","approved"],'or', ["contract_state","=","signed"],'or', ["contract_state","=","archived"],'or', ["contract_state","=","completed"]] ]
+
+      }
+  - objectName: contract_payments
+    filters: !<tag:yaml.org,2002:js/function> |-
+      function anonymous(parentRecord
+      ) {
+
+        var account_project_id = _.isString(parentRecord.account_project) ? parentRecord.account_project : parentRecord.account_project._id;
+        return [["project","=",account_project_id],[["contract_state","=","approved"],'or', ["contract_state","=","signed"],'or', ["contract_state","=","archived"],'or', ["contract_state","=","completed"]] ]
+
+      }
+  - objectName: account_receivable
+    filters: !<tag:yaml.org,2002:js/function> |-
+      function anonymous(parentRecord
+      ) {
+
+        var account_project_id = _.isString(parentRecord.account_project) ? parentRecord.account_project : parentRecord.account_project._id;
+        return [["project","=",account_project_id]]
+
+      }
+  - objectName: account_receipt
+    filters: !<tag:yaml.org,2002:js/function> |-
+      function anonymous(parentRecord
+      ) {
+
+        var account_project_id = _.isString(parentRecord.account_project) ? parentRecord.account_project : parentRecord.account_project._id;
+        return [["project","=",account_project_id]]
+
+      }
+  - objectName: account_payable
+    filters: !<tag:yaml.org,2002:js/function> |-
+      function anonymous(parentRecord
+      ) {
+
+        var account_project_id = _.isString(parentRecord.account_project) ? parentRecord.account_project : parentRecord.account_project._id;
+        return [["project","=",account_project_id]]
+
+      }
+  - objectName: account_payment
+    filters: !<tag:yaml.org,2002:js/function> |-
+      function anonymous(parentRecord
+      ) {
+
+        var account_project_id = _.isString(parentRecord.account_project) ? parentRecord.account_project : parentRecord.account_project._id;
+        return [["project","=",account_project_id]]
+
+      }
+  - objectName: engineering_projects_visa
+    filters: !<tag:yaml.org,2002:js/function> |-
+      function anonymous(parentRecord
+      ) {
+
+        var account_project_id = _.isString(parentRecord.account_project) ? parentRecord.account_project : parentRecord.account_project._id;
+        return [["account_project","=",account_project_id]]
+
+      }
+  - objectName: engineering_projects_design_change
+    filters: !<tag:yaml.org,2002:js/function> |-
+      function anonymous(parentRecord
+      ) {
+
+        var account_project_id = _.isString(parentRecord.account_project) ? parentRecord.account_project : parentRecord.account_project._id;
+        return [["account_project","=",account_project_id]]
+
+      }
+  - engineering_projects_change
+  - engineering_project_acceptance
+  - instances
+  - audit_records

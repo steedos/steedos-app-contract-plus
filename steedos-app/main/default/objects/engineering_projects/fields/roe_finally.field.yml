@@ -1,0 +1,5 @@
+name: roe_finally
+label: 实际ROE
+type: text
+readonly: true
+sort_no: 330

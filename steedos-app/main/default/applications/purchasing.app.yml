@@ -1,6 +1,6 @@
 code: purchasing
 _id: purchasing
-name: 采购销售
+name: 合同管理
 description: 合同
 icon_slds: announcement
 is_creator: true
@@ -14,5 +14,4 @@ objects:
   - contract_receipts
   - account_receivable
   - account_receipt
-  - currency
 visible: true

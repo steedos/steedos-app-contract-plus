@@ -1,0 +1,6 @@
+name: buildDays
+type: number
+scale: 2
+label: 预计建设期(天)
+readonly: true
+sort_no: 280

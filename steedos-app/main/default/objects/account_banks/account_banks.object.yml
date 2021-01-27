@@ -1,5 +1,5 @@
 name: account_banks
-label: 签约对象银行信息
+label: 银行信息
 icon: account
 enable_api: true
 enable_trash: true

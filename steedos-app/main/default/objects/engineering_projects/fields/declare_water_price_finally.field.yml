@@ -1,0 +1,5 @@
+name: declare_water_price_finally
+label: 实际申报水价
+type: text
+readonly: true
+sort_no: 270

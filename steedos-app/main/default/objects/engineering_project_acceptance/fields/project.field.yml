@@ -1,0 +1,10 @@
+name: project
+label: 项目
+type: master_detail
+reference_to: engineering_projects
+required: true
+sortable: true
+filterable: true
+create: false
+readonly: false
+sort_no: 140

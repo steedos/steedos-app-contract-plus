@@ -4,8 +4,5 @@ type: lookup
 reference_to: bank
 required: true
 create: false
-filters:
-  - - enablestate
-    - eq
-    - '2'
+
 sort_no: 130
