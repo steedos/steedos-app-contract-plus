@@ -1,14 +1,5 @@
 name: all
 label: 所有合同/业务
-filters: |-
-  function anonymous(
-  ) {
-
-      return [
-        ["contract_state","<>","terminated"]
-      ];
-
-  }
 columns:
   - field: create_date
     width: 120
