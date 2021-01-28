@@ -2,6 +2,7 @@ name: account
 label: 付款方
 type: lookup
 relatedList: true
+required: true
 reference_to: accounts
 sortable: true
 filterable: true
