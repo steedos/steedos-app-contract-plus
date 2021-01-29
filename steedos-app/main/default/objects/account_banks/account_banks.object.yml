@@ -19,4 +19,13 @@ form:
       }
       $("[name='combinenum']").val(combinenum);
 
+      var accname = '';
+      if(formValues && formValues.account){
+        var account = Creator.odata.get("accounts", formValues.account, 'name');
+        if(account){
+          accname = account.name
+        }
+      }
+      $("[name='accname']").val(accname);
+
     }
