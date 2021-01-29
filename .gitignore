@@ -59,7 +59,7 @@ typings/
 
 # next.js build output
 .next
-
+lib
 yaml
 
 package-lock.json
