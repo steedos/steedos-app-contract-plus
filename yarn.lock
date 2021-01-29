@@ -780,34 +780,6 @@
   resolved "https://registry.npm.taobao.org/@sqltools/formatter/download/@sqltools/formatter-1.2.2.tgz#9390a8127c0dcba61ebd7fdcc748655e191bdd68"
   integrity sha1-k5CoEnwNy6YevX/cx0hlXhkb3Wg=
 
-"@steedos/accounts@^1.23.0-alpha.18":
-  version "1.23.0-alpha.18"
-  resolved "https://registry.npm.taobao.org/@steedos/accounts/download/@steedos/accounts-1.23.0-alpha.18.tgz#6ea5cf6a6d248a705b524b6a30ce2ae5c0babb69"
-  integrity sha1-bqXPam0kinBbUktqMM4q5cC6u2k=
-  dependencies:
-    "@accounts/mongo" "^0.19.0"
-    "@accounts/rest-express" "^0.19.0"
-    "@accounts/server" "^0.19.0"
-    "@accounts/two-factor" "^0.20.1"
-    "@babel/runtime" "^7.6.0"
-    app-root-path "^2.2.1"
-    bcryptjs "^2.4.3"
-    body-parser "1.19.0"
-    chalk "^2.4.2"
-    cookies "^0.8.0"
-    cors "2.8.5"
-    crypto "^1.0.1"
-    express "4.17.1"
-    js-yaml "^3.13.1"
-    mem "^5.1.1"
-    mongoose "5.6.6"
-    nodemailer "^6.3.0"
-    oauth2-server "^2.4.1"
-    redux-thunk "^2.3.0"
-    saml-idp "^1.1.0"
-    tslib "1.10.0"
-    validator "^12.2.0"
-
 "@steedos/accounts@^1.23.19":
   version "1.23.19"
   resolved "https://registry.npm.taobao.org/@steedos/accounts/download/@steedos/accounts-1.23.19.tgz#c2d72a82df8a650df09c53ebc37c4183a01af3e1"
@@ -1130,10 +1102,10 @@
     redux "^4.0.4"
     redux-thunk "^2.3.0"
 
-"@steedos/word-template@^1.23.0-alpha.11":
-  version "1.23.0-alpha.11"
-  resolved "https://registry.npm.taobao.org/@steedos/word-template/download/@steedos/word-template-1.23.0-alpha.11.tgz#60f22d865cdf5dc5fa8503ed948373a5e0a73107"
-  integrity sha1-YPIthlzfXcX6hQPtlINzpeCnMQc=
+"@steedos/word-template@^1.23.19":
+  version "1.23.19"
+  resolved "https://registry.npm.taobao.org/@steedos/word-template/download/@steedos/word-template-1.23.19.tgz#1714782633da93155f1447c39242d68a1ff30647"
+  integrity sha1-FxR4JjPakxVfFEfDkkLWih/zBkc=
   dependencies:
     docxtemplater "^3.19.7"
     dotenv-flow "^3.2.0"
@@ -7667,7 +7639,7 @@ statuses@~1.3.1:
   resolved "https://registry.npm.taobao.org/statuses/download/statuses-1.3.1.tgz?cache=0&sync_timestamp=1609654014762&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fstatuses%2Fdownload%2Fstatuses-1.3.1.tgz#faf51b9eb74aaef3b3acf4ad5f61abf24cb7b93e"
   integrity sha1-+vUbnrdKrvOzrPStX2Gr8ky3uT4=
 
-steedos-server@^1.23.0-alpha.19:
+steedos-server@^1.23.19:
   version "1.23.19"
   resolved "https://registry.npm.taobao.org/steedos-server/download/steedos-server-1.23.19.tgz#b7c37f8e141ac24a0adeb1d40998885bccc7526d"
   integrity sha1-t8N/jhQawkoK3rHUCZiIW8zHUm0=
