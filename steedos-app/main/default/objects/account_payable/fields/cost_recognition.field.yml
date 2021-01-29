@@ -1,9 +1,0 @@
-name: cost_recognition
-label: 确认成本
-type: lookup
-relatedList: true
-reference_to: cost_recognition
-hidden: true
-index: true
-create: false
-sort_no: 280

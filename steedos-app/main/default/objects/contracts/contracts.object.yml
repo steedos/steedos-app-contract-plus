@@ -22,9 +22,7 @@ relatedList:
   - contract_receipts
   - account_receivable
   - account_receipt
-  - revenue_recognition
   - lease_invoice
-  - cost_recognition
   - events
   - instances
   - audit_records

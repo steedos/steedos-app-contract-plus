@@ -8212,7 +8212,7 @@ typeorm@^0.2.16:
     yargonaut "^1.1.2"
     yargs "^16.0.3"
 
-typescript@~3.7.4:
+typescript@~3.7.2, typescript@~3.7.4:
   version "3.7.5"
   resolved "https://registry.npm.taobao.org/typescript/download/typescript-3.7.5.tgz#0692e21f65fd4108b9330238aac11dd2e177a1ae"
   integrity sha1-BpLiH2X9QQi5MwI4qsEd0uF3oa4=
