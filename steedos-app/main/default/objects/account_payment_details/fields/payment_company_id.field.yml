@@ -1,0 +1,10 @@
+name: payment_company_id
+label: 付款单位
+hidden: false
+sortable: true
+type: lookup
+reference_to: company
+create: false
+required: true
+readonly: true
+sort_no: 130

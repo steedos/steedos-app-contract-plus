@@ -1,0 +1,12 @@
+name: supplier
+label: 收款单位
+type: lookup
+reference_to: accounts
+filters:
+  - - status
+    - eq
+    - '2'
+create: false
+required: true
+readonly: false
+sort_no: 140

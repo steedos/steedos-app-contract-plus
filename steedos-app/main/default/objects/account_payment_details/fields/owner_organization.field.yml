@@ -1,0 +1,9 @@
+name: owner_organization
+label: 执行人部门
+type: lookup
+create: false
+searchable: true
+reference_to: department
+required: true
+readonly: false
+sort_no: 190

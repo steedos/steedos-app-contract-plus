@@ -8,6 +8,6 @@ options:
     value: '2'
   - label: 已停用
     value: '3'
-omit: true
-readonly: true
+omit: false
+readonly: false
 sort_no: 120

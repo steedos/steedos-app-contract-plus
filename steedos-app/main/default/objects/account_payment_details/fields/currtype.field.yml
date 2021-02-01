@@ -1,0 +1,8 @@
+name: currtype
+label: 币种
+type: lookup
+reference_to: currency
+create: false
+required: true
+readonly: true
+sort_no: 120

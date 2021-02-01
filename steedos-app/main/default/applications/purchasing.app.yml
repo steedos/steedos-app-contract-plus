@@ -1,7 +1,7 @@
 code: purchasing
 _id: purchasing
 name: 合同管理
-description: 合同、项目信息
+description: 合同、工程项目、付款费用明细
 icon_slds: announcement
 is_creator: true
 sort: 90
@@ -15,4 +15,5 @@ objects:
   - account_receivable
   - account_receipt
   - engineering_projects
+  - account_payment_details
 visible: true

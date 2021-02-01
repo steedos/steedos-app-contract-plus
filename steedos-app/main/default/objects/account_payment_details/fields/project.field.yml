@@ -5,4 +5,6 @@ filterable: true
 reference_to: account_project
 create: false
 hidden: false
-sort_no: 370
+required: true
+readonly: false
+sort_no: 170
