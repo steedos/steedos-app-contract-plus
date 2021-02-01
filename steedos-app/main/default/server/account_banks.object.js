@@ -14,8 +14,8 @@ Creator.Objects.account_banks.triggers = {
         throw new Meteor.Error('400', '账号已存在，不予进行。');
       }
 
-      // manager._syncAccountBank(doc, 'before.insert');
-      // doc.synced = false;
+       //manager._syncAccountBank(doc, 'before.insert');
+       doc.synced = false;
     }
   },
   "before.update.syncToNC": {
@@ -27,8 +27,8 @@ Creator.Objects.account_banks.triggers = {
       }
       manager._isOneDefault(doc.account, modifier.$set.isdefault, doc._id);
 
-      // manager._syncAccountBank(Object.assign(doc, modifier.$set), 'before.update', modifier);
-      // modifier.$set.synced = false;
+      //manager._syncAccountBank(Object.assign(doc, modifier.$set), 'before.update', modifier);
+       modifier.$set.synced = false;
     }
   }
 };
