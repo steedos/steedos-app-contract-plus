@@ -1,5 +1,5 @@
 const manager = require('../../../../lib/manager/accountPayableInvoiceManager');
-const changeContractReceiptedAmount = require('../../lib/manager/contractsManager').changeContractReceiptedAmount;
+const changeContractReceiptedAmount = require('../../../../lib/manager/contractsManager').changeContractReceiptedAmount;
 Creator.Objects.account_payable_invoice.triggers = {
   "before.remove.server.nc": {
     on: "server",
