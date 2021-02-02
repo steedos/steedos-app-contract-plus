@@ -1,0 +1,8 @@
+name: all
+label: 所有
+columns:
+  - engineering_project_acceptance
+  - subject
+  - subject_amount
+  - subject_amount_used
+  - subject_final_amount

@@ -1,0 +1,7 @@
+name: all
+label: 所有印章
+columns:
+  - name
+  - code
+  - company_id
+  - seal_admin

@@ -1,0 +1,7 @@
+name: all
+label: 所有
+columns:
+  - name
+  - modify_part
+  - modify_content
+  - modify_reason

@@ -6,5 +6,5 @@ icon_slds: announcement
 is_creator: true
 sort: 90
 objects:
-  - item_cost__c
+  - 
 visible: false

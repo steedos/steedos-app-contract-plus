@@ -1,0 +1,11 @@
+code: seal
+_id: seal
+name: 印章管理
+description: 印章、盖章信息
+icon_slds: announcement
+is_creator: true
+sort: 90
+objects:
+  - seal
+  - contract_stamps
+visible: true

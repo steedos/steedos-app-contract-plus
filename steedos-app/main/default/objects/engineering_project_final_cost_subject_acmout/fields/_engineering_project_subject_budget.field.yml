@@ -1,0 +1,7 @@
+name: _engineering_project_subject_budget
+label: 项目科目预算记录
+type: lookup
+reference_to: engineering_project_subject_budget
+omit: true
+hidden: true
+sort_no: 150

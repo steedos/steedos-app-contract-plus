@@ -1,0 +1,10 @@
+name: all
+label: 所有
+columns:
+  - project_change
+  - amount
+  - currency
+  - subject
+  - subject_amount
+  - subject_amount_used
+  - change_amount

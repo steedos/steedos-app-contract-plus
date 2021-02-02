@@ -1,0 +1,6 @@
+name: stamp_source
+type: text
+label: 盖章来源
+hidden: true
+omit: true
+sort_no: 170

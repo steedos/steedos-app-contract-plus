@@ -1,0 +1,5 @@
+name: stamp_user
+type: text
+label: 盖章人
+searchable: true
+sort_no: 150

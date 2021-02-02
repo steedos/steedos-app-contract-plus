@@ -1,0 +1,12 @@
+name: all
+label: 全部
+filter_scope: space
+columns:
+  - contract
+  - stamp_name
+  - stamp_state
+  - stamp_date
+  - stamp_times
+  - stamp_user
+  - stamp_location
+  - stamp_description

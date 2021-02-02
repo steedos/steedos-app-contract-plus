@@ -1,0 +1,8 @@
+name: total_amount
+label: 预算总金额
+type: currency
+scale: 2
+required: true
+sortable: true
+readonly: true
+sort_no: 130

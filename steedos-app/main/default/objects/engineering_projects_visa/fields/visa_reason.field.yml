@@ -1,0 +1,4 @@
+name: visa_reason
+type: text
+label: 签证原因
+sort_no: 160

@@ -1,0 +1,36 @@
+name: engineering_projects_change
+label: 工程项目变更
+icon: contract
+enable_files: true
+enable_search: true
+enable_audit: true
+enable_api: true
+enable_instances: true
+enable_workflow: true
+enable_share: true
+form:
+  initialValues: !<tag:yaml.org,2002:js/function> |-
+    function anonymous(
+    ) {
+
+      if(Session.get("record_id")){
+        var mainRecord = Creator.odata.get(Session.get("object_name"), Session.get("record_id"));
+        var name = '';
+        var serial_number = '';
+        var total_amount = '';
+        var project_state = '';
+        if(mainRecord){
+          name = mainRecord.name;
+          serial_number = mainRecord.serial_number;
+          total_amount = mainRecord.total_amount;
+          project_state = mainRecord.project_state;
+        }
+        return {
+          name: name,
+          serial_number: serial_number,
+          total_amount: total_amount,
+          project_state: project_state,
+        } 
+      }
+
+    }

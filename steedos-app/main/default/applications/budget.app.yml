@@ -10,5 +10,4 @@ objects:
   - engineering_project_acceptance_subject_budget
   - contract_subject_amount
   - engineering_project_acceptance
-  - engineering_projects
-visible: true
+visible: false

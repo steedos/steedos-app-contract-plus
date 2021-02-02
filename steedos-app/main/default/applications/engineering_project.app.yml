@@ -1,0 +1,18 @@
+code: engineering_project
+_id: engineering_project
+name: 工程项目
+description: 工程项目、项目科目预算、项目决算科目金额、合同科目金额、合同科目金额、项目验收信息
+icon_slds: metrics
+is_creator: true
+sort: 90
+objects:
+  - engineering_projects
+  - engineering_project_subject_budget
+  - engineering_project_final_cost_subject_acmout
+  - contract_subject_amount
+
+  - account_types
+  - engineering_project_acceptance_subject_budget
+  - contract_subject_amount
+  - engineering_project_acceptance
+visible: true

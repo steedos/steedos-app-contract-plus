@@ -1,0 +1,5 @@
+name: stamp_state
+type: text
+label: 盖章状态
+searchable: true
+sort_no: 120
