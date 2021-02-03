@@ -8,35 +8,5 @@ index: true
 create: false
 depend_on:
   - contract
-optionsFunction: |-
-  function anonymous(values
-  ) {
 
-    if (!values || !values.contract) {
-      return [];
-    }
-    var contractId = _.isObject(values.contract) ? values.contract._id : values.contract;
-    var options, result, invoices;
-    result = [];
-    options = {
-      $filter: `(contract_id eq '${contractId}')`,
-      $select: 'name'
-    };
-    invoices = Creator.odata.query('account_payable_invoice', options, true);
-    invoices.forEach(function (sb) {
-      var cmsOptions = {
-        $filter: `(parent/o eq 'account_payable_invoice') and (parent/ids eq '${sb._id}')`,
-        $select: '_id'
-      };
-      var cmsFiles = Creator.odata.query('cms_files', cmsOptions, true);
-      if (cmsFiles && cmsFiles.length){
-        return result.push({
-          label: sb.name,
-          value: sb._id
-        });
-      }
-    })
-    return result;
-
-  }
 sort_no: 220
