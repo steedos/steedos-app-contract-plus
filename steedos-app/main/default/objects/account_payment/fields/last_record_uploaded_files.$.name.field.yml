@@ -1,5 +1,0 @@
-name: last_record_uploaded_files.$.name
-type: text
-hidden: true
-omit: true
-sort_no: 350
