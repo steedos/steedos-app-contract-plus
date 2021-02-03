@@ -1,5 +1,6 @@
 name: company_id
 required: true
+label: 所属单位
 omit: false
 hidden: false
 type: lookup
