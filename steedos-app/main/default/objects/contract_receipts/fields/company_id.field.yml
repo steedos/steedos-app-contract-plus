@@ -1,4 +1,5 @@
 name: company_id
+label: 所属单位
 required: true
 omit: false
 hidden: false
