@@ -1,5 +1,5 @@
 name: finished
-label: 已完成
-type: boolean
 defaultValue: false
+label: 已完成
 sort_no: 190
+type: boolean

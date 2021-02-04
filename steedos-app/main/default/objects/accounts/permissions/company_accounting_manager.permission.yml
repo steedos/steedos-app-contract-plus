@@ -1,8 +1,8 @@
-permission_set_id: company_accounting_manager
 allowCreate: true
-allowEdit: true
 allowDelete: false
-viewCompanyRecords: true
+allowEdit: true
 modifyCompanyRecords: true
+permission_set_id: company_accounting_manager
 uneditable_fields:
   - company_ids
+viewCompanyRecords: true

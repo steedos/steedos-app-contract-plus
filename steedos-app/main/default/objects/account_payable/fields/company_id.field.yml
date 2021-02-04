@@ -1,9 +1,8 @@
 name: company_id
+hidden: false
 label: 付款单位
-type: lookup
+omit: false
 reference_to: company
 required: true
-omit: false
-hidden: false
-create: false
 sort_no: 100
+type: lookup

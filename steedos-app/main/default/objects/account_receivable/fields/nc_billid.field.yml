@@ -1,7 +1,7 @@
 name: nc_billid
-label: 应收单ID
-type: text
-omit: true
 hidden: true
 index: true
+label: 应收单ID
+omit: true
 sort_no: 310
+type: text

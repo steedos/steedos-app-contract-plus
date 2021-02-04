@@ -1,11 +1,12 @@
 name: all
-label: 所有
 columns:
   - business_category
   - money
   - currtype
   - payment_company_id
   - supplier
+label: 所有
+shared: true
 sort:
   - - created
     - desc

@@ -1,5 +1,5 @@
 name: description
-label: 备注
-type: text
 is_wide: true
+label: 备注
 sort_no: 260
+type: text

@@ -1,6 +1,6 @@
 name: stamp_source
-type: text
-label: 盖章来源
 hidden: true
+label: 盖章来源
 omit: true
 sort_no: 170
+type: text

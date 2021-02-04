@@ -1,8 +1,7 @@
 name: company_id
-label: 所属单位
-required: true
-omit: false
 hidden: false
-type: lookup
-create: false
+label: 所属单位
+omit: false
+required: true
 sort_no: 180
+type: lookup

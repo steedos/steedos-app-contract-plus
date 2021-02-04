@@ -1,6 +1,6 @@
 name: address
-type: text
-label: 公司地址
 defaultValue: ''
+label: 公司地址
 required: true
 sort_no: 130
+type: text

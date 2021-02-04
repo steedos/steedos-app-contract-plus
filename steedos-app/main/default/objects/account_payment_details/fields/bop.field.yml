@@ -1,15 +1,11 @@
 name: bop
-type: select
 label: 收支类别
 options:
   - label: 付款业务
-    value: 付款业务
+    value: payment
   - label: 收款业务
-    value: 收款业务
-  - label: 收付款业务
-    value: 收付款业务
-  - label: 无金额业务
-    value: 无金额业务
-required: false
+    value: gathering
 readonly: false
+required: false
 sort_no: 180
+type: select

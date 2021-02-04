@@ -1,6 +1,6 @@
 name: last_files
-label: 已上传至nc的发票附件_id
-type: grid
-omit: true
 hidden: true
+label: 已上传至nc的发票附件_id
+omit: true
 sort_no: 300
+type: grid

@@ -1,7 +1,7 @@
 name: quantity
-label: 数量
-type: number
-scale: 2
-required: true
 defaultValue: 0
+label: 数量
+required: true
+scale: 2
 sort_no: 130
+type: number

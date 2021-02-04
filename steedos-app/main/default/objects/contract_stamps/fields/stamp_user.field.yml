@@ -1,5 +1,16 @@
 name: stamp_user
-type: text
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
 label: 盖章人
+multiple: false
+omit: false
+readonly: false
+reference_to: space_users
+required: false
 searchable: true
 sort_no: 150
+sortable: false
+type: lookup

@@ -1,20 +1,28 @@
 name: billstatus
+filterable: false
+hidden: true
+index: false
+is_name: false
+is_wide: false
 label: 单据状态
-type: select
+multiple: false
+omit: true
 options:
   - label: 保存
-    value: '-1'
+    value: save
   - label: 审批通过
-    value: '1'
+    value: approve
   - label: 审批中
-    value: '2'
+    value: underway
   - label: 签字
-    value: '8'
+    value: signature
   - label: 未确认
-    value: '9'
+    value: unconfirmed
   - label: 暂存
-    value: '-99'
+    value: temporary_storage
 readonly: true
-omit: true
-hidden: true
+required: false
+searchable: false
 sort_no: 230
+sortable: false
+type: select

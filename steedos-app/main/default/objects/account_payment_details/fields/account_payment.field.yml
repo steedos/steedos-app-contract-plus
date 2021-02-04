@@ -1,8 +1,7 @@
 name: account_payment
 label: 付款记录
-type: master_detail
-reference_to: account_payment
-create: false
-required: true
 readonly: true
+reference_to: account_payment
+required: true
 sort_no: 160
+type: master_detail

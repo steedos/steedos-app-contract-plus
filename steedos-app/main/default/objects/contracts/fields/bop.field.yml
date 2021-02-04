@@ -12,10 +12,6 @@ options:
     value: payment
   - label: 收款业务
     value: gathering
-  - label: 收付款业务
-    value: receiving
-  - label: 无金额业务
-    value: no_amount_of
 readonly: false
 required: false
 searchable: false

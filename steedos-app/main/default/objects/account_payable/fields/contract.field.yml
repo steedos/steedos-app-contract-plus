@@ -1,9 +1,7 @@
 name: contract
 label: 合同/业务
-type: master_detail
 reference_to: contracts
-write_requires_master_read: true
 required: true
-create: false
-sharing: masterRead
 sort_no: 190
+type: master_detail
+write_requires_master_read: true

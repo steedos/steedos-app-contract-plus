@@ -1,6 +1,6 @@
 name: phone
-type: text
+defaultValue: ''
 label: 电话
 required: true
-defaultValue: ''
 sort_no: 120
+type: text

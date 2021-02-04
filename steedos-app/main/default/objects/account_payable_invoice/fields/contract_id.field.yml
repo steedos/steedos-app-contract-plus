@@ -1,9 +1,8 @@
 name: contract_id
-label: 合同/业务
-type: master_detail
-reference_to: contracts
-write_requires_master_read: true
-required: true
 index: true
-create: false
+label: 合同/业务
+reference_to: contracts
+required: true
 sort_no: 150
+type: master_detail
+write_requires_master_read: true

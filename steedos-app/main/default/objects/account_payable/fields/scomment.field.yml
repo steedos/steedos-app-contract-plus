@@ -1,6 +1,6 @@
 name: scomment
-label: 应付说明
 is_name: true
-type: text
+label: 应付说明
 required: true
 sort_no: 130
+type: text

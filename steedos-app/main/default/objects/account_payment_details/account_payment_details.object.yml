@@ -1,14 +1,11 @@
 name: account_payment_details
-label: 付款费用明细
-icon: account
 enable_api: true
 enable_approvals: true
 enable_files: true
 enable_share: true
 form:
   initialValues: !<tag:yaml.org,2002:js/function> |-
-    function anonymous(
-    ) {
+    function() {
 
       if(Session.get("record_id")){
         var mainRecord = Creator.odata.get(Session.get("object_name"), Session.get("record_id"), 'contract,payment_date,currtype,payment_company_id,supplier');
@@ -27,3 +24,5 @@ form:
       }
 
     }
+icon: account
+label: 付款费用明细

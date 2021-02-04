@@ -1,8 +1,7 @@
 name: accnum
-label: 账号
-type: text
-required: true
-is_name: true
-unique: true
 index: true
+is_name: true
+label: 账号
+required: true
 sort_no: 110
+type: text

@@ -1,12 +1,6 @@
 name: supplier
 label: 收款单位
-type: lookup
-relatedList: true
 reference_to: accounts
-filters:
-  - - status
-    - eq
-    - '2'
 required: true
-create: false
 sort_no: 150
+type: lookup

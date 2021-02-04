@@ -1,5 +1,4 @@
 name: all
-label: 所有
 columns:
   - contract
   - scomment
@@ -17,6 +16,8 @@ columns:
   - nc_vapper
   - created
   - subject
+label: 所有
+shared: true
 sort:
   - - created
     - desc

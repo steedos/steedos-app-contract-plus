@@ -1,12 +1,10 @@
 name: account_payable
-label: 应付记录
-icon: account
+custom: true
 enable_api: true
 enable_share: true
 form:
   initialValues: !<tag:yaml.org,2002:js/function> |-
-    function anonymous(
-    ) {
+    function() {
 
       if(Session.get("record_id")){
         var mainRecord = Creator.odata.get(Session.get("object_name"), Session.get("record_id"), 'company_id,currency_type,othercompany');
@@ -28,3 +26,5 @@ form:
       }
 
     }
+icon: account
+label: 收票记录

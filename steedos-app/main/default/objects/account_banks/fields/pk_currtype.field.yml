@@ -1,9 +1,4 @@
 name: pk_currtype
-label: 币种
-type: lookup
-reference_to: currency
-create: false
-required: true
 defaultValue: |-
   function anonymous(
   ) {
@@ -13,4 +8,8 @@ defaultValue: |-
     }
 
   }
+label: 币种
+reference_to: currency
+required: true
 sort_no: 210
+type: lookup

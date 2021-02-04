@@ -1,6 +1,0 @@
-name: stamp_location
-type: textarea
-label: 盖章地点
-searchable: true
-is_wide: true
-sort_no: 160

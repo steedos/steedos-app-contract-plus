@@ -27,13 +27,13 @@ columns:
   - field: amount
     width: 120
     wrap: true
-  - field: unfor_invoicing_amount
+  - field: all_proceeds
     width: 120
     wrap: true
   - field: unpaid_amount
     width: 120
     wrap: true
-  - field: for_invoicing_amount
+  - field: await_proceeds
     width: 120
     wrap: true
   - field: paid_amount

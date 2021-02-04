@@ -1,14 +1,23 @@
 name: category
+defaultValue: enterprise
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
 label: 签约对象类别（企业、个人、其它）
-type: select
-sortable: true
-required: true
-defaultValue: '1'
+multiple: false
+omit: false
 options:
   - label: 企业
-    value: '1'
+    value: enterprise
   - label: 个人
-    value: '2'
+    value: personage
   - label: 其它
-    value: '3'
+    value: other
+readonly: false
+required: true
+searchable: false
 sort_no: 150
+sortable: true
+type: select

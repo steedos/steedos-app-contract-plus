@@ -1,15 +1,7 @@
 name: account
-label: 付款方
-type: lookup
-relatedList: true
-required: true
-reference_to: accounts
-sortable: true
 filterable: true
-create: false
-depend_on:
-  - contract
-optionsFunction: |-
+label: 付款方
+optionsFunction: !<tag:yaml.org,2002:js/function> |-
   function anonymous(values
   ) {
 
@@ -43,4 +35,8 @@ optionsFunction: |-
     return _options;
 
   }
+reference_to: accounts
+required: true
 sort_no: 120
+sortable: true
+type: lookup

@@ -1,6 +1,6 @@
 name: last_record_uploaded_files
-label: 已上传至nc的本条记录的附件
-type: grid
-omit: true
 hidden: true
+label: 已上传至nc的本条记录的附件
+omit: true
 sort_no: 330
+type: grid

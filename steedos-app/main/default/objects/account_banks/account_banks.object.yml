@@ -1,14 +1,15 @@
 name: account_banks
-label: 银行信息
-icon: account
+custom: true
 enable_api: true
-enable_trash: true
 enable_audit: true
 enable_share: true
+enable_trash: true
 form:
   validate: !<tag:yaml.org,2002:js/function> |-
-    function anonymous(formValues
+    function(formValues
     ) {
+
+
 
       var combinenum = '';
       if(formValues && formValues.pk_bankdoc){
@@ -29,3 +30,5 @@ form:
       $("[name='accname']").val(accname);
 
     }
+icon: account
+label: 银行信息

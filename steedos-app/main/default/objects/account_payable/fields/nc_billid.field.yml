@@ -1,6 +1,6 @@
 name: nc_billid
+hidden: true
 label: 用友应付单ID
 omit: true
-hidden: true
-type: text
 sort_no: 250
+type: text

@@ -1,14 +1,9 @@
 name: pk_banktype
 label: 银行类别
-type: lookup
-reference_to: bank_type
-required: true
-create: false
-depend_on:
-  - pk_bankdoc
-optionsFunction: |-
-  function anonymous(values
+optionsFunction: !<tag:yaml.org,2002:js/function> |-
+  function(values
   ) {
+
 
     var _options = [];
     var pk_bankdoc = _.isObject(values.pk_bankdoc) ? values.pk_bankdoc._id : values.pk_bankdoc;
@@ -24,5 +19,9 @@ optionsFunction: |-
     }
     return _options;
 
+
   }
+reference_to: bank_type
+required: true
 sort_no: 140
+type: lookup

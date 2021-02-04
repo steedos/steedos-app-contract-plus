@@ -1,11 +1,11 @@
 name: trade_type
+defaultValue: F1-Cxx-01
+hidden: true
 label: 交易类型
-type: select
 options:
   - label: 应付单1
     value: F1-Cxx-01
   - label: 应付单2
     value: F1-Cxx-02
-hidden: true
-defaultValue: F1-Cxx-01
 sort_no: 270
+type: select

@@ -1,5 +1,6 @@
 name: contract_payments
-label: 付款计划
-icon: orders
+custom: true
 enable_follow: true
 enable_share: true
+icon: orders
+label: 付款计划

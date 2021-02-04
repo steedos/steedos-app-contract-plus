@@ -1,4 +1,4 @@
 name: code
 label: 银行代码
-type: text
 sort_no: 110
+type: text

@@ -1,8 +1,7 @@
 name: company_id
-required: true
+hidden: false
 label: 所属单位
 omit: false
-hidden: false
-type: lookup
-create: false
+required: true
 sort_no: 170
+type: lookup

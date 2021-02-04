@@ -1,5 +1,4 @@
 name: recent
-label: 最近查看
 columns:
   - contract
   - name
@@ -9,3 +8,5 @@ columns:
   - currency
   - subject
 filter_scope: space
+label: 最近查看
+shared: true

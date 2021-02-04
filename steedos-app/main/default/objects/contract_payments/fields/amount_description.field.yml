@@ -1,5 +1,5 @@
 name: amount_description
-label: 付款说明
-type: textarea
 is_wide: true
+label: 付款说明
 sort_no: 110
+type: textarea

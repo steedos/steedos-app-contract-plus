@@ -1,10 +1,20 @@
 name: complete_invoice
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
 label: 发票齐全
-type: select
+multiple: false
+omit: false
 options:
   - label: 是
-    value: 是
+    value: 'yes'
   - label: 否
-    value: 否
+    value: 'no'
+readonly: false
 required: true
+searchable: false
 sort_no: 200
+sortable: false
+type: select

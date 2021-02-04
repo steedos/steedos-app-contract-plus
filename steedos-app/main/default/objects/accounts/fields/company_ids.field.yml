@@ -1,13 +1,6 @@
 name: company_ids
+hidden: false
 label: 所属单位
 omit: false
-hidden: false
 required: true
-filters:
-  - - enablestate
-    - '='
-    - '2'
-  - - hidden
-    - <>
-    - true
 sort_no: 190

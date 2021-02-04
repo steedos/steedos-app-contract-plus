@@ -1,7 +1,7 @@
 name: nc_supcode
-label: 供应商编码
-type: text
-omit: true
 hidden: true
+label: 供应商编码
+omit: true
 readonly: true
 sort_no: 220
+type: text

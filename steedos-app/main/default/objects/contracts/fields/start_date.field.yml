@@ -12,4 +12,4 @@ required: false
 searchable: false
 sort_no: 390
 sortable: false
-type: text
+type: date

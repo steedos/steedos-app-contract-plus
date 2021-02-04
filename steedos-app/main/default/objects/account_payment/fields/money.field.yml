@@ -1,5 +1,5 @@
 name: money
 label: 付款金额
-type: currency
 required: true
 sort_no: 120
+type: currency

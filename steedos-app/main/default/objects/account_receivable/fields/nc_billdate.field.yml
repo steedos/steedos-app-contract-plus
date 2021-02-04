@@ -1,6 +1,6 @@
 name: nc_billdate
-label: 应收单单据日期
-type: datetime
-omit: true
 hidden: true
+label: 应收单单据日期
+omit: true
 sort_no: 270
+type: datetime

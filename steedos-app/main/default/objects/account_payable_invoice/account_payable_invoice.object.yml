@@ -1,6 +1,7 @@
 name: account_payable_invoice
-label: 付款发票
-icon: account
+custom: true
 enable_api: true
 enable_files: true
 enable_share: true
+icon: account
+label: 发票记录

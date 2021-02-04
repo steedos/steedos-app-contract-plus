@@ -1,5 +1,5 @@
 name: payment_date
 label: 支付日期
-type: datetime
 readonly: false
 sort_no: 200
+type: datetime

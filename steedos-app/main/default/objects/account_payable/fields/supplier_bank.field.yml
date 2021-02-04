@@ -1,12 +1,6 @@
 name: supplier_bank
 label: 收款方银行账号
-type: lookup
-reference_to: account_banks
-required: true
-create: false
-depend_on:
-  - supplier
-optionsFunction: |-
+optionsFunction: !<tag:yaml.org,2002:js/function> |-
   function anonymous(values
   ) {
 
@@ -30,4 +24,7 @@ optionsFunction: |-
     return result;
 
   }
+reference_to: account_banks
+required: true
 sort_no: 160
+type: lookup

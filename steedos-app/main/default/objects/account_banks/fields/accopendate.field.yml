@@ -1,7 +1,4 @@
 name: accopendate
-label: 开户日期
-type: datetime
-required: true
 defaultValue: |-
   function anonymous(
   ) {
@@ -9,4 +6,7 @@ defaultValue: |-
     return new Date();
 
   }
+label: 开户日期
+required: true
 sort_no: 180
+type: datetime

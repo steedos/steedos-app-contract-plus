@@ -1,5 +1,5 @@
 name: description
-label: 其他
-type: textarea
 is_wide: true
+label: 其他
 sort_no: 180
+type: textarea

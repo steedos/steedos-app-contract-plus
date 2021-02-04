@@ -1,17 +1,26 @@
 name: nc_approvestatus
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
 label: 审批状态
-type: select
+multiple: false
+omit: true
 options:
   - label: 自由态
-    value: '-1'
+    value: free_state
   - label: 未通过态
-    value: '0'
+    value: not_pass
   - label: 通过态
-    value: '1'
+    value: pass
   - label: 进行中态
-    value: '2'
+    value: underway
   - label: 提交态
-    value: '3'
+    value: submit
 readonly: true
-omit: true
+required: false
+searchable: false
 sort_no: 270
+sortable: false
+type: select

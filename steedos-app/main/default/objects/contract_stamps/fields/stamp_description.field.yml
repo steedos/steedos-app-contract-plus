@@ -1,6 +1,6 @@
 name: stamp_description
-type: textarea
-label: 备注
 is_wide: true
+label: 备注
 searchable: true
 sort_no: 180
+type: textarea

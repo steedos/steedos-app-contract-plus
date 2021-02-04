@@ -1,13 +1,9 @@
 name: customer_bank
 label: 客户银行账户
-type: lookup
-reference_to: account_banks
-create: false
-depend_on:
-  - customer
-optionsFunction: |-
-  function anonymous(values
+optionsFunction: !<tag:yaml.org,2002:js/function> |-
+  function(values
   ) {
+
 
     if (!values || !values.customer) {
       return [];
@@ -28,5 +24,8 @@ optionsFunction: |-
     })
     return result;
 
+
   }
+reference_to: account_banks
 sort_no: 120
+type: lookup

@@ -1,7 +1,7 @@
 name: name
+is_wide: true
 label: 名称
-type: text
 required: true
 searchable: true
-is_wide: true
 sort_no: 100
+type: text

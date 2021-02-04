@@ -1,8 +1,6 @@
-permission_set_id: accounting_manager
 modifyAllRecords: true
-viewAllRecords: true
 modifyCompanyRecords: true
-viewCompanyRecords: true
+permission_set_id: accounting_manager
 uneditable_fields:
   - supplier
   - scomment
@@ -17,3 +15,5 @@ uneditable_fields:
   - invoice
 uneditable_related_list:
   - cms_files
+viewAllRecords: true
+viewCompanyRecords: true

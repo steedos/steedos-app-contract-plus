@@ -1,12 +1,6 @@
 name: business_category
-type: lookup
 label: 业务分类
 reference_to: business_categories
-filters:
-  - - enablestate
-    - eq
-    - '2'
-create: false
 required: true
-reference_limit: 100
 sort_no: 100
+type: lookup

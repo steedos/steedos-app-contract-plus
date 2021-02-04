@@ -1,7 +1,7 @@
 name: nc_custcode
-label: 客户编码
-type: text
-omit: true
 hidden: true
+label: 客户编码
+omit: true
 readonly: true
 sort_no: 230
+type: text

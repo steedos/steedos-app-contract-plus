@@ -1,7 +1,6 @@
 name: syncErrMsg
-label: 同步错误信息
-type: object
-omit: true
-blackbox: true
 hidden: true
+label: 同步错误信息
+omit: true
 sort_no: 320
+type: object

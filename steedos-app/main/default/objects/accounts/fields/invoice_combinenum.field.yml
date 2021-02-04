@@ -1,5 +1,5 @@
 name: invoice_combinenum
-label: 账号
 group: 开票信息（开票信息中内容不填写，会默认为签约对象中的信息）
-type: text
+label: 账号
 sort_no: 290
+type: text

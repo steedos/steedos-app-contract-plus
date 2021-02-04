@@ -1,6 +1,6 @@
 name: scomment
-label: 付款说明
-type: text
 is_name: true
+label: 付款说明
 required: true
 sort_no: 110
+type: text

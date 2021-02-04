@@ -1,6 +1,7 @@
 name: business_categories
-label: 业务分类
-icon: account
+custom: true
 enable_api: true
-enable_trash: true
 enable_share: true
+enable_trash: true
+icon: account
+label: 业务分类

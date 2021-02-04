@@ -1,5 +1,6 @@
 name: contract_stamps
-label: 盖章信息
-icon: sossession
+custom: true
 enable_follow: true
 enable_share: true
+icon: sossession
+label: 用印历史

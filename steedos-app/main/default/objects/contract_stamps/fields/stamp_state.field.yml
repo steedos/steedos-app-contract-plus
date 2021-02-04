@@ -1,5 +1,20 @@
 name: stamp_state
-type: text
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
 label: 盖章状态
+multiple: false
+omit: false
+options:
+  - label: 已盖
+    value: sealed
+  - label: 未盖
+    value: not_sealed
+readonly: false
+required: false
 searchable: true
 sort_no: 120
+sortable: false
+type: select

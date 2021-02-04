@@ -1,13 +1,11 @@
 name: account_receivable
-label: 应收记录
-icon: account
+custom: true
 enable_api: true
 enable_approvals: true
 enable_share: true
 form:
   initialValues: !<tag:yaml.org,2002:js/function> |-
-    function anonymous(
-    ) {
+    function() {
 
       if(Session.get("record_id")){
         var mainRecord = Creator.odata.get(Session.get("object_name"), Session.get("record_id"), 'company_id,currency_type,othercompany');
@@ -30,8 +28,9 @@ form:
 
     }
   validate: !<tag:yaml.org,2002:js/function> |-
-    function anonymous(formValues
+    function(formValues
     ) {
+
 
       if (!formValues){
         return;
@@ -43,3 +42,5 @@ form:
       $("[name='money']").val(money);
 
     }
+icon: account
+label: 开票记录

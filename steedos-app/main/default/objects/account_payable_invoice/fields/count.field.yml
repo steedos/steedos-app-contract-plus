@@ -1,5 +1,5 @@
 name: count
 label: 发票张数
-type: number
 required: true
 sort_no: 140
+type: number

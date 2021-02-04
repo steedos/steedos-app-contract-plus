@@ -9,9 +9,9 @@ multiple: false
 omit: true
 options:
   - label: 是
-    value: yes
+    value: 'yes'
   - label: 否
-    value: no
+    value: 'no'
 readonly: true
 required: false
 searchable: false

@@ -1,5 +1,5 @@
 name: account_id
-label: 老供应商id
-type: text
 hidden: true
+label: 老供应商id
 sort_no: 310
+type: text

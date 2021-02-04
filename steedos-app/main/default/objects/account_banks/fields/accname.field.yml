@@ -1,7 +1,4 @@
 name: accname
-label: 户名
-type: text
-required: true
 defaultValue: |-
   function anonymous(
   ) {
@@ -15,4 +12,7 @@ defaultValue: |-
     }
 
   }
+label: 户名
+required: true
 sort_no: 120
+type: text

@@ -14,4 +14,4 @@ scale: 2
 searchable: false
 sort_no: 330
 sortable: true
-type: currency
+type: number

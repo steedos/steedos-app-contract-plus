@@ -1,14 +1,12 @@
 name: account_payment
-label: 付款记录
-icon: account
+custom: true
 enable_api: true
 enable_approvals: true
 enable_files: true
 enable_share: true
 form:
   initialValues: !<tag:yaml.org,2002:js/function> |-
-    function anonymous(
-    ) {
+    function() {
 
       if(Session.get("record_id")){
         var mainRecord = Creator.odata.get(Session.get("object_name"), Session.get("record_id"), 'company_id,currency_type,othercompany');
@@ -30,6 +28,8 @@ form:
       }
 
     }
+icon: account
+label: 付款记录
 relatedList:
   - account_payment_details
   - cms_files

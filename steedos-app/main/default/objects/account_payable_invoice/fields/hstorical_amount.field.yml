@@ -1,6 +1,6 @@
 name: hstorical_amount
-label: 历史收票总金额
-type: currency
 defaultValue: 0
 inlineHelpText: 第一次填发票时填写
+label: 历史收票总金额
 sort_no: 130
+type: currency

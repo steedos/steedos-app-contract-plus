@@ -1,5 +1,4 @@
 name: all
-label: 所有单位
 columns:
   - name
   - phone
@@ -9,3 +8,5 @@ columns:
   - credit_code
   - status
 filter_scope: space
+label: 所有单位
+shared: true

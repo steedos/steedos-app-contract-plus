@@ -1,5 +1,4 @@
 name: all
-label: 所有
 columns:
   - contract
   - name
@@ -9,6 +8,8 @@ columns:
   - currency
   - subject
 filter_scope: space
+label: 所有
+shared: true
 sort:
   - - due_date
     - desc

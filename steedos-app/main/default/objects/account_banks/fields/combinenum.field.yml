@@ -1,7 +1,5 @@
 name: combinenum
 label: 联行号
 readonly: true
-type: text
-depend_on:
-  - pk_bankdoc
 sort_no: 160
+type: text

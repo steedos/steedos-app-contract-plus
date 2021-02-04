@@ -1,12 +1,7 @@
 name: invoice
+index: true
 label: 付款发票
-type: lookup
-relatedList: false
 multiple: true
 reference_to: account_payable_invoice
-index: true
-create: false
-depend_on:
-  - contract
-
 sort_no: 220
+type: lookup

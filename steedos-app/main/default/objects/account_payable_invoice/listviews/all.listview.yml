@@ -1,7 +1,8 @@
 name: all
-label: 所有
 columns:
   - contract_id
   - name
   - code
   - amount
+label: 所有
+shared: true

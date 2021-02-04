@@ -1,9 +1,8 @@
 name: owner_organization
 label: 执行人部门
-type: lookup
-create: false
-searchable: true
+readonly: false
 reference_to: department
 required: true
-readonly: false
+searchable: true
 sort_no: 190
+type: lookup

@@ -1,10 +1,9 @@
 name: payment_company_id
-label: 付款单位
 hidden: false
+label: 付款单位
+readonly: true
+reference_to: company
+required: true
+sort_no: 130
 sortable: true
 type: lookup
-reference_to: company
-create: false
-required: true
-readonly: true
-sort_no: 130
