@@ -1,16 +1,17 @@
 name: contracts
-label: 合同
-icon: contract
-enable_files: true
-enable_search: true
-enable_notes: false
-enable_events: true
-enable_audit: true
+custom: true
 enable_api: true
+enable_audit: true
+enable_events: true
+enable_files: true
 enable_instances: true
+enable_notes: false
+enable_search: true
+enable_share: true
 enable_trash: true
 enable_workflow: true
-enable_share: true
+icon: contract
+label: 合同
 relatedList:
   - contract_subject_amount
   - cms_files

@@ -1,16 +1,15 @@
-permission_set_id: user
 allowCreate: false
 allowDelete: false
 allowEdit: true
 allowRead: true
-modifyAllRecords: false
-viewAllRecords: false
 disabled_list_views:
   - contract_manager
   - none
   - all
   - contract_payments
   - contract_receipts
+modifyAllRecords: false
+permission_set_id: user
 uneditable_fields:
   - 'no'
   - serial_number
@@ -77,3 +76,4 @@ uneditable_related_list:
   - contract_payments
   - contract_receipts
   - events
+viewAllRecords: false

@@ -1,6 +1,7 @@
 name: overwrite_contract_state
-type: select
+hidden: true
 label: 覆写合同状态
+omit: true
 options:
   - label: 审批中
     value: pending
@@ -18,7 +19,6 @@ options:
     value: droped
   - label: 已完成
     value: completed
-omit: true
-hidden: true
 readonly: true
 sort_no: 440
+type: select

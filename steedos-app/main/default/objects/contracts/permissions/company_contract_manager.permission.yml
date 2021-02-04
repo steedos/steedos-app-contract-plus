@@ -1,10 +1,9 @@
-permission_set_id: company_contract_manager
-viewCompanyRecords: true
-modifyCompanyRecords: true
 disabled_list_views:
   - all
   - contract_payments
   - contract_receipts
+modifyCompanyRecords: true
+permission_set_id: company_contract_manager
 uneditable_fields:
   - 'no'
   - serial_number
@@ -70,3 +69,4 @@ uneditable_related_list:
   - contract_payments
   - contract_receipts
   - events
+viewCompanyRecords: true

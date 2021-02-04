@@ -1,7 +1,14 @@
 name: name
-label: 合同/业务名称
-type: text
+filterable: false
+hidden: false
+index: true
+is_name: false
+is_wide: false
+label: 合同名称
+omit: false
+readonly: false
 required: true
 searchable: true
-index: true
 sort_no: 180
+sortable: false
+type: text

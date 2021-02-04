@@ -1,8 +1,0 @@
-name: applicant_organization
-label: 经办部门
-type: lookup
-searchable: true
-reference_to: department
-required: true
-create: false
-sort_no: 230

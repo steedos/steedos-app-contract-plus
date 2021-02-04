@@ -1,6 +1,6 @@
 name: subject
-type: textarea
-label: 合同主要内容
 group: 合同主要内容
 is_wide: true
+label: 合同主要内容
 sort_no: 320
+type: textarea

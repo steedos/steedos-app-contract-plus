@@ -1,9 +1,9 @@
 name: for_invoicing_amount
-label: 申请开票总金额
-group: 合同收付款信息
-type: currency
-scale: 2
-sortable: true
-readonly: true
 defaultValue: 0
+group: 合同收付款信息
+label: 申请开票总金额
+readonly: true
+scale: 2
 sort_no: 520
+sortable: true
+type: currency

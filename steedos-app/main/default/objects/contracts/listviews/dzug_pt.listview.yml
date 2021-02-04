@@ -1,30 +1,4 @@
 name: dzug_pt
-label: 平台公司合同
-filter_scope: space
-filters: |-
-  function anonymous(
-  ) {
-
-      return [
-        [
-          ["company_id","=","0001A2100000000036V0"],
-          "or",
-          ["company_id","=","0001A2100000000036U9"],
-          "or",
-          ["company_id","=","0001A2100000000036UU"],
-          "or",
-          ["company_id","=","0001A2100000000036VX"],
-          "or",
-          ["company_id","=","0001A2100000000036W3"],
-          "or",
-          ["company_id","=","0001A2100000000036X3"],
-          "or",
-          ["company_id","=","0001B21000000000YAZ1"]
-        ],
-        ["contract_state","<>","terminated"]
-      ];
-
-  }
 columns:
   - field: create_date
     width: 120
@@ -58,6 +32,33 @@ filter_fields:
   - signed_date
   - othercompany
   - contract_state
+filter_scope: space
+filters: |-
+  function anonymous(
+  ) {
+
+      return [
+        [
+          ["company_id","=","0001A2100000000036V0"],
+          "or",
+          ["company_id","=","0001A2100000000036U9"],
+          "or",
+          ["company_id","=","0001A2100000000036UU"],
+          "or",
+          ["company_id","=","0001A2100000000036VX"],
+          "or",
+          ["company_id","=","0001A2100000000036W3"],
+          "or",
+          ["company_id","=","0001A2100000000036X3"],
+          "or",
+          ["company_id","=","0001B21000000000YAZ1"]
+        ],
+        ["contract_state","<>","terminated"]
+      ];
+
+  }
+label: 平台公司合同
+shared: true
 sort:
   - - create_date
     - desc

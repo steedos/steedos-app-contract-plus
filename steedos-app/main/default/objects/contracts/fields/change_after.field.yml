@@ -1,8 +1,7 @@
 name: change_after
-label: 变更后合同
-type: lookup
 group: 合同变更
-reference_to: contracts
+label: 变更后合同
 readonly: true
-create: false
+reference_to: contracts
 sort_no: 550
+type: lookup

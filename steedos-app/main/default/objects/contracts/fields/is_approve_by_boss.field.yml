@@ -1,11 +1,20 @@
 name: is_approve_by_boss
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
 label: 董事长审批
-type: select
+multiple: false
+omit: true
 options:
   - label: 是
-    value: 是
+    value: yes
   - label: 否
-    value: 否
+    value: no
 readonly: true
-omit: true
+required: false
+searchable: false
 sort_no: 210
+sortable: false
+type: select

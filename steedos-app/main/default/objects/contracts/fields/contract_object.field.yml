@@ -1,6 +1,6 @@
 name: contract_object
-label: 合同标的
-type: textarea
 group: 合同主要内容
 is_wide: true
+label: 合同标的
 sort_no: 310
+type: textarea

@@ -1,12 +1,21 @@
 name: contract_action_type
-label: 合同类型
-type: select
+filterable: false
 group: 合同变更
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 合同类型
+multiple: false
+omit: true
 options:
   - label: 新增
-    value: 新增
+    value: insert
   - label: 变更
-    value: 变更
+    value: update
 readonly: true
-omit: true
+required: false
+searchable: false
 sort_no: 560
+sortable: false
+type: select

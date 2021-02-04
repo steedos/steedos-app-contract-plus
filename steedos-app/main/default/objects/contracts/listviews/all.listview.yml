@@ -1,5 +1,4 @@
 name: all
-label: 所有合同/业务
 columns:
   - field: create_date
     width: 120
@@ -28,12 +27,14 @@ columns:
   - field: serial_number
     width: 120
     wrap: true
-filter_scope: space
 filter_fields:
   - contract_type
   - signed_date
   - othercompany
   - contract_state
+filter_scope: space
+label: 所有合同/业务
+shared: true
 sort:
   - - create_date
     - desc

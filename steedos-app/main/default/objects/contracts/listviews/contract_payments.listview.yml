@@ -1,16 +1,4 @@
 name: contract_payments
-label: 付款业务
-filter_scope: space
-filters: |-
-  function anonymous(
-  ) {
-
-      return [
-        ["bop","=","付款业务"],
-        ["contract_state","<>","terminated"]
-      ];
-
-  }
 columns:
   - field: company_id
     width: 220
@@ -56,6 +44,19 @@ filter_fields:
   - signed_date
   - othercompany
   - contract_state
+filter_scope: space
+filters: |-
+  function anonymous(
+  ) {
+
+      return [
+        ["bop","=","付款业务"],
+        ["contract_state","<>","terminated"]
+      ];
+
+  }
+label: 付款业务
+shared: true
 sort:
   - - create_date
     - desc

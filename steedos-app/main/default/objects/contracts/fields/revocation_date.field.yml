@@ -1,7 +1,7 @@
 name: revocation_date
-label: 废止日期
-type: date
-group: 合同备案信息
-sortable: true
 filterable: true
+group: 合同备案信息
+label: 废止日期
 sort_no: 600
+sortable: true
+type: date

@@ -1,8 +1,7 @@
 name: change_before
-label: 变更前合同
-type: lookup
 group: 合同变更
-reference_to: contracts
+label: 变更前合同
 readonly: true
-create: false
+reference_to: contracts
 sort_no: 540
+type: lookup

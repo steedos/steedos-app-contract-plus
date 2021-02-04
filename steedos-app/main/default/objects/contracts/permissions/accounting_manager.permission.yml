@@ -1,8 +1,7 @@
-permission_set_id: accounting_manager
-viewAllRecords: true
 disabled_list_views:
   - contract_manager
   - none
+permission_set_id: accounting_manager
 uneditable_fields:
   - 'no'
   - serial_number
@@ -70,3 +69,4 @@ uneditable_related_list:
   - contract_payments
   - contract_receipts
   - events
+viewAllRecords: true

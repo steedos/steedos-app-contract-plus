@@ -1,23 +1,4 @@
 name: none
-label: 无原件
-filter_scope: space
-filters: |-
-  function anonymous(
-  ) {
-
-      var dayTime = 24 * 60 * 60 * 1000;
-      var time =  new Date().getTime() - (30 * dayTime);
-      time = new Date(moment(time).format('YYYY-MM-DD'));
-      return [
-        ["original_file","=",false],
-        ["scanned_file","=", false],
-        ["copied_file","=", false],
-        ["create_date", "<", time],
-        ["virtual_contract", "<>", "非合同"],
-        ["contract_state","<>","terminated"]
-      ];
-
-  }
 columns:
   - field: create_date
     width: 120
@@ -51,6 +32,26 @@ filter_fields:
   - signed_date
   - othercompany
   - contract_state
+filter_scope: space
+filters: |-
+  function anonymous(
+  ) {
+
+      var dayTime = 24 * 60 * 60 * 1000;
+      var time =  new Date().getTime() - (30 * dayTime);
+      time = new Date(moment(time).format('YYYY-MM-DD'));
+      return [
+        ["original_file","=",false],
+        ["scanned_file","=", false],
+        ["copied_file","=", false],
+        ["create_date", "<", time],
+        ["virtual_contract", "<>", "非合同"],
+        ["contract_state","<>","terminated"]
+      ];
+
+  }
+label: 无原件
+shared: true
 sort:
   - - create_date
     - desc

@@ -1,17 +1,24 @@
 name: amount_type
-type: select
-label: 金额类型
-group: 合同主要内容
 defaultValue: 固定
+filterable: false
+group: 合同主要内容
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 金额类型
+multiple: false
+omit: false
 options:
   - label: 固定
-    value: 固定
+    value: immobilization
   - label: 浮动
-    value: 浮动
+    value: float
   - label: 无金额
-    value: 无金额
-allowedValues:
-  - 固定
-  - 浮动
-  - 无金额
+    value: no_amount_of
+readonly: false
+required: false
+searchable: false
 sort_no: 360
+sortable: false
+type: select

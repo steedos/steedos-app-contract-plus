@@ -1,15 +1,4 @@
 name: mine
-label: 我的合同
-filter_scope: mine
-filters: |-
-  function anonymous(
-  ) {
-
-      return [
-        ["contract_state","<>","terminated"]
-      ];
-
-  }
 columns:
   - field: create_date
     width: 120
@@ -43,6 +32,18 @@ filter_fields:
   - signed_date
   - othercompany
   - contract_state
+filter_scope: mine
+filters: |-
+  function anonymous(
+  ) {
+
+      return [
+        ["contract_state","<>","terminated"]
+      ];
+
+  }
+label: 我的合同
+shared: true
 sort:
   - - create_date
     - desc

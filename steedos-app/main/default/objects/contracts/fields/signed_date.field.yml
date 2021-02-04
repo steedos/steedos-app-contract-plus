@@ -1,7 +1,7 @@
 name: signed_date
-label: 签订日期
-group: 合同主要内容
-type: date
-sortable: true
 filterable: true
+group: 合同主要内容
+label: 签订日期
 sort_no: 400
+sortable: true
+type: date

@@ -1,20 +1,4 @@
 name: dzug_jt
-label: 集团公司合同
-filter_scope: space
-filters: |-
-  function anonymous(
-  ) {
-
-      return [
-        [
-          ["company_id","=","0001A2100000000036TU"],
-          "or"
-          ["company_id","=","0001B21000000001HHBY"]
-        ],
-        ["contract_state","<>","terminated"]
-      ];
-
-  }
 columns:
   - field: create_date
     width: 120
@@ -48,6 +32,23 @@ filter_fields:
   - signed_date
   - othercompany
   - contract_state
+filter_scope: space
+filters: |-
+  function anonymous(
+  ) {
+
+      return [
+        [
+          ["company_id","=","0001A2100000000036TU"],
+          "or"
+          ["company_id","=","0001B21000000001HHBY"]
+        ],
+        ["contract_state","<>","terminated"]
+      ];
+
+  }
+label: 集团公司合同
+shared: true
 sort:
   - - create_date
     - desc

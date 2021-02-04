@@ -1,18 +1,24 @@
 name: is_bidding
-type: select
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
 label: 是否招投标
+multiple: false
+omit: false
 options:
   - label: 已公开招投标
-    value: 已公开招投标
+    value: open
   - label: 已邀请招投标
-    value: 已邀请招投标
+    value: invite
   - label: 已询价比价
-    value: 已询价比价
+    value: enquiry
   - label: 无需招投标
-    value: 无需招投标
-allowedValues:
-  - 已公开招投标
-  - 已邀请招投标
-  - 已询价比价
-  - 无需招投标
+    value: dispense_with
+readonly: false
+required: false
+searchable: false
 sort_no: 190
+sortable: false
+type: select

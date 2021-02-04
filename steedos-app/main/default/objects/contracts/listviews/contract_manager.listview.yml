@@ -1,16 +1,4 @@
 name: contract_manager
-label: 合同管理员
-filter_scope: space
-filters: |-
-  function anonymous(
-  ) {
-
-      return [
-        ["virtual_contract", "<>", "非合同"],
-        ["contract_state","<>","terminated"]
-      ];
-
-  }
 columns:
   - field: create_date
     width: 120
@@ -44,6 +32,19 @@ filter_fields:
   - signed_date
   - othercompany
   - contract_state
+filter_scope: space
+filters: |-
+  function anonymous(
+  ) {
+
+      return [
+        ["virtual_contract", "<>", "非合同"],
+        ["contract_state","<>","terminated"]
+      ];
+
+  }
+label: 合同管理员
+shared: true
 sort:
   - - create_date
     - desc

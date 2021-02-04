@@ -1,13 +1,24 @@
 name: bop
-type: select
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
 label: 收支类别
+multiple: false
+omit: false
 options:
   - label: 付款业务
-    value: 付款业务
+    value: payment
   - label: 收款业务
-    value: 收款业务
+    value: gathering
   - label: 收付款业务
-    value: 收付款业务
+    value: receiving
   - label: 无金额业务
-    value: 无金额业务
+    value: no_amount_of
+readonly: false
+required: false
+searchable: false
 sort_no: 200
+sortable: false
+type: select

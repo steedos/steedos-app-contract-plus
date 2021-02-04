@@ -1,13 +1,23 @@
 name: contract_fulfillment_state
-type: select
-label: 合同履行状态
+filterable: false
 group: 合同主要内容
-searchable: true
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 合同履行状态
+multiple: false
+omit: false
 options:
   - label: 履行中
-    value: 履行中
+    value: toperformthe
   - label: 履行完
-    value: 履行完
+    value: fullfill
   - label: 已取消
-    value: 已取消
+    value: cancel
+readonly: false
+required: false
+searchable: true
 sort_no: 450
+sortable: false
+type: select

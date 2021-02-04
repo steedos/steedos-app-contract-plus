@@ -1,6 +1,5 @@
-permission_set_id: company_advance_payment_manager
-viewCompanyRecords: true
 modifyCompanyRecords: true
+permission_set_id: company_advance_payment_manager
 uneditable_fields:
   - 'no'
   - serial_number
@@ -69,3 +68,4 @@ uneditable_related_list:
   - contract_payments
   - contract_receipts
   - events
+viewCompanyRecords: true
