@@ -1,7 +1,7 @@
 name: irr
-label: 预计IRR
-type: text
-sortable: true
 filterable: true
+label: 预计IRR
 readonly: true
 sort_no: 300
+sortable: true
+type: text

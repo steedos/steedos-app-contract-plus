@@ -1,5 +1,12 @@
 name: customer_bank
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
 label: 客户银行账户
+multiple: false
+omit: false
 optionsFunction: !<tag:yaml.org,2002:js/function> |-
   function(values
   ) {
@@ -12,7 +19,7 @@ optionsFunction: !<tag:yaml.org,2002:js/function> |-
     var options, result, customer_banks;
     result = [];
     options = {
-      $filter: `(account eq '${accountId}') and (enablestate eq '2')`,
+      $filter: `(account eq '${accountId}') and (enablestate eq 'enable')`,
       $select: 'accnum'
     };
     customer_banks = Creator.odata.query('account_banks', options, true);
@@ -26,6 +33,10 @@ optionsFunction: !<tag:yaml.org,2002:js/function> |-
 
 
   }
+readonly: false
 reference_to: account_banks
+required: false
+searchable: false
 sort_no: 120
+sortable: false
 type: lookup

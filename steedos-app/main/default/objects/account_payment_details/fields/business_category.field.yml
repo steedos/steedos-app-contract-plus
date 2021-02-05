@@ -1,6 +1,20 @@
 name: business_category
+filterable: false
+filtersFunction: !<tag:yaml.org,2002:js/function> |-
+  function(){
+    return ("enablestate eq 'enable' ");
+  }
+hidden: false
+index: false
+is_name: false
+is_wide: false
 label: 业务分类
+multiple: false
+omit: false
+readonly: false
 reference_to: business_categories
 required: true
+searchable: false
 sort_no: 100
+sortable: false
 type: lookup

@@ -1,4 +1,5 @@
 name: account_payment_details
+custom: true
 enable_api: true
 enable_approvals: true
 enable_files: true

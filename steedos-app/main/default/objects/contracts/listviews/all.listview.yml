@@ -30,7 +30,7 @@ filter_fields:
   - othercompany
   - contract_state
 filter_scope: space
-label: 所有合同/业务
+label: 所有合同
 shared: true
 show_count: false
 sort:

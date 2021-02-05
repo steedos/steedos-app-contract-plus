@@ -1,6 +1,6 @@
 name: name
-type: text
 label: 项目名称
-required: true
 readonly: false
+required: true
 sort_no: 100
+type: text

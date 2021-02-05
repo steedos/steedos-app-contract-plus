@@ -1,8 +1,6 @@
 name: currency_type
 label: 币种
-type: lookup
-relatedList: true
-reference_to: currency
-create: false
 readonly: true
+reference_to: currency
 sort_no: 340
+type: lookup

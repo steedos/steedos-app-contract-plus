@@ -1,9 +1,8 @@
 name: applicant_organization
 label: 经办人部门
-type: lookup
-searchable: true
+readonly: false
 reference_to: department
 required: true
-create: false
-readonly: false
+searchable: true
 sort_no: 150
+type: lookup

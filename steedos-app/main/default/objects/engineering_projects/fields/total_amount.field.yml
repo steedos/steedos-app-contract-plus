@@ -1,8 +1,8 @@
 name: total_amount
 label: 项目预算总投资额
-type: currency
-scale: 2
-required: true
-sortable: true
 readonly: false
+required: true
+scale: 2
 sort_no: 200
+sortable: true
+type: currency

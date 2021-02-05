@@ -1,12 +1,8 @@
 name: amount_finally
-label: 项目决算金额
-type: summary
 data_type: currency
-summary_object: engineering_project_acceptance
-summary_field: amount
-summary_type: max
-summary_filters:
-  - - instance_state
-    - '='
-    - approved
+label: 项目决算金额
 sort_no: 210
+summary_field: amount
+summary_object: engineering_project_acceptance
+summary_type: max
+type: summary

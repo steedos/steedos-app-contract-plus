@@ -1,12 +1,6 @@
 name: owner_organization
 label: 执行人部门
-type: lookup
-create: false
-searchable: true
-reference_to: department
-depend_on:
-  - company_id
-optionsFunction: |-
+optionsFunction: !<tag:yaml.org,2002:js/function> |-
   function anonymous(values
   ) {
 
@@ -27,4 +21,7 @@ optionsFunction: |-
     return _options;
 
   }
+reference_to: department
+searchable: true
 sort_no: 170
+type: lookup

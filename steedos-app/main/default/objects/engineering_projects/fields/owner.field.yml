@@ -1,9 +1,7 @@
 name: owner
-label: 执行人
-sortable: true
-type: lookup
-reference_to: users
-omit: false
 hidden: false
-create: false
+index: true
+label: 执行人
+omit: false
 sort_no: 160
+sortable: true

@@ -1,12 +1,8 @@
 name: startTime_finally
-label: 实际开工时间
-type: summary
 data_type: date
-summary_object: engineering_project_acceptance
-summary_field: startTime
-summary_type: max
-summary_filters:
-  - - instance_state
-    - '='
-    - approved
+label: 实际开工时间
 sort_no: 250
+summary_field: startTime
+summary_object: engineering_project_acceptance
+summary_type: max
+type: summary

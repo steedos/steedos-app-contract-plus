@@ -1,7 +1,5 @@
 name: project_state
-type: select
 label: 项目状态
-searchable: true
 options:
   - label: 审核中
     value: under_review
@@ -15,11 +13,7 @@ options:
     value: completed
   - label: 已取消
     value: cancelled
-allowedValues:
-  - under_review
-  - processing
-  - paused
-  - droped
-  - completed
 readonly: true
+searchable: true
 sort_no: 190
+type: select

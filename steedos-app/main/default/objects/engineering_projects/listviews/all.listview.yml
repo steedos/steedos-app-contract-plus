@@ -1,17 +1,35 @@
 name: all
-label: 所有
 columns:
-  - created_date
+  - field: name
+    wrap: false
+  - field: created_date
+    wrap: false
+  - field: account_project
+    wrap: false
+  - field: company_id
+    wrap: false
+  - field: applicant
+    wrap: false
+  - field: applicant_organization
+    wrap: false
+  - field: owner
+    wrap: false
+  - field: owner_organization
+    wrap: false
+  - field: serial_number
+    wrap: false
+  - field: total_amount
+    wrap: false
+  - field: project_state
+    wrap: false
+filter_fields:
   - name
-  - account_project
-  - company_id
-  - applicant
-  - applicant_organization
   - owner
-  - owner_organization
-  - serial_number
-  - total_amount
+  - account_project
   - project_state
+filter_scope: space
+label: 所有
+shared: true
+show_count: false
 sort:
-  - - created_date
-    - desc
+  - order: asc

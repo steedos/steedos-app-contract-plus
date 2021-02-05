@@ -1,5 +1,9 @@
 name: othercompany
 filterable: false
+filtersFunction: !<tag:yaml.org,2002:js/function> |-
+  function(){
+    return ("status eq 'enable' ");
+  }
 hidden: false
 index: false
 is_name: false
