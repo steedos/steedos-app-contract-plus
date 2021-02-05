@@ -13,6 +13,5 @@ objects:
 
   - account_types
   - engineering_project_acceptance_subject_budget
-  - contract_subject_amount
   - engineering_project_acceptance
 visible: true

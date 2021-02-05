@@ -1,6 +1,6 @@
 name: scomment
-label: 收款说明
-type: text
 is_name: true
+label: 收款说明
 required: true
 sort_no: 230
+type: text

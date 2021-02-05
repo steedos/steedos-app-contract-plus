@@ -1,31 +1,28 @@
 name: dzug_zgs
 columns:
-  - field: create_date
-    width: 120
+  - field: name
+    width: '120'
     wrap: true
   - field: company_id
-    width: 200
+    width: '200'
     wrap: true
   - field: othercompany
-    width: 200
-    wrap: true
-  - field: name
-    width: 280
+    width: '200'
     wrap: true
   - field: amount
-    width: 120
+    width: '120'
     wrap: true
   - field: currency_type
-    width: 120
+    width: '120'
     wrap: true
   - field: contract_type
-    width: 120
+    width: '120'
     wrap: true
   - field: 'no'
-    width: 120
+    width: '120'
     wrap: true
   - field: serial_number
-    width: 120
+    width: '120'
     wrap: true
 filter_fields:
   - contract_type
@@ -53,6 +50,6 @@ filters: |-
   }
 label: 子公司合同
 shared: true
+show_count: false
 sort:
-  - - create_date
-    - desc
+  - order: asc

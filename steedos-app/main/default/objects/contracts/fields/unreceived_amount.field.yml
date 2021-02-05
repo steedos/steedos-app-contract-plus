@@ -15,6 +15,6 @@ readonly: true
 required: false
 scale: 2
 searchable: false
-sort_no: 510
+sort_no: 495
 sortable: true
 type: formula

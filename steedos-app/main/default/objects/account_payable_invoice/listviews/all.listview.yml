@@ -1,8 +1,18 @@
 name: all
 columns:
+  - field: name
+    wrap: false
+  - field: contract_id
+    wrap: false
+  - field: code
+    wrap: false
+  - field: amount
+    wrap: false
+filter_fields:
   - contract_id
-  - name
-  - code
   - amount
+  - created_by
+filter_scope: space
 label: 所有
 shared: true
+show_count: false

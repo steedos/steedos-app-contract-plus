@@ -1,7 +1,20 @@
 name: all
-label: 所有
 columns:
+  - field: name
+    wrap: false
+  - field: contract
+    wrap: false
+  - field: account_project
+    wrap: false
+  - field: subject
+    wrap: false
+  - field: amount
+    wrap: false
+filter_fields:
   - contract
-  - account_project
-  - subject
   - amount
+  - subject
+filter_scope: space
+label: 所有
+shared: true
+show_count: false

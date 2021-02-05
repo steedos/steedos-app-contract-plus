@@ -13,7 +13,7 @@ readonly: false
 required: false
 scale: 2
 searchable: false
-sort_no: 530
+sort_no: 505
 sortable: true
 summary_field: amount
 summary_object: contract_receipts

@@ -1,4 +1,4 @@
 name: name
 label: 项目名称
-type: text
 sort_no: 100
+type: text

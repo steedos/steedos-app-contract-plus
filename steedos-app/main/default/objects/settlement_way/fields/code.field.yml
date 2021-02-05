@@ -1,5 +1,5 @@
 name: code
 label: 编码
-type: text
 required: true
 sort_no: 110
+type: text

@@ -1,5 +1,5 @@
 name: complete_amount
-data_type: currency
+data_type: number
 filterable: false
 group: 合同付款信息
 hidden: false
@@ -13,7 +13,7 @@ readonly: false
 required: false
 scale: 2
 searchable: false
-sort_no: 490
+sort_no: 476
 sortable: true
 summary_field: amount
 summary_object: contract_payments

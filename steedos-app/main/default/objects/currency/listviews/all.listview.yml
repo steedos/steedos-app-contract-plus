@@ -1,8 +1,16 @@
 name: all
-label: 所有
 columns:
+  - field: name
+    wrap: false
+  - field: code
+    wrap: false
+  - field: decimal_places
+    wrap: false
+filter_fields:
   - name
-  - code
-  - conversion_rate
   - decimal_places
-  - is_active
+  - active
+filter_scope: space
+label: 所有
+shared: true
+show_count: false

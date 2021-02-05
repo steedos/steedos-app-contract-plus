@@ -1,22 +1,38 @@
 name: all
 columns:
+  - field: scomment
+    wrap: false
+  - field: contract
+    wrap: false
+  - field: payment_date
+    wrap: false
+  - field: money
+    wrap: false
+  - field: currtype
+    wrap: false
+  - field: payment_company_id
+    wrap: false
+  - field: supplier
+    wrap: false
+  - field: nc_billno
+    wrap: false
+  - field: payment_status
+    wrap: false
+  - field: nc_approvestatus
+    wrap: false
+  - field: nc_vapper
+    wrap: false
+  - field: created
+    wrap: false
+  - field: subject
+    wrap: false
+filter_fields:
   - contract
-  - scomment
   - payment_date
-  - money
-  - currtype
-  - payment_company_id
-  - supplier
-  - actual_payment_amount
-  - actual_payment_date
-  - nc_billno
   - payment_status
-  - nc_approvestatus
-  - nc_vapper
-  - created
-  - subject
+filter_scope: space
 label: 所有
 shared: true
+show_count: false
 sort:
-  - - created
-    - desc
+  - order: asc

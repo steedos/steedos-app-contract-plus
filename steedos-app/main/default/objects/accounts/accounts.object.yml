@@ -6,4 +6,4 @@ enable_search: true
 enable_share: true
 enable_trash: false
 icon: account
-label: 签约对象
+label: 客户

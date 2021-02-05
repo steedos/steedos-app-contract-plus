@@ -1,9 +1,9 @@
-permission_set_id: user
 allowCreate: false
 allowDelete: false
 allowEdit: false
 allowRead: true
 modifyAllRecords: false
-viewAllRecords: false
 modifyCompanyRecords: false
+permission_set_id: user
+viewAllRecords: false
 viewCompanyRecords: false

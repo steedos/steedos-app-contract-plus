@@ -1,4 +1,5 @@
 name: paid_amount
+data_type: number
 defaultValue: '0'
 filterable: false
 group: 合同付款信息
@@ -15,4 +16,7 @@ scale: 2
 searchable: false
 sort_no: 460
 sortable: true
-type: number
+summary_field: amount
+summary_object: contract_payments
+summary_type: sum
+type: summary

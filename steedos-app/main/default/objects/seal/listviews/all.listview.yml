@@ -1,7 +1,18 @@
 name: all
-label: 所有印章
 columns:
+  - field: name
+    wrap: false
+  - field: code
+    wrap: false
+  - field: company_id
+    wrap: false
+  - field: seal_admin
+    wrap: false
+filter_fields:
   - name
-  - code
-  - company_id
   - seal_admin
+  - company_id
+filter_scope: space
+label: 所有印章
+shared: true
+show_count: false

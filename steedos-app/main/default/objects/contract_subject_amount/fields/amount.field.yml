@@ -1,7 +1,7 @@
 name: amount
 label: 金额
-type: currency
-scale: 2
 required: true
-sortable: true
+scale: 2
 sort_no: 130
+sortable: true
+type: currency

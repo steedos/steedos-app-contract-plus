@@ -1,4 +1,4 @@
 name: currency
-label: 币种
-icon: account
 enable_api: true
+icon: account
+label: 币种

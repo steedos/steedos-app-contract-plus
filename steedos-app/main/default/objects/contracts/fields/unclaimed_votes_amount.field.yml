@@ -1,9 +1,0 @@
-name: unclaimed_votes_amount
-defaultValue: 0
-group: 合同收付款信息
-label: 未收票总金额
-readonly: true
-scale: 2
-sort_no: 490
-sortable: true
-type: currency

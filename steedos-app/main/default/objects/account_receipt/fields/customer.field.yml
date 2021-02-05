@@ -1,8 +1,6 @@
 name: customer
 label: 付款单位
-type: lookup
-relatedList: true
-required: true
 reference_to: accounts
-create: false
+required: true
 sort_no: 120
+type: lookup

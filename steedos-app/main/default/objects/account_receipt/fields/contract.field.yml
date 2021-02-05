@@ -1,7 +1,6 @@
 name: contract
 label: 合同/业务
-type: master_detail
 reference_to: contracts
 required: true
-create: false
 sort_no: 210
+type: master_detail

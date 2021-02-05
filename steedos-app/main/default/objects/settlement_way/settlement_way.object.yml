@@ -1,4 +1,4 @@
 name: settlement_way
-label: 结算方式
-icon: account
 enable_api: true
+icon: account
+label: 结算方式

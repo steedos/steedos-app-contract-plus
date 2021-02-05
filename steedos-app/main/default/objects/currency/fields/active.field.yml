@@ -1,5 +1,5 @@
 name: active
-label: 有效
-type: boolean
 defaultValue: true
+label: 有效
 sort_no: 140
+type: boolean

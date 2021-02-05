@@ -1,4 +1,4 @@
 name: account_types
-label: 预算科目
-icon: account
 enable_api: true
+icon: account
+label: 预算科目

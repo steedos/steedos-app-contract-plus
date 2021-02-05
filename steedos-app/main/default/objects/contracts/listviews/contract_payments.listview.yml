@@ -1,43 +1,37 @@
 name: contract_payments
 columns:
-  - field: company_id
-    width: 220
+  - field: name
+    width: '220'
     wrap: true
   - field: 'no'
-    width: 150
-    wrap: true
-  - field: name
-    width: 200
+    width: '150'
     wrap: true
   - field: contract_state
-    width: 120
+    width: '120'
     wrap: true
   - field: othercompany
-    width: 220
-    wrap: true
-  - field: owner_organization
-    width: 120
+    width: '220'
     wrap: true
   - field: owner
-    width: 120
+    width: '120'
     wrap: true
   - field: currency_type
-    width: 120
+    width: '120'
     wrap: true
   - field: amount
-    width: 120
+    width: '120'
     wrap: true
   - field: all_proceeds
-    width: 120
+    width: '120'
     wrap: true
   - field: unpaid_amount
-    width: 120
+    width: '120'
     wrap: true
   - field: await_proceeds
-    width: 120
+    width: '120'
     wrap: true
   - field: paid_amount
-    width: 120
+    width: '120'
     wrap: true
 filter_fields:
   - contract_type
@@ -57,6 +51,6 @@ filters: |-
   }
 label: 付款业务
 shared: true
+show_count: false
 sort:
-  - - create_date
-    - desc
+  - order: asc

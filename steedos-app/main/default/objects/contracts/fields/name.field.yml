@@ -9,6 +9,6 @@ omit: false
 readonly: false
 required: true
 searchable: true
-sort_no: 180
+sort_no: 10
 sortable: false
 type: text

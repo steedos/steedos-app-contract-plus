@@ -1,9 +1,20 @@
 name: all
 columns:
-  - accnum
-  - accname
-  - pk_banktype
-  - pk_bankdoc
-  - enablestate
+  - field: accnum
+    wrap: false
+  - field: accname
+    wrap: false
+  - field: pk_banktype
+    wrap: false
+  - field: pk_bankdoc
+    wrap: false
+  - field: enablestate
+    wrap: false
+filter_fields:
+  - account
+  - accstate
+  - accountproperty
+filter_scope: space
 label: 所有
 shared: true
+show_count: false

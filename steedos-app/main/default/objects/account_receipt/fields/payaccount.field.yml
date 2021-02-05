@@ -1,6 +1,5 @@
 name: payaccount
 label: 付款银行账户
-type: lookup
 reference_to: account_banks
-create: false
 sort_no: 130
+type: lookup

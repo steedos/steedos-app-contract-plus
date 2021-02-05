@@ -1,12 +1,25 @@
 name: mine
 columns:
-  - name
-  - phone
+  - field: name
+    wrap: false
+  - field: phone
+    wrap: false
+  - field: address
+    wrap: false
+  - field: registered_capital
+    wrap: false
+  - field: category
+    wrap: false
+  - field: credit_code
+    wrap: false
+  - field: status
+    wrap: false
+filter_fields:
   - address
-  - registered_capital
-  - category
-  - credit_code
+  - country
+  - name
   - status
 filter_scope: mine
 label: 我的单位
 shared: true
+show_count: false

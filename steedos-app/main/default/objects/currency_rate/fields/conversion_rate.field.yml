@@ -1,5 +1,5 @@
 name: conversion_rate
 label: 兑换率
-type: number
 scale: 5
 sort_no: 130
+type: number

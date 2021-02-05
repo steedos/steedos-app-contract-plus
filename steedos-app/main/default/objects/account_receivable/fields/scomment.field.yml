@@ -1,6 +1,14 @@
 name: scomment
+filterable: false
+hidden: false
+index: false
 is_name: true
-label: 应收说明
+is_wide: false
+label: 开票说明
+omit: false
+readonly: false
 required: true
+searchable: false
 sort_no: 170
+sortable: false
 type: text

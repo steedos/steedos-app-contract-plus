@@ -1,15 +1,26 @@
 name: all
 columns:
+  - field: name
+    wrap: false
+  - field: contract
+    wrap: false
+  - field: amount
+    wrap: false
+  - field: due_date
+    wrap: false
+  - field: account
+    wrap: false
+  - field: currency
+    wrap: false
+  - field: subject
+    wrap: false
+filter_fields:
   - contract
-  - name
-  - amount
   - due_date
   - account
-  - currency
-  - subject
 filter_scope: space
 label: 所有
 shared: true
+show_count: false
 sort:
-  - - due_date
-    - desc
+  - order: asc

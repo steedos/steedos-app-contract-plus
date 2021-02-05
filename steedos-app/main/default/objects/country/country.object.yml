@@ -1,4 +1,4 @@
 name: country
-label: 国家/地区
-icon: account
 enable_api: true
+icon: account
+label: 国家/地区
