@@ -1088,6 +1088,11 @@
     odata-v4-parser "0.1.13"
     odata-v4-sql "^0.1.2"
 
+"@steedos/plugin-enterprise@^1.23.20":
+  version "1.23.20"
+  resolved "https://registry.npm.taobao.org/@steedos/plugin-enterprise/download/@steedos/plugin-enterprise-1.23.20.tgz#9272d518e1f89da679ba50a45d91dd7b0df2747f"
+  integrity sha1-knLVGOH4naZ5ulCkXZHdew3ydH8=
+
 "@steedos/process@^1.23.20":
   version "1.23.20"
   resolved "https://registry.npm.taobao.org/@steedos/process/download/@steedos/process-1.23.20.tgz#80dd0fc88fc9e4a0c7946eb4feb4d41832d86948"
