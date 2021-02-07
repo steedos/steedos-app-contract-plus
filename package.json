@@ -29,7 +29,8 @@
   "dependencies": {
     "@steedos/word-template": "^1.23.19",
     "dotenv-flow": "^3.2.0",
-    "underscore": "1.9.2"
+    "underscore": "1.9.2",
+    "bignumber.js": "^9.0.0"
   },
   "devDependencies": {
     "@steedos/accounts": "^1.23.19",
