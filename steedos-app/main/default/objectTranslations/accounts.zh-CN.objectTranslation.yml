@@ -1,0 +1,7 @@
+name: accounts
+label: 业务伙伴
+fields:
+  name:
+    label: 名称
+  company_id:
+    label: 我方单位
