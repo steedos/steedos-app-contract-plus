@@ -1,6 +1,5 @@
 name: await_amount
 data_type: number
-defaultValue: '0'
 filterable: false
 group: 合同付款信息
 hidden: false
@@ -10,7 +9,7 @@ is_wide: false
 label: 付款累计(待付款)
 omit: false
 precision: 18
-readonly: true
+readonly: false
 required: false
 scale: 2
 searchable: false

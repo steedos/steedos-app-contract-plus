@@ -1,8 +1,11 @@
 name: invoice_bank
 filterable: false
 filtersFunction: !<tag:yaml.org,2002:js/function> |-
-  function(){
+  function(
+  ) {
+
     return ("enablestate eq 'enable' ");
+
   }
 group: 开票信息（开票信息中内容不填写，会默认为签约对象中的信息）
 hidden: false

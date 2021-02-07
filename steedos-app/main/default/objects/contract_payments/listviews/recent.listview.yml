@@ -8,7 +8,7 @@ columns:
     wrap: false
   - field: due_date
     wrap: false
-  - field: account
+  - field: supplier
     wrap: false
   - field: currency
     wrap: false

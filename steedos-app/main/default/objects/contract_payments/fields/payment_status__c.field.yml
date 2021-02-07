@@ -1,0 +1,21 @@
+name: payment_status__c
+filterable: false
+group: 财务
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 支付状态
+multiple: false
+omit: false
+options:
+  - label: 已支付
+    value: paid
+  - label: 未支付
+    value: non_payment
+readonly: false
+required: false
+searchable: false
+sort_no: 310
+sortable: false
+type: select

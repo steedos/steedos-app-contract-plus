@@ -1,6 +1,15 @@
 name: contract_object
-group: 合同主要内容
+filterable: false
+hidden: false
+index: false
+is_name: false
 is_wide: true
 label: 合同标的
+omit: false
+readonly: false
+required: false
+rows: 0
+searchable: false
 sort_no: 310
+sortable: false
 type: textarea

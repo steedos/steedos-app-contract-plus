@@ -2,7 +2,7 @@ name: stamp_times
 filterable: false
 hidden: false
 index: false
-is_name: true
+is_name: false
 is_wide: false
 label: 盖章次数
 omit: false

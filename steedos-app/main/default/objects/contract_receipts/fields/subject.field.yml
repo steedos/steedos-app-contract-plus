@@ -1,0 +1,6 @@
+name: subject
+label: 科目
+reference_to: account_types
+required: false
+sort_no: 210
+type: lookup

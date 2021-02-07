@@ -1,8 +1,15 @@
 name: name
 defaultValue: ''
 description: ''
+filterable: false
+hidden: false
+index: false
 inlineHelpText: ''
+is_name: false
+is_wide: false
 label: 名称
+omit: false
+readonly: false
 required: true
 searchable: true
 sort_no: 110

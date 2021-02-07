@@ -1,7 +1,6 @@
 name: receive_payment_type
 defaultValue: 一次性
 filterable: false
-group: 合同主要内容
 hidden: false
 index: false
 is_name: false
@@ -19,6 +18,6 @@ options:
 readonly: false
 required: false
 searchable: false
-sort_no: 380
+sort_no: 345
 sortable: false
 type: select

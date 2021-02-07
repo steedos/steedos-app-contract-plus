@@ -1,0 +1,7 @@
+name: contract
+filterable: true
+label: 合同
+reference_to: contracts
+required: true
+sort_no: 100
+type: master_detail

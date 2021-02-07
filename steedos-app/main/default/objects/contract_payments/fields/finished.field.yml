@@ -1,4 +1,15 @@
 name: finished
+filterable: false
+group: 财务
+hidden: true
+index: false
+is_name: false
+is_wide: false
 label: 已完成
-sort_no: 190
+omit: false
+readonly: false
+required: false
+searchable: false
+sort_no: 325
+sortable: false
 type: boolean

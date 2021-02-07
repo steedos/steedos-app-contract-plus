@@ -1,6 +1,16 @@
 name: country
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
 label: 国家/地区
+multiple: false
+omit: false
+readonly: false
 reference_to: country
-required: true
+required: false
+searchable: false
 sort_no: 160
+sortable: false
 type: lookup

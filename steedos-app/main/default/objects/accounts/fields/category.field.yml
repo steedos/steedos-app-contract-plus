@@ -5,7 +5,7 @@ hidden: false
 index: false
 is_name: false
 is_wide: false
-label: 签约对象类别（企业、个人、其它）
+label: 类别
 multiple: false
 omit: false
 options:

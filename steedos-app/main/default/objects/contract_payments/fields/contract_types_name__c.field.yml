@@ -1,0 +1,17 @@
+name: contract_types_name__c
+data_type: text
+filterable: false
+formula: contract.contract_type.name
+formula_blank_value: blanks
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 分类
+omit: true
+readonly: false
+required: false
+searchable: false
+sort_no: 360
+sortable: false
+type: formula

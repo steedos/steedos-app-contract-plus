@@ -1,7 +1,6 @@
 name: amount_type
 defaultValue: 固定
 filterable: false
-group: 合同主要内容
 hidden: false
 index: false
 is_name: false
@@ -19,6 +18,6 @@ options:
 readonly: false
 required: false
 searchable: false
-sort_no: 360
+sort_no: 340
 sortable: false
 type: select

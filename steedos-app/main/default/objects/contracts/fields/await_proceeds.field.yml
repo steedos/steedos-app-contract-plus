@@ -1,6 +1,5 @@
 name: await_proceeds
 data_type: number
-defaultValue: '0'
 filterable: false
 group: 合同收款信息
 hidden: false

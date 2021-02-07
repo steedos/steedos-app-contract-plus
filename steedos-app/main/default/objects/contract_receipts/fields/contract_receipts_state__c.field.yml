@@ -1,0 +1,21 @@
+name: contract_receipts_state__c
+filterable: false
+group: 财务
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 收款状态
+multiple: false
+omit: false
+options:
+  - label: 已收款
+    value: proceeds
+  - label: 未收款
+    value: not_ proceeds
+readonly: false
+required: false
+searchable: false
+sort_no: 330
+sortable: false
+type: select

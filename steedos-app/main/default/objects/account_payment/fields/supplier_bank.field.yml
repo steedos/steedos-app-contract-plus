@@ -33,7 +33,7 @@ optionsFunction: !<tag:yaml.org,2002:js/function> |-
   }
 readonly: false
 reference_to: account_banks
-required: true
+required: false
 searchable: false
 sort_no: 140
 sortable: false

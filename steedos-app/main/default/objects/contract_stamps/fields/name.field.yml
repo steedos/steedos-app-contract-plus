@@ -6,7 +6,7 @@ index: false
 is_name: true
 is_wide: false
 label: 编号
-omit: false
+omit: true
 readonly: false
 required: false
 searchable: false

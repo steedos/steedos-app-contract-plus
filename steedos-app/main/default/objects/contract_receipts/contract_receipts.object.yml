@@ -3,4 +3,4 @@ custom: true
 enable_follow: true
 enable_share: true
 icon: orders
-label: 收款计划
+label: 收款单

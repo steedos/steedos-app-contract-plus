@@ -1,0 +1,15 @@
+name: name
+filterable: false
+formula: '{00000}'
+hidden: false
+index: false
+is_name: true
+is_wide: false
+label: 编号
+omit: false
+readonly: false
+required: false
+searchable: false
+sort_no: 10
+sortable: false
+type: autonumber

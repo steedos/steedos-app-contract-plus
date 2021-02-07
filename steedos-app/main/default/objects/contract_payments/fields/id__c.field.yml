@@ -1,0 +1,15 @@
+name: id__c
+filterable: false
+formula: 'CP-{00000}'
+hidden: false
+index: false
+is_name: true
+is_wide: false
+label: 付款单编号
+omit: true
+readonly: false
+required: false
+searchable: false
+sort_no: 90
+sortable: false
+type: autonumber

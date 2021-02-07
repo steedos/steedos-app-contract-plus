@@ -1,6 +1,5 @@
 name: remark
 filterable: false
-group: 合同主要内容
 hidden: false
 index: false
 is_name: false

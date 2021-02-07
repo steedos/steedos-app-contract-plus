@@ -1,16 +1,16 @@
 name: all
 columns:
   - field: name
-    width: '120'
+    width: '200'
     wrap: true
   - field: company_id
-    width: '200'
+    width: '120'
     wrap: true
   - field: othercompany
     width: '200'
     wrap: true
   - field: amount
-    width: '280'
+    width: '200'
     wrap: true
   - field: currency_type
     width: '120'
@@ -18,12 +18,24 @@ columns:
   - field: contract_type
     width: '120'
     wrap: true
-  - field: 'no'
+  - field: bop
     width: '120'
-    wrap: true
-  - field: serial_number
+    wrap: false
+  - field: contract_state
     width: '120'
-    wrap: true
+    wrap: false
+  - field: contract_fulfillment_state
+    width: '120'
+    wrap: false
+  - field: signed_date
+    width: '120'
+    wrap: false
+  - field: start_date
+    width: '120'
+    wrap: false
+  - field: end_date__c
+    width: '120'
+    wrap: false
 filter_fields:
   - contract_type
   - signed_date

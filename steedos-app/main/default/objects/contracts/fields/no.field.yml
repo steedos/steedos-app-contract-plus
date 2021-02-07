@@ -1,6 +1,6 @@
 name: 'no'
 filterable: true
-formula: '{00000}'
+formula: 'C-{00000}'
 hidden: false
 index: false
 is_name: false

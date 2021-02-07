@@ -19,6 +19,6 @@ options:
 readonly: false
 required: false
 searchable: false
-sort_no: 190
+sort_no: 420
 sortable: false
 type: select

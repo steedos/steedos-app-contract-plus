@@ -1,0 +1,6 @@
+name: amount_released
+hidden: true
+label: 金额是否已释放
+omit: true
+sort_no: 140
+type: boolean

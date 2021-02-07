@@ -1,5 +1,15 @@
 name: amount_description
+filterable: false
+hidden: false
+index: false
+is_name: false
 is_wide: true
 label: 付款说明
-sort_no: 110
+omit: false
+readonly: false
+required: false
+rows: 0
+searchable: false
+sort_no: 305
+sortable: false
 type: textarea

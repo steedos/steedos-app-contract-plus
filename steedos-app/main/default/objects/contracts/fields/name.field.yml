@@ -3,7 +3,7 @@ filterable: false
 hidden: false
 index: true
 is_name: false
-is_wide: false
+is_wide: true
 label: 合同名称
 omit: false
 readonly: false
