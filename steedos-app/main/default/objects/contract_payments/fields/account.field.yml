@@ -1,8 +1,9 @@
 name: account
 label: 收款方
 optionsFunction: !<tag:yaml.org,2002:js/function> |-
-  function anonymous(values
+  function(values
   ) {
+
 
     var _options = [];
     var contractId = values.contract;
@@ -32,6 +33,7 @@ optionsFunction: !<tag:yaml.org,2002:js/function> |-
       }
     }
     return _options;
+
 
   }
 reference_to: accounts
