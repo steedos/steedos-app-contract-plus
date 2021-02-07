@@ -29,3 +29,4 @@ plugins:
   - "@steedos/accounts"
   - "@steedos/metadata-api"
   - "@steedos/word-template"
+  - "@steedos/plugin-enterprise"
