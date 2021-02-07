@@ -1,0 +1,6 @@
+name: contracts
+fields:
+  company_id:
+    label: 我方单位
+  owner:
+    label: 责任人
