@@ -1,8 +1,0 @@
-name: all
-label: 所有
-columns:
-  - project
-  - subject
-  - subject_amount
-  - subject_amount_used
-  - subject_amount_balance

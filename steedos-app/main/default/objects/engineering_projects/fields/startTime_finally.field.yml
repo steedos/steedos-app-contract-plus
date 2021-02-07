@@ -1,8 +1,0 @@
-name: startTime_finally
-data_type: date
-label: 实际开工时间
-sort_no: 250
-summary_field: startTime
-summary_object: engineering_project_acceptance
-summary_type: max
-type: summary

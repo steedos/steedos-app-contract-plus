@@ -1,7 +1,0 @@
-name: subject_amount
-label: 科目预算金额
-type: currency
-scale: 2
-required: true
-sortable: true
-sort_no: 120

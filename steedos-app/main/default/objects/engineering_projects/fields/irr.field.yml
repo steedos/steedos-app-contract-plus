@@ -1,7 +1,0 @@
-name: irr
-filterable: true
-label: 预计IRR
-readonly: true
-sort_no: 300
-sortable: true
-type: text

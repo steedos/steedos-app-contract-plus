@@ -1,9 +1,0 @@
-name: engineering_project_acceptance
-label: 项目验收信息
-type: lookup
-reference_to: engineering_project_acceptance
-required: true
-sortable: true
-filterable: true
-create: false
-sort_no: 100

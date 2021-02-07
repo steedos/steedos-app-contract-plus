@@ -1,7 +1,0 @@
-name: change_amount
-label: 变更金额
-type: currency
-scale: 2
-required: true
-sortable: true
-sort_no: 140

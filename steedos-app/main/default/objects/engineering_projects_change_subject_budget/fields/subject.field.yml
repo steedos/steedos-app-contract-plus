@@ -1,7 +1,0 @@
-name: subject
-label: 科目
-type: lookup
-reference_to: account_types
-required: true
-create: false
-sort_no: 110

@@ -1,6 +1,0 @@
-name: currency_type
-label: 币种
-readonly: true
-reference_to: currency
-sort_no: 340
-type: lookup

@@ -1,7 +1,0 @@
-name: roe
-filterable: true
-label: 预计ROE
-readonly: true
-sort_no: 320
-sortable: true
-type: text

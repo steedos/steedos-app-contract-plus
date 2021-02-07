@@ -1,9 +1,0 @@
-name: buildDays_finally
-data_type: number
-label: 实际建设期（天）
-scale: 2
-sort_no: 290
-summary_field: buildDays
-summary_object: engineering_project_acceptance
-summary_type: max
-type: summary

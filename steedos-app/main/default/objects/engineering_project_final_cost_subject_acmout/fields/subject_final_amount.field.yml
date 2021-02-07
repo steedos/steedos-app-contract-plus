@@ -1,8 +1,0 @@
-name: subject_final_amount
-label: 科目决算总金额
-type: currency
-scale: 2
-required: true
-sortable: true
-is_name: true
-sort_no: 140

@@ -1,7 +1,0 @@
-name: applicant
-label: 经办人
-readonly: true
-reference_to: users
-searchable: true
-sort_no: 140
-type: lookup

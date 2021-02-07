@@ -1,5 +1,0 @@
-name: total_amount_han
-label: 项目预算总投资额（大写）
-readonly: true
-sort_no: 220
-type: text

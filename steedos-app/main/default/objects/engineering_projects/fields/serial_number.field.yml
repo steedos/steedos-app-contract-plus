@@ -1,9 +1,0 @@
-name: serial_number
-filterable: true
-formula: '{0}'
-label: 流水号
-omit: true
-readonly: true
-searchable: true
-sort_no: 110
-type: autonumber

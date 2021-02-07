@@ -1,8 +1,0 @@
-name: engineering_project_acceptance
-type: master_detail
-label: 项目验收信息
-reference_to: engineering_project_acceptance
-sortable: true
-filterable: true
-required: true
-sort_no: 100

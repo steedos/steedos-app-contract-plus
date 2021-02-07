@@ -1,6 +1,0 @@
-name: subject
-label: 工程费用科目
-reference_to: account_types
-required: false
-sort_no: 300
-type: lookup

@@ -1,8 +1,0 @@
-name: created_date
-data_type: date
-filterable: true
-formula: DATEVALUE(created)
-label: 登记日期
-sort_no: 120
-sortable: true
-type: formula

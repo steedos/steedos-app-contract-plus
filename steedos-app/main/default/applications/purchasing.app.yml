@@ -14,7 +14,6 @@ objects:
   - contract_receipts
   - account_receivable
   - account_receipt
-  - engineering_projects
 visible: true
 admin_menus:
   - _id: contracts

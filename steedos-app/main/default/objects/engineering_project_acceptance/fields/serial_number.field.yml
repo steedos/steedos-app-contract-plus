@@ -1,7 +1,0 @@
-name: serial_number
-type: text
-label: 流水号
-filterable: true
-readonly: false
-searchable: true
-sort_no: 110

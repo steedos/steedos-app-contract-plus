@@ -1,9 +1,0 @@
-name: all
-label: 所有
-columns:
-  - name
-  - account_project
-  - serial_number
-  - total_amount
-  - project_state
-  - instance_state
