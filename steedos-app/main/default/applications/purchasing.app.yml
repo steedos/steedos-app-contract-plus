@@ -2,7 +2,7 @@ code: purchasing
 _id: purchasing
 name: 合同管理
 description: 合同、付款计划、付款发票、应付记录、工程项目
-icon_slds: announcement
+icon_slds: contract
 is_creator: true
 sort: 90
 objects:

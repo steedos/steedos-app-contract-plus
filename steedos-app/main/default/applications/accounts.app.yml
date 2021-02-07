@@ -2,7 +2,7 @@ code: supplier
 _id: supplier
 name: 供应商/客户
 description: 供应商基本信息、供应商资质审查、供应商评价、联系人
-icon_slds: announcement
+icon_slds: approval
 is_creator: true
 sort: 90
 objects:
