@@ -6,10 +6,10 @@ index: false
 is_name: true
 is_wide: false
 label: 收款单编号
-omit: false
+omit: true
 readonly: false
 required: false
 searchable: false
-sort_no: 90
+sort_no: 335
 sortable: false
 type: autonumber

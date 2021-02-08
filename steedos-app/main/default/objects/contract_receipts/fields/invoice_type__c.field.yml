@@ -1,5 +1,6 @@
 name: invoice_type__c
 filterable: false
+group: 开票信息
 hidden: false
 index: false
 is_name: false
@@ -19,6 +20,6 @@ options:
 readonly: false
 required: false
 searchable: false
-sort_no: 275
+sort_no: 220
 sortable: false
 type: select

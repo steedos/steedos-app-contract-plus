@@ -1,18 +1,20 @@
 name: recent
 columns:
-  - field: name
+  - field: id__c
     wrap: false
   - field: contract
     wrap: false
+  - field: customer
+    wrap: false
   - field: amount
+    wrap: false
+  - field: contract_receipts_state__c
     wrap: false
   - field: due_date
     wrap: false
-  - field: customer
+  - field: receipt_date__c
     wrap: false
-  - field: currency
-    wrap: false
-  - field: subject
+  - field: amount_description
     wrap: false
 filter_fields:
   - contract

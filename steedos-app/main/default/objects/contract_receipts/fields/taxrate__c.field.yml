@@ -1,5 +1,6 @@
 name: taxrate__c
 filterable: false
+group: 开票信息
 hidden: false
 index: false
 is_name: false
@@ -11,6 +12,6 @@ readonly: false
 reference_to: account_tax
 required: false
 searchable: false
-sort_no: 280
+sort_no: 225
 sortable: false
 type: lookup

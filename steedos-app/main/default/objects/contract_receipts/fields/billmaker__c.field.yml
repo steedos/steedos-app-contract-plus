@@ -1,6 +1,6 @@
 name: billmaker__c
 filterable: false
-hidden: false
+hidden: true
 index: false
 is_name: false
 is_wide: false
@@ -11,6 +11,6 @@ readonly: false
 reference_to: users
 required: false
 searchable: false
-sort_no: 320
+sort_no: 400
 sortable: false
 type: lookup

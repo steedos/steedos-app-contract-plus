@@ -4,7 +4,7 @@ hidden: false
 index: false
 is_name: false
 is_wide: false
-label: 我方单位
+label: 所属单位
 multiple: false
 omit: false
 readonly: false
@@ -13,4 +13,3 @@ searchable: false
 sort_no: 327
 sortable: false
 type: lookup
-reference_to: company

@@ -1,5 +1,6 @@
 name: quantity__c
 filterable: false
+group: 开票信息
 hidden: false
 index: false
 is_name: false

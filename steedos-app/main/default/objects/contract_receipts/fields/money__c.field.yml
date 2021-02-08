@@ -3,14 +3,15 @@ data_type: currency
 filterable: false
 formula: quantity__c*price__c
 formula_blank_value: zeroes
+group: 开票信息
 hidden: false
 index: false
 is_name: false
 is_wide: false
 label: 申请开票金额
-omit: false
+omit: true
 precision: 18
-readonly: true
+readonly: false
 required: false
 scale: 2
 searchable: false
