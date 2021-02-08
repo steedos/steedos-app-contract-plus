@@ -1,0 +1,4 @@
+name: contract_receipts
+fields:
+  company_id:
+    label: 我方单位
