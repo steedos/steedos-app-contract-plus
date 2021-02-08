@@ -1,0 +1,32 @@
+name: account
+filterable: true
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 付款方
+multiple: false
+omit: false
+optionsFunction: !<tag:yaml.org,2002:js/function> |-
+  function(values) {
+          var _options = [];
+          var contract = _.isObject(values.contract) ? values.contract._id : values.contract;
+          if (!contract) {
+            return;
+          }
+          var othercompany = Creator.odata.get('contracts', contract, 'othercompany');
+          if (othercompany) {
+            var company = Creator.odata.get('accounts', othercompany.othercompany, 'name');
+            if (company){
+              _options = [{value: company._id, label: company.name}];
+            }
+          }
+          return _options;
+  }
+readonly: false
+reference_to: accounts
+required: true
+searchable: false
+sort_no: 120
+sortable: true
+type: lookup
