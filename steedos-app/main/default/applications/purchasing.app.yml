@@ -1,19 +1,14 @@
 code: purchasing
 _id: purchasing
 name: 合同管理
-description: 合同、付款计划、付款发票、应付记录、工程项目
+description: 合同、收款单、付款单
 icon_slds: contract
 is_creator: true
 sort: 90
 objects:
   - contracts
   - contract_payments
-  - account_payable_invoice
-  - account_payable
-  - account_payment
   - contract_receipts
-  - account_receivable
-  - account_receipt
 visible: true
 admin_menus:
   - _id: contracts
