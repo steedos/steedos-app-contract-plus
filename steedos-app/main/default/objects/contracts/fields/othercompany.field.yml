@@ -9,7 +9,7 @@ index: false
 is_name: false
 is_wide: false
 label: 签约对象
-multiple: true
+multiple: false
 omit: false
 readonly: false
 reference_to: accounts
