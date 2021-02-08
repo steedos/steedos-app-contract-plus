@@ -1,7 +1,0 @@
-name: change_after
-group: 合同变更
-label: 变更后合同
-readonly: true
-reference_to: contracts
-sort_no: 550
-type: lookup
