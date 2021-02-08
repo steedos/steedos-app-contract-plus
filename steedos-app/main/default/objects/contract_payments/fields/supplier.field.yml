@@ -8,42 +8,20 @@ label: 收款方
 multiple: false
 omit: false
 optionsFunction: !<tag:yaml.org,2002:js/function> |-
-  function(values
-  ) {
-
-
-
-    var _options = [];
-    var contractId = values.contract;
-    if (!contractId) {
-      return;
-    }
-
-    if(!_.isString(contractId)){
-      contractId = values.contract._id
-    }
-    
-    var contract = Creator.odata.get('contracts', contractId, 'othercompany');
-    if (contract) {
-      var qydxIds = contract.othercompany
-      if(_.isArray(qydxIds) && qydxIds.length > 0){
-        var filters = [];
-        _.forEach(qydxIds, function(qydxId){
-            filters.push("(_id eq '" + qydxId + "')")
-        })
-        var $filter = filters.join(" or ")
-        var accounts = Creator.odata.query('accounts', {$filter: $filter, $select: 'name'}, true);
-        if (accounts){
-          _.each(accounts, function(item){
-            _options.push({value: item._id, label: item.name});
-          })
-        }
-      }
-    }
-    return _options;
-
-
-
+  function(values) {
+          var _options = [];
+          var contract = _.isObject(values.contract) ? values.contract._id : values.contract;
+          if (!contract) {
+            return;
+          }
+          var othercompany = Creator.getObjectRecord('contracts', contract, 'othercompany');
+          if (othercompany) {
+            var company = Creator.getObjectRecord('accounts', othercompany, '_id');
+            if (company){
+              _options = [{value: company._id, label: company.name}];
+            }
+          }
+          return _options;
   }
 readonly: false
 reference_to: accounts
