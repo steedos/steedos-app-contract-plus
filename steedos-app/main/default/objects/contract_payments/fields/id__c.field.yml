@@ -10,6 +10,6 @@ omit: true
 readonly: false
 required: false
 searchable: false
-sort_no: 90
+sort_no: 295
 sortable: false
 type: autonumber

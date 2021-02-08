@@ -11,6 +11,6 @@ readonly: false
 reference_to: account_tax
 required: false
 searchable: false
-sort_no: 155
+sort_no: 200
 sortable: false
 type: lookup

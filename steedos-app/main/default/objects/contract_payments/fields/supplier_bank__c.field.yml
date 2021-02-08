@@ -35,6 +35,6 @@ readonly: false
 reference_to: account_banks
 required: false
 searchable: false
-sort_no: 185
+sort_no: 150
 sortable: false
 type: lookup

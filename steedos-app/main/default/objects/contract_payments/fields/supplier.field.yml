@@ -47,6 +47,6 @@ readonly: false
 reference_to: accounts
 required: true
 searchable: true
-sort_no: 180
+sort_no: 60
 sortable: false
 type: lookup
