@@ -12,6 +12,7 @@ optionsFunction: !<tag:yaml.org,2002:js/function> |-
   ) {
 
 
+
     var _options = [];
     var contractId = values.contract;
     if (!contractId) {
@@ -40,6 +41,7 @@ optionsFunction: !<tag:yaml.org,2002:js/function> |-
       }
     }
     return _options;
+
 
 
   }

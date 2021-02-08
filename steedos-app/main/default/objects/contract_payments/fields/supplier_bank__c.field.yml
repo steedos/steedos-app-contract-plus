@@ -8,8 +8,9 @@ label: 收款方银行账号
 multiple: false
 omit: false
 optionsFunction: !<tag:yaml.org,2002:js/function> |-
-  function anonymous(values
+  function(values
   ) {
+
 
     if (!values || !values.supplier) {
       return [];
@@ -29,6 +30,7 @@ optionsFunction: !<tag:yaml.org,2002:js/function> |-
       });
     })
     return result;
+
 
   }
 readonly: false
