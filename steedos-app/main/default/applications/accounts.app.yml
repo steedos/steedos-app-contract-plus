@@ -1,7 +1,7 @@
 code: supplier
 _id: supplier
-name: 供应商/客户
-description: 供应商基本信息、供应商资质审查、供应商评价、联系人
+name: 业务伙伴
+description: 业务伙伴的基本信息、资质审查、评价、联系人等。
 icon_slds: approval
 is_creator: true
 sort: 90
