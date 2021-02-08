@@ -1,5 +1,8 @@
 name: money__c
+data_type: currency
 filterable: false
+formula: quantity__c*price__c
+formula_blank_value: zeroes
 hidden: false
 index: false
 is_name: false
@@ -7,10 +10,10 @@ is_wide: false
 label: 申请开票金额
 omit: false
 precision: 18
-readonly: false
+readonly: true
 required: false
 scale: 2
 searchable: false
 sort_no: 270
 sortable: false
-type: currency
+type: formula

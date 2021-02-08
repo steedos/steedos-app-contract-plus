@@ -1,6 +1,6 @@
 name: all
 columns:
-  - field: name
+  - field: id__c
     wrap: false
   - field: contract
     wrap: false
@@ -11,8 +11,6 @@ columns:
   - field: customer
     wrap: false
   - field: currency
-    wrap: false
-  - field: subject
     wrap: false
 filter_fields:
   - contract

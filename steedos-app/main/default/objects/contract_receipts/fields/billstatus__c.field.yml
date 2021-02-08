@@ -1,11 +1,10 @@
 name: billstatus__c
 filterable: false
-group: 财务
 hidden: false
 index: false
 is_name: false
 is_wide: false
-label: 收款单状态
+label: 收款单审批状态
 multiple: false
 omit: false
 options:
@@ -22,6 +21,6 @@ options:
 readonly: false
 required: false
 searchable: false
-sort_no: 340
+sort_no: 315
 sortable: false
 type: select
