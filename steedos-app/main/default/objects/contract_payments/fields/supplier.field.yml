@@ -14,9 +14,9 @@ optionsFunction: !<tag:yaml.org,2002:js/function> |-
           if (!contract) {
             return;
           }
-          var othercompany = Creator.getObjectRecord('contracts', contract, 'othercompany');
+          var othercompany = Creator.odata.get('contracts', contract, 'othercompany');
           if (othercompany) {
-            var company = Creator.getObjectRecord('accounts', othercompany, '_id');
+            var company = Creator.odata.get('accounts', othercompany.othercompany, 'name');
             if (company){
               _options = [{value: company._id, label: company.name}];
             }
