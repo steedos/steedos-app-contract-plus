@@ -8,6 +8,7 @@ label: 所属单位
 multiple: false
 omit: false
 readonly: false
+reference_to: company
 required: true
 searchable: false
 sort_no: 300

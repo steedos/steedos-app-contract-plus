@@ -1,0 +1,4 @@
+name: contract_payments
+fields:
+  company_id:
+    label: 所属单位
