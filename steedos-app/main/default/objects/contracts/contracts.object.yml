@@ -13,7 +13,6 @@ enable_workflow: true
 icon: contract
 label: 合同
 relatedList:
-  - contract_subject_amount
   - cms_files
   - contract_stamps
   - contract_payments

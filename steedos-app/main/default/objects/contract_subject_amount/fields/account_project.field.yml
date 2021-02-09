@@ -1,8 +1,0 @@
-name: account_project
-filterable: true
-label: 所属项目
-reference_to: account_project
-required: true
-sort_no: 110
-sortable: true
-type: lookup
