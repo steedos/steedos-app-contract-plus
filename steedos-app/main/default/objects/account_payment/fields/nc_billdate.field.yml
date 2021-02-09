@@ -1,6 +1,0 @@
-name: nc_billdate
-hidden: true
-label: 单据日期
-omit: true
-sort_no: 250
-type: datetime

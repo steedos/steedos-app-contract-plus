@@ -1,5 +1,0 @@
-name: money
-label: 付款金额
-required: true
-sort_no: 120
-type: currency

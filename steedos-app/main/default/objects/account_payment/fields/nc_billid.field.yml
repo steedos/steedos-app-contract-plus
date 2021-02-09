@@ -1,7 +1,0 @@
-name: nc_billid
-hidden: true
-index: true
-label: 单据ID
-omit: true
-sort_no: 290
-type: text

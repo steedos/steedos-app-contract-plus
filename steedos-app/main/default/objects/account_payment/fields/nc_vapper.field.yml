@@ -1,6 +1,0 @@
-name: nc_vapper
-label: 审批人
-omit: true
-readonly: true
-sort_no: 280
-type: text

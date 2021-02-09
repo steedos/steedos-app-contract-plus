@@ -1,5 +1,0 @@
-name: payment_status
-label: 支付状态
-omit: true
-sort_no: 170
-type: text

@@ -1,5 +1,0 @@
-name: current_payment_period
-label: 当前支付期数
-required: true
-sort_no: 220
-type: text

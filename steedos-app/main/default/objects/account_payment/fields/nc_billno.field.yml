@@ -1,6 +1,0 @@
-name: nc_billno
-label: NC单据号
-omit: true
-readonly: true
-sort_no: 240
-type: text

@@ -1,5 +1,0 @@
-name: total_number_of_periods
-label: 总期数
-required: true
-sort_no: 210
-type: text
