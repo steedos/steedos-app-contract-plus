@@ -13,17 +13,10 @@ enable_workflow: true
 icon: contract
 label: 合同
 relatedList:
-  - contract_subject_amount
   - cms_files
-  - contract_stamps
   - contract_payments
-  - account_payable_invoice
-  - account_payable
-  - account_payment
   - contract_receipts
-  - account_receivable
-  - account_receipt
-  - lease_invoice
+  - contract_stamps
   - events
   - instances
   - audit_records

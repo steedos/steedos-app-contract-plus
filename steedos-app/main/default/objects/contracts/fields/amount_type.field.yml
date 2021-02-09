@@ -1,5 +1,5 @@
 name: amount_type
-defaultValue: 固定
+defaultValue: immobilization
 filterable: false
 hidden: false
 index: false

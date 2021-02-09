@@ -13,7 +13,7 @@ options:
   - label: 收款业务
     value: gathering
 readonly: false
-required: false
+required: true
 searchable: false
 sort_no: 200
 sortable: false

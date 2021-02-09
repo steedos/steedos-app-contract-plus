@@ -9,7 +9,7 @@ multiple: false
 omit: false
 readonly: false
 reference_to: currency
-required: false
+required: true
 searchable: false
 sort_no: 335
 sortable: false
