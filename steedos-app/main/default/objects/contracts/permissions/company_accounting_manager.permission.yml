@@ -60,11 +60,6 @@ uneditable_fields:
   - advance_payment
 uneditable_related_list:
   - cms_files
-  - account_payable
-  - account_payment
-  - account_receipt
-  - account_receivable
-  - lease_invoice
   - contract_payments
   - contract_receipts
   - events
