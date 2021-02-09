@@ -1,0 +1,23 @@
+name: invoice_type__c
+defaultValue: regular_invoice
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 发票类型
+multiple: false
+omit: false
+options:
+  - label: 普通发票
+    value: regular_invoice
+  - label: 专用发票
+    value: special_invoice
+  - label: 无发票
+    value: no_invoice
+readonly: false
+required: false
+searchable: false
+sort_no: 460
+sortable: false
+type: select

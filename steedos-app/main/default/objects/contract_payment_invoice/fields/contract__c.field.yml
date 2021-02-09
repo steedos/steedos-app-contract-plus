@@ -11,6 +11,6 @@ readonly: false
 reference_to: contracts
 required: false
 searchable: false
-sort_no: 410
+sort_no: 125
 sortable: false
 type: lookup
