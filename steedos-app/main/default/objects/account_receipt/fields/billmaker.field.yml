@@ -1,6 +1,0 @@
-name: billmaker
-label: 收款记录人
-reference_to: users
-required: true
-sort_no: 150
-type: lookup

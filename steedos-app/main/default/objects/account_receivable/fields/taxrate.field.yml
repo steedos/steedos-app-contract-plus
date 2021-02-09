@@ -1,6 +1,0 @@
-name: taxrate
-label: 税率
-reference_to: account_tax
-required: true
-sort_no: 180
-type: lookup

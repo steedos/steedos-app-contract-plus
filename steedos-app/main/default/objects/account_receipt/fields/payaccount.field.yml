@@ -1,5 +1,0 @@
-name: payaccount
-label: 付款银行账户
-reference_to: account_banks
-sort_no: 130
-type: lookup

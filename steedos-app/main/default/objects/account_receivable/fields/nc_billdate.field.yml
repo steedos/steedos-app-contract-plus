@@ -1,6 +1,0 @@
-name: nc_billdate
-hidden: true
-label: 应收单单据日期
-omit: true
-sort_no: 270
-type: datetime

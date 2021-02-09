@@ -1,6 +1,0 @@
-name: customer
-label: 付款单位
-reference_to: accounts
-required: true
-sort_no: 120
-type: lookup
