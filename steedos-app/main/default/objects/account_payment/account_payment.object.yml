@@ -31,6 +31,5 @@ form:
 icon: account
 label: 付款记录
 relatedList:
-  - account_payment_details
   - cms_files
   - approvals

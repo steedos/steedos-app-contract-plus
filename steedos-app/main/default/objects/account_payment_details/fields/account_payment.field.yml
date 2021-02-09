@@ -1,7 +1,0 @@
-name: account_payment
-label: 付款记录
-readonly: true
-reference_to: account_payment
-required: true
-sort_no: 160
-type: master_detail

@@ -1,5 +1,0 @@
-name: payment_date
-label: 支付日期
-readonly: false
-sort_no: 200
-type: datetime
