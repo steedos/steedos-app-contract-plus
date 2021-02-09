@@ -10,6 +10,6 @@ omit: false
 readonly: false
 required: false
 searchable: false
-sort_no: 320
+sort_no: 420
 sortable: false
-type: datetime
+type: date

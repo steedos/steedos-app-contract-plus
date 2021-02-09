@@ -1,4 +1,5 @@
 name: payment_status__c
+defaultValue: non_payment
 filterable: false
 group: 财务
 hidden: false
@@ -16,6 +17,6 @@ options:
 readonly: false
 required: false
 searchable: false
-sort_no: 310
+sort_no: 415
 sortable: false
 type: select

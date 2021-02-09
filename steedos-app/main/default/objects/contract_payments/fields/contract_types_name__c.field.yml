@@ -12,6 +12,6 @@ omit: true
 readonly: false
 required: false
 searchable: false
-sort_no: 360
+sort_no: 320
 sortable: false
 type: formula
