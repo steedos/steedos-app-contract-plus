@@ -1,7 +1,0 @@
-name: invoice
-index: true
-label: 付款发票
-multiple: true
-reference_to: account_payable_invoice
-sort_no: 220
-type: lookup

@@ -17,7 +17,6 @@ relatedList:
   - cms_files
   - contract_stamps
   - contract_payments
-  - account_payable_invoice
   - account_payable
   - account_payment
   - contract_receipts

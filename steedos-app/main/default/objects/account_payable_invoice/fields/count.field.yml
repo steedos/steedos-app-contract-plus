@@ -1,5 +1,0 @@
-name: count
-label: 发票张数
-required: true
-sort_no: 140
-type: number
