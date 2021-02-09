@@ -1,4 +1,5 @@
 name: contract_receipts_state__c
+defaultValue: not_ proceeds
 filterable: false
 group: 财务
 hidden: false
@@ -16,6 +17,6 @@ options:
 readonly: false
 required: false
 searchable: false
-sort_no: 350
+sort_no: 450
 sortable: false
 type: select

@@ -10,6 +10,6 @@ omit: false
 readonly: false
 required: false
 searchable: false
-sort_no: 360
+sort_no: 460
 sortable: false
 type: text

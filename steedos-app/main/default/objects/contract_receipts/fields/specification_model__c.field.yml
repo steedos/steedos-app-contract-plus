@@ -1,6 +1,6 @@
 name: specification_model__c
 filterable: false
-group: 开票信息
+group: 开票申请
 hidden: false
 index: false
 is_name: false

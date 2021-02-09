@@ -3,7 +3,7 @@ data_type: currency
 filterable: false
 formula: quantity__c*price__c
 formula_blank_value: zeroes
-group: 开票信息
+group: 开票申请
 hidden: false
 index: false
 is_name: false

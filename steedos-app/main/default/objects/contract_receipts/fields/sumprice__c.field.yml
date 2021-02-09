@@ -1,7 +1,7 @@
 name: sumprice__c
 data_type: number
 filterable: false
-group: 财务
+group: 已开票信息
 hidden: false
 index: false
 is_name: false
