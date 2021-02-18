@@ -2,7 +2,7 @@ name: all
 columns:
   - field: no__c
     wrap: false
-  - field: payee__c
+  - field: account__c
     wrap: false
   - field: amount__c
     wrap: false

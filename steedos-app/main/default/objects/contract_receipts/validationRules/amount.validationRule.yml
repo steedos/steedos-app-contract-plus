@@ -1,0 +1,4 @@
+name: amount
+active: true
+error_condition_formula: amount > contract.amount
+error_message: 收款金额不能大于合同金额！

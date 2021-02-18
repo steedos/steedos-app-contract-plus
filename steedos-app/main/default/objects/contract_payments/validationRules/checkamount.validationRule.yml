@@ -1,0 +1,4 @@
+name: checkamount
+active: true
+error_condition_formula: amount > contract.amount
+error_message: 付款金额不能大于合同金额！
