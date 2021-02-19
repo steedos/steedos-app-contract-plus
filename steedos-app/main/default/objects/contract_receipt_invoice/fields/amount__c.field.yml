@@ -4,13 +4,13 @@ hidden: false
 index: false
 is_name: false
 is_wide: false
-label: 发票金额
+label: 价税合计
 omit: false
 precision: 18
 readonly: false
 required: true
 scale: 2
 searchable: false
-sort_no: 140
+sort_no: 220
 sortable: false
 type: number
