@@ -1,4 +1,5 @@
 name: contract_payments_state__c
+defaultValue: notapproval
 filterable: false
 hidden: false
 index: false
