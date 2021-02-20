@@ -1,6 +1,6 @@
 name: payment_date__c
 filterable: false
-group: 财务
+group: 付款信息
 hidden: false
 index: false
 is_name: false

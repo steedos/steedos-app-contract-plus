@@ -1,7 +1,7 @@
 name: payment_status__c
 defaultValue: non_payment
 filterable: false
-group: 财务
+group: 付款信息
 hidden: false
 index: false
 is_name: false

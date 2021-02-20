@@ -1,6 +1,6 @@
 name: receipt_date__c
 filterable: false
-group: 财务
+group: 收款信息
 hidden: false
 index: false
 is_name: false

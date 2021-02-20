@@ -1,7 +1,7 @@
 name: contract_receipts_state__c
 defaultValue: not_ proceeds
 filterable: false
-group: 财务
+group: 收款信息
 hidden: false
 index: false
 is_name: false
