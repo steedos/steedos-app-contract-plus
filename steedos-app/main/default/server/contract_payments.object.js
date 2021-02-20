@@ -7,10 +7,10 @@ Creator.Objects.contract_payments.triggers = {
     on: 'server',
     when: "before.insert",
     todo: function (userId, doc) {
-      // 付款计划总金额不能大于合同总金额
+      /* 付款计划总金额不能大于合同总金额
       if (_.has(doc, "amount")) {
         manager._checkAmount(doc._id, doc.amount, doc.contract, 'before.insert');
-      }
+      }*/
       // 付款计划所属单位即为所属合同的我方单位
       // 付款计划增加项目字段参考收款计划 #441
       // 收/付款计划增加合同状态（来源合同）并维护历史数据 #440
@@ -45,10 +45,10 @@ Creator.Objects.contract_payments.triggers = {
     on: 'server',
     when: "before.update",
     todo: function (userId, doc, fieldNames, modifier, options) {
-      // 付款计划总金额不能大于合同总金额
+      /* 付款计划总金额不能大于合同总金额
       if (_.has(modifier.$set, "amount")) {
         manager._checkAmount(doc._id, modifier.$set.amount, doc.contract, 'before.update');
-      }
+      }*/
     }
   },
   "after.update.pushNotification": {
