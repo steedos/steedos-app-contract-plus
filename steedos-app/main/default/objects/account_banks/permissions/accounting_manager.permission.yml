@@ -1,7 +1,0 @@
-allowCreate: true
-allowDelete: false
-allowEdit: true
-modifyAllRecords: true
-modifyCompanyRecords: true
-permission_set_id: accounting_manager
-viewAllRecords: true
