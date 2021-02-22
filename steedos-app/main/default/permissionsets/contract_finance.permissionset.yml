@@ -4,6 +4,3 @@ assigned_apps:
   - supplier
 label: 合同管理_财务
 type: permission_set
-users:
-  - 601a399af630d25acbea5ae2
-  - EGRoX9kJ4wmuLiMHv
