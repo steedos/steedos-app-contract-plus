@@ -38,17 +38,28 @@ filter_fields:
   - signed_date
   - othercompany
   - contract_state
+  - bop
 filter_scope: space
-filters: |-
-  function anonymous(
-  ) {
-
-      return [
-        ["bop","=","付款业务"],
-        ["contract_state","<>","terminated"]
-      ];
-
-  }
+filters:
+  - field: contract_type
+    is_default: true
+    is_required: false
+  - field: signed_date
+    is_default: true
+    is_required: false
+  - field: othercompany
+    is_default: true
+    is_required: false
+  - field: contract_state
+    is_default: true
+    is_required: false
+  - field: receive_payment_type
+  - is_default: true
+    field: bop
+    operation: '='
+    value:
+      - payment
+    is_required: false
 label: 付款业务
 shared: true
 show_count: false
