@@ -1,6 +1,7 @@
+name: 合同.用户
 allowCreate: false
 allowDelete: false
-allowEdit: true
+allowEdit: false
 allowRead: true
 disabled_list_views:
   - contract_manager
@@ -9,6 +10,7 @@ disabled_list_views:
   - contract_payments
   - contract_receipts
 modifyAllRecords: false
+modifyCompanyRecords: false
 permission_set_id: user
 uneditable_fields:
   - 'no'
@@ -69,3 +71,4 @@ uneditable_related_list:
   - contract_receipts
   - events
 viewAllRecords: false
+viewCompanyRecords: false

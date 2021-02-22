@@ -1,0 +1,11 @@
+name: contract_agent
+assigned_apps:
+  - purchasing
+  - supplier
+label: 合同管理_承办
+type: permission_set
+users:
+  - vRX5TWErwESHcoMTz
+  - L5TWHRfxyY6TwauaF
+  - irw5nYzihH2eiXJPC
+  - j6bT4Ap56HNDwj4eP

@@ -1,7 +1,37 @@
-allowCreate: true
-allowDelete: true
-allowEdit: true
+name: 付款单.用户
+allowCreate: false
+allowDelete: false
+allowEdit: false
 allowRead: true
 modifyAllRecords: false
+modifyCompanyRecords: false
 permission_set_id: user
+uneditable_fields:
+  - contract
+  - supplier
+  - name
+  - amount
+  - currency
+  - due_date
+  - supplier_bank__c
+  - invoice_type__c
+  - taxrate__c
+  - complete_invoice__c
+  - company_id
+  - contract_payments_state__c
+  - id__c
+  - amount_description
+  - project_name__c
+  - contract_types_name__c
+  - count__c
+  - sumprice__c
+  - payment_status__c
+  - payment_date__c
+  - finished
+  - billno__c
+  - owner
+  - instances
+  - instances.$._id
+  - instances.$.state
 viewAllRecords: false
+viewCompanyRecords: false

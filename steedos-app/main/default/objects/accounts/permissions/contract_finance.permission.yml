@@ -1,10 +1,10 @@
-name: 银行信息.用户
-allowCreate: true
+name: 客户.合同管理_财务
+allowCreate: false
 allowDelete: false
-allowEdit: true
+allowEdit: false
 allowRead: true
 modifyAllRecords: false
 modifyCompanyRecords: false
-permission_set_id: user
+permission_set_id: contract_finance
 viewAllRecords: true
 viewCompanyRecords: false
