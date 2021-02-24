@@ -1,5 +1,8 @@
 name: credit_code__c
+data_type: text
 filterable: false
+formula: account__c.credit_code
+formula_blank_value: blanks
 hidden: false
 index: false
 is_name: false
@@ -11,4 +14,4 @@ required: false
 searchable: false
 sort_no: 435
 sortable: false
-type: text
+type: formula

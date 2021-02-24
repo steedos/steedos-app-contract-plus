@@ -1,0 +1,8 @@
+allowCreate: true
+allowDelete: false
+allowEdit: true
+modifyCompanyRecords: true
+permission_set_id: company_accounting_manager
+uneditable_fields:
+  - company_ids
+viewCompanyRecords: true
