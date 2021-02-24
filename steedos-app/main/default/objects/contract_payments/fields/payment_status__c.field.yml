@@ -1,5 +1,5 @@
 name: payment_status__c
-defaultValue: non_payment
+defaultValue: unpaid
 filterable: false
 group: 付款信息
 hidden: false
@@ -13,7 +13,7 @@ options:
   - label: 已支付
     value: paid
   - label: 未支付
-    value: non_payment
+    value: unpaid
 readonly: false
 required: false
 searchable: false
