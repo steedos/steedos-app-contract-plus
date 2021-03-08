@@ -1,0 +1,7 @@
+name: negotiator
+label: 我方合同洽谈人
+reference_to: users
+sort_no: 270
+sortable: true
+type: lookup
+multiple: true
