@@ -7,6 +7,8 @@ public:
     store: "local"
     local: 
       folder: "./storage"
+  accounts:
+    is_username_skip_minrequiredlength: true
 email:
   host:
   port: 465
@@ -27,6 +29,7 @@ tenant:
   enable_bind_mobile: false
 plugins:
   - "@steedos/accounts"
+  - "@steedos/app-oa"
   - "@steedos/metadata-api"
   - "@steedos/word-template"
   - "@steedos/plugin-enterprise"
