@@ -1,0 +1,1 @@
+{"records":[{"name":"人民币","code":"CNY","active":true,"attributes":{"type":"currency","referenceId":"currencyRef1"},"from_currency":"@currency_rateRef1"},{"name":"美元","code":"USD","active":true,"attributes":{"type":"currency","referenceId":"currencyRef2"},"to_currency":"@currency_rateRef1"}]}
