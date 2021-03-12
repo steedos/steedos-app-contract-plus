@@ -1,3 +1,4 @@
+name: 客户.用户
 allowCreate: false
 allowDelete: false
 allowEdit: false
@@ -7,5 +8,5 @@ modifyCompanyRecords: false
 permission_set_id: user
 uneditable_fields:
   - company_ids
-viewAllRecords: false
-viewCompanyRecords: true
+viewAllRecords: true
+viewCompanyRecords: false

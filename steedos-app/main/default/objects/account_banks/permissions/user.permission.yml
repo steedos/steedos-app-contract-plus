@@ -1,3 +1,4 @@
+name: 银行信息.用户
 allowCreate: true
 allowDelete: false
 allowEdit: true
@@ -6,4 +7,4 @@ modifyAllRecords: false
 modifyCompanyRecords: false
 permission_set_id: user
 viewAllRecords: true
-viewCompanyRecords: true
+viewCompanyRecords: false

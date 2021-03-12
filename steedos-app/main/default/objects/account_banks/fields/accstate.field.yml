@@ -12,11 +12,11 @@ options:
   - label: 正常
     value: normal
   - label: 冻结
-    value: freeze
+    value: frozen
   - label: 部分冻结
-    value: portion_freeze
+    value: partially_frozen
   - label: 销户
-    value: logout
+    value: closed
 readonly: false
 required: true
 searchable: false

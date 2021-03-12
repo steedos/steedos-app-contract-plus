@@ -1,0 +1,36 @@
+name: 收款单.合同管理_财务
+allowCreate: false
+allowDelete: true
+allowEdit: true
+allowRead: true
+modifyAllRecords: true
+modifyCompanyRecords: false
+permission_set_id: contract_finance
+uneditable_fields:
+  - contract
+  - name
+  - account
+  - amount
+  - currency
+  - due_date
+  - customer_bank__c
+  - invoice_type__c
+  - taxrate__c
+  - quantity__c
+  - price__c
+  - money__c
+  - unit__c
+  - specification_model__c
+  - approval_state__c
+  - company_id
+  - credit_code__c
+  - amount_description
+  - project
+  - contract_types_name__c
+  - billmaker__c
+  - count__c
+  - sumprice__c
+  - id__c
+  - owner
+viewAllRecords: true
+viewCompanyRecords: false

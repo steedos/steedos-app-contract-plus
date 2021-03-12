@@ -13,7 +13,7 @@ options:
   - label: 已启用
     value: enable
   - label: 已停用
-    value: block_up
+    value: disabled
 readonly: true
 required: false
 searchable: false

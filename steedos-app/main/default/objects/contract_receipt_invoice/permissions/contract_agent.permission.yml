@@ -1,0 +1,10 @@
+name: 开票明细.合同管理_承办
+allowCreate: false
+allowDelete: false
+allowEdit: false
+allowRead: true
+modifyAllRecords: false
+modifyCompanyRecords: false
+permission_set_id: contract_agent
+viewAllRecords: false
+viewCompanyRecords: false

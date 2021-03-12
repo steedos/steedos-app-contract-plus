@@ -12,7 +12,7 @@ options:
   - label: 企业
     value: enterprise
   - label: 个人
-    value: personage
+    value: person
   - label: 其它
     value: other
 readonly: false

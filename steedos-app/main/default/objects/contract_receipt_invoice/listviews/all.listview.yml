@@ -2,8 +2,17 @@ name: all
 columns:
   - field: no__c
     wrap: false
+  - field: account__c
+    wrap: false
   - field: amount__c
     wrap: false
+  - field: invoice_type__c
+    wrap: false
+filter_fields:
+  - receipt__c
+  - contract__c
+  - account__c
+  - invoice_type__c
 filter_scope: space
 filters: []
 label: 所有

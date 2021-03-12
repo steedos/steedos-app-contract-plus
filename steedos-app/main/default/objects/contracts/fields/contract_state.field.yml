@@ -1,4 +1,5 @@
 name: contract_state
+defaultValue: notapproval
 filterable: false
 hidden: false
 index: false
@@ -16,7 +17,7 @@ options:
     value: rejected
   - label: 已取消
     value: terminated
-  - label: 未审批
+  - label: 草稿
     value: notapproval
 readonly: false
 required: false

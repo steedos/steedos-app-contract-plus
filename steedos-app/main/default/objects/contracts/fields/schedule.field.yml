@@ -1,0 +1,14 @@
+name: schedule
+filterable: true
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 工期要求(天)
+omit: false
+readonly: false
+required: false
+searchable: false
+sort_no: 192
+sortable: true
+type: number

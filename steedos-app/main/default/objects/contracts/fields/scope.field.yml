@@ -1,0 +1,14 @@
+name: scope
+filterable: true
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 承包范围
+omit: false
+readonly: false
+required: false
+searchable: false
+sort_no: 328
+sortable: true
+type: text

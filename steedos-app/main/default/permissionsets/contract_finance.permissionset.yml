@@ -1,0 +1,6 @@
+name: contract_finance
+assigned_apps:
+  - purchasing
+  - supplier
+label: 合同管理_财务
+type: permission_set

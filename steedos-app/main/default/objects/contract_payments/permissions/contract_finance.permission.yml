@@ -1,0 +1,44 @@
+name: 付款单.合同管理_财务
+allowCreate: false
+allowDelete: true
+allowEdit: true
+allowRead: true
+modifyAllRecords: true
+modifyCompanyRecords: false
+permission_set_id: contract_finance
+uneditable_fields:
+  - invoice_type__c
+  - company_id
+  - contract_payments_state__c
+  - amount_description
+  - project_name__c
+  - contract_types_name__c
+  - count__c
+  - sumprice__c
+  - finished
+  - instances
+  - owner
+  - space
+  - created
+  - created_by
+  - modified
+  - modified_by
+  - is_deleted
+  - deleted
+  - instances.$._id
+  - instances.$.state
+  - sharing
+  - sharing.$
+  - instance_state
+  - id__c
+  - contract
+  - supplier
+  - name
+  - currency
+  - due_date
+  - supplier_bank__c
+  - taxrate__c
+  - complete_invoice__c
+  - amount
+viewAllRecords: true
+viewCompanyRecords: false

@@ -1,0 +1,6 @@
+name: contract_agent
+assigned_apps:
+  - purchasing
+  - supplier
+label: 合同管理_承办
+type: permission_set

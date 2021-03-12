@@ -1,0 +1,14 @@
+name: 付款单.合同管理_承办
+allowCreate: true
+allowDelete: true
+allowEdit: true
+allowRead: true
+modifyAllRecords: false
+modifyCompanyRecords: false
+permission_set_id: contract_agent
+uneditable_fields:
+  - payment_status__c
+  - payment_date__c
+  - billno__c
+viewAllRecords: false
+viewCompanyRecords: false

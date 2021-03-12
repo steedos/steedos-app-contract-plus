@@ -1,0 +1,22 @@
+name: contract_source
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 合同来源
+multiple: false
+omit: false
+options:
+  - label: 招投标合同
+    value: bidding
+  - label: 续签合同
+    value: renewal
+  - label: 其他
+    value: others
+readonly: false
+required: false
+searchable: true
+sort_no: 326
+sortable: false
+type: select

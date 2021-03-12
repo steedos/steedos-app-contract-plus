@@ -1,0 +1,10 @@
+name: 开票明细.合同管理_财务
+allowCreate: true
+allowDelete: true
+allowEdit: true
+allowRead: true
+modifyAllRecords: true
+modifyCompanyRecords: false
+permission_set_id: contract_finance
+viewAllRecords: true
+viewCompanyRecords: false

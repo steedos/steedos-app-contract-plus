@@ -5,7 +5,7 @@ index: false
 is_name: false
 is_wide: true
 label: 名称
-omit: true
+omit: false
 readonly: false
 required: false
 searchable: true
