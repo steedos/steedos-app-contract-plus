@@ -4,7 +4,7 @@ name: 合同管理
 description: 合同、收款单、付款单
 icon_slds: contract
 is_creator: true
-sort: 90
+sort: 20
 objects:
   - contracts
   - contract_payments

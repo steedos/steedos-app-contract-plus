@@ -780,34 +780,6 @@
   resolved "https://registry.npm.taobao.org/@sqltools/formatter/download/@sqltools/formatter-1.2.2.tgz#9390a8127c0dcba61ebd7fdcc748655e191bdd68"
   integrity sha1-k5CoEnwNy6YevX/cx0hlXhkb3Wg=
 
-"@steedos/accounts@^1.23.19":
-  version "1.23.19"
-  resolved "https://registry.npm.taobao.org/@steedos/accounts/download/@steedos/accounts-1.23.19.tgz#c2d72a82df8a650df09c53ebc37c4183a01af3e1"
-  integrity sha1-wtcqgt+KZQ3wnFPrw3xBg6Aa8+E=
-  dependencies:
-    "@accounts/mongo" "^0.19.0"
-    "@accounts/rest-express" "^0.19.0"
-    "@accounts/server" "^0.19.0"
-    "@accounts/two-factor" "^0.20.1"
-    "@babel/runtime" "^7.6.0"
-    app-root-path "^2.2.1"
-    bcryptjs "^2.4.3"
-    body-parser "1.19.0"
-    chalk "^2.4.2"
-    cookies "^0.8.0"
-    cors "2.8.5"
-    crypto "^1.0.1"
-    express "4.17.1"
-    js-yaml "^3.13.1"
-    mem "^5.1.1"
-    mongoose "5.6.6"
-    nodemailer "^6.3.0"
-    oauth2-server "^2.4.1"
-    redux-thunk "^2.3.0"
-    saml-idp "^1.1.0"
-    tslib "1.10.0"
-    validator "^12.2.0"
-
 "@steedos/accounts@^1.23.20":
   version "1.23.20"
   resolved "https://registry.npm.taobao.org/@steedos/accounts/download/@steedos/accounts-1.23.20.tgz#e4cb0a1223a207060dddee7352f81aa650e45cde"
@@ -835,6 +807,11 @@
     saml-idp "^1.1.0"
     tslib "1.10.0"
     validator "^12.2.0"
+
+"@steedos/app-oa@1.23.20":
+  version "1.23.20"
+  resolved "https://registry.yarnpkg.com/@steedos/app-oa/-/app-oa-1.23.20.tgz#2a36c7c8a04fa9205a176a0f53f1355494dea2eb"
+  integrity sha512-DyLhehDC75LjXFLAHXIHs2AQkC/eJxbVZAoI8PyqFTBc+4T96j83o9u8zzgcl6dFW8PPY574Q8othv+0vTrz4w==
 
 "@steedos/auth@^1.23.20":
   version "1.23.20"
