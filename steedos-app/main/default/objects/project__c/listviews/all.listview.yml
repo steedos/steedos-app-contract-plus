@@ -1,0 +1,33 @@
+name: all
+columns:
+  - field: name
+    wrap: false
+  - field: owner
+    width: '100'
+    wrap: false
+  - field: original__c
+    width: '120'
+    wrap: false
+  - field: major__c
+    width: '150'
+    wrap: false
+  - field: construction_unit__c
+    width: '280'
+    wrap: false
+  - field: in_price__c
+    width: '150'
+    wrap: false
+filter_fields:
+  - name
+  - major__c
+  - construction_unit__c
+filter_scope: space
+filters: []
+label: 所有
+scrolling_mode: standard
+shared: true
+show_count: false
+sort:
+  - field_name: no__c
+    order: asc
+type: grid

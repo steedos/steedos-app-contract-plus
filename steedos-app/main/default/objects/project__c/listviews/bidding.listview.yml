@@ -1,0 +1,30 @@
+name: bidding
+columns:
+  - field: name
+    wrap: false
+  - field: owner
+    wrap: false
+  - field: original__c
+    wrap: false
+  - field: major__c
+    wrap: false
+  - field: construction_unit__c
+    wrap: false
+  - field: in_price__c
+    wrap: false
+  - field: is_winning__c
+    wrap: false
+filter_fields:
+  - is_winning__c
+filter_scope: space
+filters:
+  - is_default: true
+    field: is_winning__c
+    operation: '='
+    value: true
+    is_required: false
+label: 中标项目
+scrolling_mode: standard
+shared: true
+show_count: false
+type: grid

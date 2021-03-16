@@ -1,0 +1,15 @@
+name: bank__c
+filterable: false
+group: 转出信息（代理方）
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 开户行
+omit: false
+readonly: false
+required: false
+searchable: false
+sort_no: 210
+sortable: false
+type: text

@@ -1,0 +1,46 @@
+name: major__c
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 专业
+multiple: false
+omit: false
+options:
+  - label: 市政
+    value: 市政
+  - label: 建筑
+    value: 建筑
+  - label: 水利
+    value: 水利
+  - label: 劳务
+    value: 劳务
+  - label: 环保
+    value: 环保
+  - label: 电力
+    value: 电力
+  - label: 装修
+    value: 装修
+  - label: 智能化
+    value: 智能化
+  - label: 石油
+    value: 石油
+  - label: 钢结构
+    value: 钢结构
+  - label: 城市道路照明
+    value: 城市道路照明
+  - label: 输变电
+    value: 输变电
+  - label: 建筑机电安装
+    value: 建筑机电安装
+  - label: 起重设备安装
+    value: 起重设备安装
+  - label: 铁路
+    value: 铁路
+readonly: false
+required: false
+searchable: false
+sort_no: 140
+sortable: false
+type: select

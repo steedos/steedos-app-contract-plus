@@ -16,3 +16,10 @@ enable_workflow: false
 icon: groups
 is_enable: true
 label: 业务伙伴
+relatedList:
+  - contacts
+  - account_banks
+  - contracts
+  - contract_payments
+  - contract_receipts
+  - audit_records

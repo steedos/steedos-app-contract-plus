@@ -1,0 +1,15 @@
+name: no__c
+filterable: false
+formula: '{0}'
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 序号
+omit: true
+readonly: false
+required: false
+searchable: false
+sort_no: 120
+sortable: false
+type: autonumber

@@ -1,0 +1,10 @@
+name: 退保证金.user
+allowCreate: false
+allowDelete: false
+allowEdit: false
+allowRead: true
+modifyAllRecords: false
+modifyCompanyRecords: false
+permission_set_id: user
+viewAllRecords: false
+viewCompanyRecords: false

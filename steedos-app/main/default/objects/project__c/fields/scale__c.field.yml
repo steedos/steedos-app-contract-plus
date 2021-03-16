@@ -1,0 +1,20 @@
+name: scale__c
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 规模
+multiple: false
+omit: false
+options:
+  - label: 4个小区
+    value: four
+  - label: 8个小区
+    value: eight
+readonly: false
+required: false
+searchable: false
+sort_no: 160
+sortable: false
+type: select

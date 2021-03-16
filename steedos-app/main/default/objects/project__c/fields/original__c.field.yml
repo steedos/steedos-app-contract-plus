@@ -1,0 +1,20 @@
+name: original__c
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 是否有原件
+multiple: false
+omit: false
+options:
+  - label: 有
+    value: 'true'
+  - label: 无
+    value: 'false'
+readonly: false
+required: false
+searchable: false
+sort_no: 130
+sortable: false
+type: select

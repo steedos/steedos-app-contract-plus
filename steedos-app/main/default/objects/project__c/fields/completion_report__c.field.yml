@@ -1,0 +1,22 @@
+name: completion_report__c
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 竣工报告
+multiple: false
+omit: false
+options:
+  - label: 有
+    value: 有
+  - label: 无
+    value: 无
+  - label: 未竣工
+    value: 未竣工
+readonly: false
+required: false
+searchable: false
+sort_no: 220
+sortable: false
+type: select

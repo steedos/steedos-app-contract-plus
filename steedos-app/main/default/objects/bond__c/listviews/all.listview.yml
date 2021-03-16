@@ -1,0 +1,31 @@
+name: all
+columns:
+  - field: name
+    width: '150'
+    wrap: false
+  - field: project__c
+    wrap: false
+  - field: owner
+    width: '100'
+    wrap: false
+  - field: dept__c
+    width: '120'
+    wrap: false
+  - field: date__c
+    width: '150'
+    wrap: false
+  - field: amount__c
+    width: '150'
+    wrap: false
+  - field: purpose__c
+    wrap: false
+  - field: out_money__c
+    width: '150'
+    wrap: false
+filter_scope: space
+filters: []
+label: 所有
+scrolling_mode: standard
+shared: true
+show_count: false
+type: grid

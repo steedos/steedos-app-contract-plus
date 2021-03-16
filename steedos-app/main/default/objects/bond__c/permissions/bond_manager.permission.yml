@@ -1,0 +1,10 @@
+name: 退保证金.保证金管理员
+allowCreate: false
+allowDelete: false
+allowEdit: false
+allowRead: true
+modifyAllRecords: false
+modifyCompanyRecords: false
+permission_set_id: bond_manager
+viewAllRecords: true
+viewCompanyRecords: false
