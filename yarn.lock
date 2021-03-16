@@ -808,10 +808,10 @@
     tslib "1.10.0"
     validator "^12.2.0"
 
-"@steedos/app-oa@1.23.20":
-  version "1.23.20"
-  resolved "https://registry.yarnpkg.com/@steedos/app-oa/-/app-oa-1.23.20.tgz#2a36c7c8a04fa9205a176a0f53f1355494dea2eb"
-  integrity sha512-DyLhehDC75LjXFLAHXIHs2AQkC/eJxbVZAoI8PyqFTBc+4T96j83o9u8zzgcl6dFW8PPY574Q8othv+0vTrz4w==
+"@steedos/app-oa@^1.23.22":
+  version "1.23.22"
+  resolved "https://registry.yarnpkg.com/@steedos/app-oa/-/app-oa-1.23.22.tgz#70c2223e24b73986401f960db944b153c34ed008"
+  integrity sha512-fvoGcyOsahyCIzTTj4wkZORvnilQnWL0YNiHQnAfV8QKiBOmlOySa3puCztzGbum28oH+aHyq9j4sjcyZ3Tb8A==
 
 "@steedos/auth@^1.23.20":
   version "1.23.20"
