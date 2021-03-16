@@ -12,7 +12,7 @@ enable_notes: false
 enable_search: false
 enable_share: true
 enable_tasks: false
-enable_workflow: false
+enable_workflow: true
 icon: metrics
 is_enable: true
 label: 收款单
