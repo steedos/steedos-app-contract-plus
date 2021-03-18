@@ -1,0 +1,21 @@
+name: party_ab
+defaultValue: enterprise
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 甲乙方
+multiple: false
+omit: false
+options:
+  - label: 甲方
+    value: party_a
+  - label: 乙方
+    value: party_b
+readonly: false
+required: true
+searchable: false
+sort_no: 155
+sortable: true
+type: select

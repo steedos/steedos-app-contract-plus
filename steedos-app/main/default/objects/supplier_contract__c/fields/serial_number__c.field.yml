@@ -1,0 +1,14 @@
+name: serial_number__c
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 合同编号
+omit: true
+readonly: true
+required: false
+searchable: false
+sort_no: 130
+sortable: false
+type: text

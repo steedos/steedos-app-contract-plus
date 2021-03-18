@@ -1,0 +1,23 @@
+name: all
+columns:
+  - field: name
+    wrap: false
+  - field: owner
+    wrap: false
+  - field: serial_number__c
+    wrap: false
+  - field: contracts__c
+    wrap: false
+  - field: contract_source__c
+    wrap: false
+  - field: amount__c
+    wrap: false
+  - field: parent_amount__c
+    wrap: false
+filter_scope: space
+filters: []
+label: 所有
+scrolling_mode: standard
+shared: true
+show_count: false
+type: grid

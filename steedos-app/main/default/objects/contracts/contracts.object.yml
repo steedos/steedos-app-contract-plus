@@ -20,6 +20,7 @@ is_enable: true
 label: 合同
 relatedList:
   - cms_files
+  - supplier_contract__c
   - contract_payments
   - contract_receipts
   - contract_stamps
