@@ -1,7 +1,7 @@
 name: receive_payment_type
 defaultValue: 一次性
 filterable: false
-hidden: false
+hidden: true
 index: false
 is_name: false
 is_wide: false

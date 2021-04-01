@@ -2,7 +2,7 @@ name: used_amount
 data_type: currency
 filterable: false
 group: 供应商合同信息
-hidden: false
+hidden: true
 index: false
 is_name: false
 is_wide: false
