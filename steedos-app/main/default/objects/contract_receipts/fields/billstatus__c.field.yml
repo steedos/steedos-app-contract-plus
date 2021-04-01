@@ -1,4 +1,5 @@
 name: billstatus__c
+defaultValue: draft
 filterable: false
 hidden: false
 index: false
@@ -17,7 +18,7 @@ options:
   - label: 已取消
     value: terminated
   - label: 草稿
-    value: notapproval
+    value: draft
 readonly: false
 required: false
 searchable: false
