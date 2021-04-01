@@ -1,6 +1,6 @@
 name: amount_description
 filterable: false
-hidden: false
+hidden: true
 index: false
 is_name: false
 is_wide: true
