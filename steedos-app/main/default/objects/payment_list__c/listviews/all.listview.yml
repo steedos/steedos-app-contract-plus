@@ -1,0 +1,23 @@
+name: all
+columns:
+  - field: payment_type__c
+    wrap: false
+  - field: supplier__c
+    wrap: false
+  - field: content__c
+    wrap: false
+  - field: contract_amount__c
+    wrap: false
+  - field: payment_amount__c
+    wrap: false
+  - field: total_payment__c
+    wrap: false
+  - field: payment_sacle__c
+    wrap: false
+filter_scope: space
+filters: []
+label: 所有
+scrolling_mode: standard
+shared: true
+show_count: false
+type: grid

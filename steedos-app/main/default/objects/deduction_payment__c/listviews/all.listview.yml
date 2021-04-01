@@ -1,0 +1,21 @@
+name: all
+columns:
+  - field: withhold_type__c
+    wrap: false
+  - field: deduction_base__c
+    wrap: false
+  - field: withhold_scale__c
+    wrap: false
+  - field: amount_deducted__c
+    wrap: false
+  - field: preretirement_period__c
+    wrap: false
+  - field: actual_withhold__c
+    wrap: false
+filter_scope: space
+filters: []
+label: 所有
+scrolling_mode: standard
+shared: true
+show_count: false
+type: grid

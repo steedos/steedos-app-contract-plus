@@ -1,0 +1,17 @@
+name: preretirement_period__c
+filterable: false
+group: 暂扣明细
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 退前期（暂扣款）
+omit: false
+precision: 18
+readonly: false
+required: false
+scale: 2
+searchable: false
+sort_no: 170
+sortable: false
+type: currency

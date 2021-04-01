@@ -15,7 +15,7 @@ columns:
   - field: currency_type
     width: '120'
     wrap: true
-  - field: contract_type
+  - field: contract_type__c
     width: '120'
     wrap: true
   - field: bop

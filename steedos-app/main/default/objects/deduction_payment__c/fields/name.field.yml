@@ -1,0 +1,15 @@
+name: name
+filterable: false
+group: 暂扣明细
+hidden: true
+index: true
+is_name: false
+is_wide: false
+label: 名称
+omit: true
+readonly: false
+required: false
+searchable: true
+sort_no: 100
+sortable: false
+type: text

@@ -1,0 +1,31 @@
+name: withhold_type__c
+filterable: false
+group: 暂扣明细
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 名称
+multiple: false
+omit: false
+options:
+  - label: 税金（14%、6%）
+    value: tax
+  - label: 资料押金
+    value: data
+  - label: 暂扣税金（成本差）
+    value: withhold
+  - label: 开户押金
+    value: opening
+  - label: 暂扣增值税（开票未交）
+    value: vat
+  - label: 暂扣附加税（开票未交）
+    value: surtax
+  - label: 其他（特殊事项）
+    value: others
+readonly: false
+required: false
+searchable: false
+sort_no: 110
+sortable: false
+type: select
