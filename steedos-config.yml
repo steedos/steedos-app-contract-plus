@@ -27,6 +27,8 @@ tenant:
   enable_password_login: true
   enable_bind_email: false
   enable_bind_mobile: false
+cron:
+  instancerecordqueue_interval: 10000
 plugins:
   - "@steedos/accounts"
   - "@steedos/app-oa"
