@@ -6,7 +6,7 @@ hidden: false
 index: false
 is_name: false
 is_wide: false
-label: 开票申请审批状态
+label: 开票审批状态
 multiple: false
 omit: false
 options:

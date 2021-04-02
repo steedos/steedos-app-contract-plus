@@ -22,4 +22,5 @@ relatedList:
   - contracts
   - contract_payments
   - contract_receipts
+  - project__c
   - audit_records
