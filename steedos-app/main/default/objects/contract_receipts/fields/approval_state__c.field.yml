@@ -2,13 +2,13 @@ name: approval_state__c
 defaultValue: draft
 group: 开票申请
 filterable: false
-hidden: false
+hidden: true
 index: false
 is_name: false
 is_wide: false
 label: 盖章审批状态
 multiple: false
-omit: false
+omit: true
 options:
   - label: 审批中
     value: pending

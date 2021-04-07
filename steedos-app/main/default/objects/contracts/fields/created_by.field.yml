@@ -1,6 +1,6 @@
 name: created_by
 label: 创建人
 reference_to: users
-sort_no: 260
+sort_no: 1260
 sortable: true
 type: lookup

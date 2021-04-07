@@ -8,7 +8,7 @@ is_name: false
 is_wide: false
 label: 开票审批状态
 multiple: false
-omit: false
+omit: true
 options:
   - label: 审批中
     value: pending
