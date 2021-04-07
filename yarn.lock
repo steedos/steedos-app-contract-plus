@@ -836,10 +836,10 @@
     tslib "1.10.0"
     validator "^12.2.0"
 
-"@steedos/app-oa@^1.23.22":
-  version "1.23.22"
-  resolved "https://registry.yarnpkg.com/@steedos/app-oa/-/app-oa-1.23.22.tgz#70c2223e24b73986401f960db944b153c34ed008"
-  integrity sha512-fvoGcyOsahyCIzTTj4wkZORvnilQnWL0YNiHQnAfV8QKiBOmlOySa3puCztzGbum28oH+aHyq9j4sjcyZ3Tb8A==
+"@steedos/app-oa@^1.23.23":
+  version "1.23.23"
+  resolved "https://registry.npm.taobao.org/@steedos/app-oa/download/@steedos/app-oa-1.23.23.tgz#845e146ed785e86289d47e31cbb5edfe491d6933"
+  integrity sha1-hF4UbteF6GKJ1H4xy7Xt/kkdaTM=
 
 "@steedos/auth@^1.23.23":
   version "1.23.23"
@@ -1099,10 +1099,10 @@
     odata-v4-parser "0.1.13"
     odata-v4-sql "^0.1.2"
 
-"@steedos/plugin-enterprise@^1.23.20":
-  version "1.23.20"
-  resolved "https://registry.npm.taobao.org/@steedos/plugin-enterprise/download/@steedos/plugin-enterprise-1.23.20.tgz#9272d518e1f89da679ba50a45d91dd7b0df2747f"
-  integrity sha1-knLVGOH4naZ5ulCkXZHdew3ydH8=
+"@steedos/plugin-enterprise@^1.23.23":
+  version "1.23.23"
+  resolved "https://registry.npm.taobao.org/@steedos/plugin-enterprise/download/@steedos/plugin-enterprise-1.23.23.tgz#7f31cdbdd7adc92d3c7d903372a1e121c39df8dd"
+  integrity sha1-fzHNvdetyS08fZAzcqHhIcOd+N0=
 
 "@steedos/process@^1.23.23":
   version "1.23.23"
