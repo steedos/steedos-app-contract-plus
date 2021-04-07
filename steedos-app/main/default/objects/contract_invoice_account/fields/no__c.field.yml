@@ -1,0 +1,15 @@
+name: no__c
+filterable: false
+formula: 'IA-{00000}'
+hidden: false
+index: false
+is_name: true
+is_wide: false
+label: 流水号
+omit: true
+readonly: false
+required: false
+searchable: false
+sort_no: 100
+sortable: false
+type: autonumber

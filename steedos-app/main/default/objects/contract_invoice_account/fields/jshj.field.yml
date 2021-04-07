@@ -1,0 +1,4 @@
+name: jshj
+label: 发票金额
+sort_no: 200
+type: number

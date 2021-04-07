@@ -1,0 +1,4 @@
+name: account_payable_invoice
+label: 付款发票
+sort_no: 330
+type: text

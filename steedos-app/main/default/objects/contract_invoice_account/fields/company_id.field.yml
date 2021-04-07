@@ -1,0 +1,4 @@
+name: company_id
+label: 我方单位
+sort_no: 260
+type: text

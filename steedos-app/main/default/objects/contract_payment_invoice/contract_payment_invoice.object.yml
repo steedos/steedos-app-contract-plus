@@ -15,3 +15,10 @@ enable_workflow: false
 icon: calibration
 is_enable: true
 label: 收票明细
+actions:
+  invoiceIdent:
+    label: 发票识别
+    on: record
+  openWindow:
+    label: 打开网站
+    on: list

@@ -1,0 +1,4 @@
+name: pk_invoice
+label: 发票ID
+sort_no: 110
+type: text

@@ -1,0 +1,4 @@
+name: name
+label: 发票号码
+sort_no: 130
+type: text

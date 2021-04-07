@@ -1,0 +1,4 @@
+name: payment_date
+label: 日期
+sort_no: 290
+type: datetime

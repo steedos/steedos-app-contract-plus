@@ -1,0 +1,4 @@
+name: status
+label: 认证状态
+sort_no: 250
+type: text

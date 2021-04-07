@@ -1,0 +1,11 @@
+name: bill_type
+label: 发票类型
+sort_no: 120
+type: select
+options:
+  - label: 未启用
+    value: not_enabled
+  - label: 已启用
+    value: enable
+  - label: 已停用
+    value: disabled
