@@ -1,0 +1,15 @@
+name: scale__c
+filterable: false
+group: 收款明细
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 比例
+omit: false
+readonly: false
+required: false
+searchable: false
+sort_no: 210
+sortable: false
+type: percent

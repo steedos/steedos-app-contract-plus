@@ -1,0 +1,14 @@
+name: serial_number__c
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 施工合同编号
+omit: true
+readonly: false
+required: false
+searchable: true
+sort_no: 390
+sortable: false
+type: text

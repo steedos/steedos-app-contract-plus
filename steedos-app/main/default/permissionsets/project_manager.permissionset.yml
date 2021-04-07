@@ -1,0 +1,12 @@
+name: project_manager
+assigned_apps:
+  - bidding_project
+label: 项目管理员
+type: permission_set
+users:
+  - Z5pvhN5WEWBcpfrTj
+  - Dk3gKGJeMiTg74qrw
+  - GuKj2ibKwHfstpKMy
+  - qmEfKCqiZaqD79htx
+  - fB2oFLcQR82aNgrST
+  - ZzaEdiWm28ZKc4Cp2

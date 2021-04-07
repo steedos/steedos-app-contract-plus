@@ -11,7 +11,7 @@ enable_notes: false
 enable_search: true
 enable_share: true
 enable_tasks: true
-enable_workflow: false
+enable_workflow: true
 icon: maintenance_asset
 is_enable: true
 label: 项目信息

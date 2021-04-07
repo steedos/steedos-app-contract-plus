@@ -1,6 +1,6 @@
 name: bop
 filterable: false
-hidden: false
+hidden: true
 index: false
 is_name: false
 is_wide: false
@@ -13,7 +13,7 @@ options:
   - label: 收款业务
     value: gathering
 readonly: false
-required: true
+required: false
 searchable: false
 sort_no: 200
 sortable: false

@@ -8,4 +8,4 @@ sort: 90
 objects:
   - seal
   - contract_stamps
-visible: true
+visible: false

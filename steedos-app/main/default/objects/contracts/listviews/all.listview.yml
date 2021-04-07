@@ -1,5 +1,8 @@
 name: all
 columns:
+  - field: no
+    width: '110'
+    wrap: true
   - field: name
     width: '200'
     wrap: true
@@ -12,15 +15,9 @@ columns:
   - field: amount
     width: '200'
     wrap: true
-  - field: currency_type
+  - field: contract_type__c
     width: '120'
     wrap: true
-  - field: contract_type
-    width: '120'
-    wrap: true
-  - field: bop
-    width: '120'
-    wrap: false
   - field: contract_state
     width: '120'
     wrap: false
@@ -37,7 +34,7 @@ columns:
     width: '120'
     wrap: false
 filter_fields:
-  - contract_type
+  - contract_type__c
   - signed_date
   - othercompany
   - contract_state
@@ -46,4 +43,4 @@ label: 所有合同
 shared: true
 show_count: false
 sort:
-  - order: asc
+  - no: desc

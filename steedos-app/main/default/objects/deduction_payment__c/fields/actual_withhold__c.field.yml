@@ -1,0 +1,17 @@
+name: actual_withhold__c
+filterable: false
+group: 暂扣明细
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 实际暂扣
+omit: false
+precision: 18
+readonly: false
+required: false
+scale: 2
+searchable: false
+sort_no: 180
+sortable: false
+type: currency

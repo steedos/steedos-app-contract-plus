@@ -1,0 +1,5 @@
+name: bond_manager
+label: 保证金管理员
+type: permission_set
+users:
+  - eRXjL3byyZwBJZbw3

@@ -1,3 +1,4 @@
 name: seal
 icon: merge
 label: 印章
+is_enable: false

@@ -7,7 +7,7 @@ is_wide: false
 label: 建设单位
 omit: false
 readonly: false
-required: false
+required: true
 searchable: false
 sort_no: 150
 sortable: false

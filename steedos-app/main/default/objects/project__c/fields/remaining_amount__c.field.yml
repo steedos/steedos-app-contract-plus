@@ -1,0 +1,19 @@
+name: remaining_amount__c
+data_type: currency
+filterable: false
+formula: in_price__c - used_project_amount__c
+formula_blank_value: zeroes
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 项目剩余金额
+omit: false
+precision: 18
+readonly: false
+required: false
+scale: 2
+searchable: false
+sort_no: 400
+sortable: false
+type: formula

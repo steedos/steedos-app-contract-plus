@@ -1,0 +1,17 @@
+name: receivable_base__c
+filterable: false
+group: 收款明细
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 应收基数
+omit: false
+precision: 18
+readonly: false
+required: false
+scale: 2
+searchable: false
+sort_no: 200
+sortable: false
+type: number

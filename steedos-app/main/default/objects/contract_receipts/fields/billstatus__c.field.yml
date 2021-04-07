@@ -1,12 +1,14 @@
 name: billstatus__c
+defaultValue: draft
+group: 开票申请
 filterable: false
 hidden: false
 index: false
 is_name: false
 is_wide: false
-label: 收款单审批状态
+label: 开票审批状态
 multiple: false
-omit: false
+omit: true
 options:
   - label: 审批中
     value: pending
@@ -17,10 +19,10 @@ options:
   - label: 已取消
     value: terminated
   - label: 草稿
-    value: notapproval
+    value: draft
 readonly: false
 required: false
 searchable: false
-sort_no: 330
+sort_no: 325
 sortable: false
 type: select
