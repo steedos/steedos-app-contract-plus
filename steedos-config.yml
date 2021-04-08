@@ -33,5 +33,4 @@ plugins:
   - "@steedos/accounts"
   - "@steedos/app-oa"
   - "@steedos/metadata-api"
-  - "@steedos/word-template"
   - "@steedos/plugin-enterprise"

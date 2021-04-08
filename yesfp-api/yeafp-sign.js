@@ -47,19 +47,24 @@ exports.jwtsign = function(param){
 
   // 需要将表单参数requestdatas的数据进行md5加密，然后放到签名数据的requestdatas中。
   // 此签名数据必须存在，否则在验证签名时会不通过。
-  if (param.containsKey("requestdatas")) {
-      const value = param.get("requestdatas");
-      claims.put("requestdatas", getMD5(value));
-  } else if (param.containsKey("nsrsbh")) {
-    const value = paramsMap.get("nsrsbh");
-      claims.put("nsrsbh", getMD5(value));
+  if (param.requestdatas) {
+    const value = param.requestdatas;
+    claims.requestdatas =  getMD5(value);
+  } else if (param.nsrsbh) {
+    const value = param.nsrsbh;
+    claims.nsrsbh = getMD5(value);
   } else {
       //throw new Exception("签名错误");
   }
   const compactJws = jwt.sign(claims, privateKey, { algorithm: config.algorithm});
+  console.log(claims);
+  console.log(compactJws);
   return compactJws;
 }
 
+let getMD5 = function (content){
+  return crypto.createHash('md5').update(content).digest("hex");
+}
 
 // 生成签名
 // let sign = crypto.createSign("RSA-SHA512");
