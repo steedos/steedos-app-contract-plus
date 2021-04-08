@@ -19,3 +19,4 @@ summary_field: amount
 summary_object: contract_payments
 summary_type: sum
 type: summary
+summary_filters: [["payment_status__c", "=", ["unpaid"]]]
