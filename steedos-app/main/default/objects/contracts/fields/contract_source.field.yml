@@ -9,11 +9,11 @@ multiple: false
 omit: false
 options:
   - label: 招投标合同
-    value: bidding
+    value: 招投标合同
   - label: 续签合同
-    value: renewal
+    value: 续签合同
   - label: 其他
-    value: others
+    value: 其他
 readonly: false
 required: false
 searchable: true
