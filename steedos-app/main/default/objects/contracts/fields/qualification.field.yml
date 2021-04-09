@@ -6,7 +6,7 @@ is_name: false
 is_wide: false
 label: 专业资质
 omit: false
-readonly: false
+readonly: true
 required: false
 searchable: false
 sort_no: 327

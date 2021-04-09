@@ -1,7 +1,7 @@
 name: contract_state
 defaultValue: notapproval
 filterable: false
-hidden: false
+hidden: true
 index: false
 is_name: false
 is_wide: false

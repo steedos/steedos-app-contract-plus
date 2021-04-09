@@ -1,10 +1,10 @@
 name: unmade_invoice_amount__c
 data_type: currency
 filterable: false
-formula: amount-made_invoice_amount__c
+formula: amount-applicant_invoice
 formula_blank_value: zeroes
 group: 合同收款信息
-hidden: false
+hidden: true
 index: false
 is_name: false
 is_wide: false

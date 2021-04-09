@@ -5,7 +5,7 @@ hidden: false
 index: false
 is_name: false
 is_wide: false
-label: 序号
+label: 流水号
 omit: true
 readonly: false
 required: false

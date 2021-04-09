@@ -18,7 +18,7 @@ columns:
   - field: contract_type__c
     width: '120'
     wrap: true
-  - field: contract_state
+  - field: instance_state
     width: '120'
     wrap: false
   - field: contract_fulfillment_state
@@ -37,7 +37,7 @@ filter_fields:
   - contract_type__c
   - signed_date
   - othercompany
-  - contract_state
+  - instance_state
 filter_scope: space
 label: 所有合同
 shared: true

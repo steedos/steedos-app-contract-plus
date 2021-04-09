@@ -1,21 +1,25 @@
 name: all
 columns:
   - field: name
-    wrap: false
-  - field: owner
-    width: '100'
+    width: '350'
     wrap: false
   - field: original__c
-    width: '120'
+    width: '110'
     wrap: false
   - field: major__c
-    width: '150'
+    width: '90'
     wrap: false
   - field: construction_unit__c
     width: '280'
     wrap: false
   - field: in_price__c
     width: '150'
+    wrap: false
+  - field: owner
+    width: '90'
+    wrap: false
+  - field: created
+    width: '160'
     wrap: false
 filter_fields:
   - name
@@ -28,6 +32,6 @@ scrolling_mode: standard
 shared: true
 show_count: false
 sort:
-  - field_name: no__c
-    order: asc
+  - field_name: created
+    order: desc
 type: grid

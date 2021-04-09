@@ -28,7 +28,7 @@ uneditable_fields:
   - deadline
   - remark
   - description
-  - contract_state
+  - instance_state
   - stamp_state
   - stamp_user
   - stamp_date

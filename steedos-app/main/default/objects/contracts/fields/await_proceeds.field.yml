@@ -19,4 +19,4 @@ summary_field: amount
 summary_object: contract_receipts
 summary_type: sum
 type: summary
-summary_filters: [["contract_receipts_state__c", "=", ["unreceived"]]]
+summary_filters: ["contract_receipts_state__c", "=", ["unreceived"]]
