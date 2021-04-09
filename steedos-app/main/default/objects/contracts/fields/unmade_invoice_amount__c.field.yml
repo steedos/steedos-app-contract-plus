@@ -1,7 +1,7 @@
 name: unmade_invoice_amount__c
 data_type: currency
 filterable: false
-formula: amount-applicant_invoice
+formula: amount
 formula_blank_value: zeroes
 group: 合同收款信息
 hidden: true

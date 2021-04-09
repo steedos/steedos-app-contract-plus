@@ -3,7 +3,7 @@ data_type: text
 filterable: false
 formula: contract.contract_type.name
 formula_blank_value: zeroes
-hidden: false
+hidden: true
 index: false
 is_name: false
 is_wide: false

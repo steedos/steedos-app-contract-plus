@@ -1,4 +1,5 @@
 name: invoice_type__c
+defaultValue: special_invoice
 filterable: false
 group: 开票申请
 hidden: false

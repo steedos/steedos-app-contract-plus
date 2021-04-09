@@ -16,7 +16,10 @@ searchable: false
 sort_no: 475
 sortable: true
 summary_field: amount
+summary_filters: 
+  - field: payment_status__c
+    operation: '='
+    value: unpaid
 summary_object: contract_payments
 summary_type: sum
 type: summary
-summary_filters: ["payment_status__c", "=", ["unpaid"]]
