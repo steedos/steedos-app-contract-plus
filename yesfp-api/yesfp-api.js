@@ -33,7 +33,7 @@ const recognise =  async function (req, res, next){
         bodyParam.file = Buffer.from(filedata.data).toString('base64');
         console.log("bodyParam.file:"+bodyParam.file.substr(0,100))
         console.log(getUrl(configurl.recognise));
-        const response = await axios({
+        axios({
             method: "POST",
             url: getUrl(configurl.recognise),
             data: bodyParam,
@@ -41,39 +41,25 @@ const recognise =  async function (req, res, next){
                 'Content-Type': 'application/json',
                 'sign': sign
             }
+        }).then( async function(response){
+            console.log(JSON.stringify(response.data));
+            if(response.data.code != "0000"){
+                res.status(200).send({message:response.data.msg});
+                return 
+            }
+    
+            const invoice = await objectql.getSteedosSchema().getObject('contract_invoice_account').insert(response.data);
+            console.log(invoice);
+            // let user = await objectql.getSteedosSchema().getObject('contract_invoice_account').findOne(userId, {fields: ['mobile']})
+    
+            res.status(200).send({message:"OK"});
         })
-        console.log(JSON.stringify(response.data));
-        // let space = dtApi.spaceGet();
-        // let cookies = new Cookies(req, res);
-        // let userId = cookies.get("X-User-Id");
-        // let authToken = cookies.get("X-Auth-Token");
-        // if (!userId && space.dingtalk_corp_id) {
-        //     Meteor.call('dingtalk_sso', space.dingtalk_corp_id, Meteor.absoluteUrl(), function(error, result) {
-        //         if (error) {
-        //             throw _.extend(new Error("Error!" + error.message));
-        //         }
-        //         if (result) {
-        //             DingtalkManager.dd_init_mobile(result);
-        //         }
-        //     });
-        // } else {
-        //     FlowRouter.go('/');
-        // }
-        res.status(200).send({message:"OK"});
     }catch(error){
         console.error(error);
         res.status(200).send({message:"ERROR"});
     }
 }
 
-async function getfile(url) {
-    let response = await axios({
-        method: "GET",
-        url: url,
-     })
-     console.log(response) 
-     return response;
-}
 const getUrl =  function(url){
     return configurl.domain + url + configurl.appid;
 }
