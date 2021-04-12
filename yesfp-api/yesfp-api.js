@@ -47,12 +47,38 @@ const recognise =  async function (req, res, next){
                 res.status(200).send({message:response.data.msg});
                 return 
             }
-    
-            const invoice = await objectql.getSteedosSchema().getObject('contract_invoice_account').insert(response.data);
+            const originData = response.data.datas[0];
+            let invoice = {}
+            invoice.pk_invoice = originData.data.items.pkInvoice; // 待定
+            invoice.bill_type = originData.billType;
+            invoice.name = originData.data.fpHm;
+            invoice.invoice_code = originData.data.fpDm;
+            let kprq = originData.data.kprq;
+            invoice.date = new Date(kprq.substr(0,4) + '/' + kprq.substr(4,2) + '/' + kprq.substr(6,2));
+            invoice.jym = originData.data.jym;
+            invoice.hjje = originData.data.hjje;
+            invoice.hjse = originData.data.hjse;
+            invoice.sl = originData.data.items[0].sl;
+            invoice.jshj = originData.data.jshj;
+            invoice.xsf_mc = originData.data.xsfMc;
+            invoice.xsf_nsrsbh = originData.data.xsfNsrsbh;
+            invoice.lslbs = originData.data.items[0].lslbs; // 待定
+            invoice.zfbz = originData.data.zfbz ;
+            // invoice.status = originData.data. ;   //未找到对应字段
+            // invoice.company_id =  ;
+            // invoice.owner_organization =  ;
+            // invoice.owner =   ;
+            // invoice.payment_date =   ;
+            // invoice.contract =   ;
+            // invoice.contract_payable =  ;
+            // invoice.contract_payment =   ;
+            // invoice.account_payable_invoice =   ;
+            
+            invoice = await objectql.getSteedosSchema().getObject('contract_invoice_account').insert(invoice);
             console.log(invoice);
             // let user = await objectql.getSteedosSchema().getObject('contract_invoice_account').findOne(userId, {fields: ['mobile']})
     
-            res.status(200).send({message:"OK"});
+            res.status(200).send({message:response.data.msg});
         })
     }catch(error){
         console.error(error);

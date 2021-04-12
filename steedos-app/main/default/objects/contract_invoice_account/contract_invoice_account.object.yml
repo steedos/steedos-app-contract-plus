@@ -3,3 +3,20 @@ enable_api: true
 enable_share: true
 icon: account
 label: 发票台账
+permission_set:
+  user:
+    allowCreate: true
+    allowDelete: true
+    allowEdit: true
+    allowRead: true
+    modifyAllRecords: false
+    viewAllRecords: true
+    uneditable_fields: ["no__c","billType","zfbz","status","company_id","owner_organization","owner","payment_date"]
+  admin:
+    allowCreate: true
+    allowDelete: true
+    allowEdit: true
+    allowRead: true
+    modifyAllRecords: true
+    viewAllRecords: true
+    uneditable_fields: ["no__c","billType","zfbz","status","company_id","owner_organization","owner","payment_date"]

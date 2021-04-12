@@ -2,7 +2,19 @@ name: all
 columns:
   - field: name
     wrap: false
-  - field: code
+  - field: pk_invoice
+    wrap: false
+  - field: bill_type
+    wrap: false
+  - field: invoice_code
+    wrap: false
+  - field: date
+    wrap: false
+  - field: jym
+    wrap: false
+  - field: hjje
+    wrap: false
+  - field: hjse
     wrap: false
   - field: modified
     wrap: false

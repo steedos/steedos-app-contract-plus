@@ -19,6 +19,3 @@ actions:
   invoiceIdent:
     label: 发票识别
     on: record
-  openWindow:
-    label: 打开网站
-    on: list
