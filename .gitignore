@@ -68,5 +68,4 @@ package-lock.json
 .migrate
 .history/*
 storage/files/*
-/.vscode/launch.json
 /doc/
