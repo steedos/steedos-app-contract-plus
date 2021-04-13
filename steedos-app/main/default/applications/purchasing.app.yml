@@ -4,11 +4,20 @@ description: 合同、收款单、付款单
 from_code_id: purchasing
 icon_slds: contract
 is_creator: true
+is_new_window: false
+is_use_ie: false
+is_use_iframe: false
+mobile: false
+oauth2_enabled: false
+oauth2_logout_enabled: false
 objects:
   - contracts
   - contract_payments
   - contract_payment_invoice
   - contract_receipts
   - contract_receipt_invoice
+  - contract_payment_noter__c
+saml_enabled: false
+saml_logout_enabled: false
 sort: 20
 visible: true
