@@ -1,7 +1,7 @@
 name: money__c
 data_type: currency
 filterable: false
-formula: amount
+formula: quantity__c*price__c
 formula_blank_value: zeroes
 group: 开票申请
 hidden: false
