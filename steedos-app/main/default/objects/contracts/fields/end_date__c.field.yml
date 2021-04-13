@@ -6,7 +6,7 @@ is_name: false
 is_wide: false
 label: 合同结束日期
 omit: false
-readonly: true
+readonly: false
 required: false
 searchable: false
 sort_no: 395
