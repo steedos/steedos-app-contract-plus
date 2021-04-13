@@ -1,25 +1,19 @@
 module.exports = {
   invoiceIdent: function (object_name, record_id, fields) {
-      var doc = Creator.odata.get(object_name, record_id);
-      console.log(doc);
-      // var newRecord = _.pick(doc, Creator.getObjectFieldsName(object_name));
-      // delete newRecord.is_system;
-      // delete newRecord._id;
-      // newRecord.from_code_id = record_id;
-      // Creator.odata.insert(object_name, newRecord, function(result, error){
-      //     if(result){
-      //         FlowRouter.go(`/app/-/${object_name}/view/${result._id}`)
-      //     }
-      // });
-      console.log(jQuery);
-      console.log($);
-      console.log('hahahaa');
-          
+    var doc = Creator.odata.get(object_name, record_id);
+    console.log(doc);
+    //  有上传发票图片的才识别
+    if(doc && doc.invoice_image__c){
+      let data = {};
+      data.invoice_image__c = window.location.origin + "/api/files/images/" +  doc.invoice_image__c;
+
+      $.post("/api/yesfp/recognise",data,function(result){
+        console.log(result);
+      });
+    }
   },
   invoiceIdentVisible: function(object_name, record_id, record_permissions, record){
     return true;
-      // if(record._id === 'admin'){return false;}
-      // return Creator.baseObject.actions.standard_new.visible() && record.is_system;
   },
   // reset: function(object_name, record_id, fields){
   //     var record = Creator.odata.get(object_name, record_id);

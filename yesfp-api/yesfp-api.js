@@ -16,13 +16,12 @@ const configurl ={
 
 const recognise =  async function (req, res, next){
     try{
-        // let fileurl = req.query.fileurl;
         const body = req.body;
         console.log(body);
-        const fileurl = body.fileurl;
+        const invoice_image__c = body.invoice_image__c;
         const filedata = await axios({
             method: "GET",
-            url: fileurl,
+            url: invoice_image__c,
             responseType:'arraybuffer',
         })
         console.log(filedata.data.length);
