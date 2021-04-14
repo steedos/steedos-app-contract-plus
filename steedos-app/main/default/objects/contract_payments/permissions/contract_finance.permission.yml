@@ -13,8 +13,6 @@ uneditable_fields:
   - amount_description
   - project_name__c
   - contract_types_name__c
-  - count__c
-  - sumprice__c
   - finished
   - instances
   - owner

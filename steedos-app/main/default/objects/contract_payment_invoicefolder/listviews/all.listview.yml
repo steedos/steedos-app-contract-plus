@@ -1,0 +1,25 @@
+name: all
+columns:
+  - field: name
+    wrap: false
+  - field: contract__c
+    wrap: false
+  - field: invoice_type__c
+    wrap: false
+  - field: sumprice__c
+    wrap: false
+  - field: taxrate__c
+    wrap: false
+  - field: complete_invoice__c
+    wrap: false
+filter_fields:
+  - contract__c
+  - complete_invoice__c
+  - invoice_type__c
+filter_scope: space
+filters: []
+label: 所有
+scrolling_mode: standard
+shared: true
+show_count: false
+type: grid
