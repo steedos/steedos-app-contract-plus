@@ -1,6 +1,6 @@
 name: no__c
 filterable: false
-formula: '{0}'
+formula: 'P-{00000}'
 hidden: false
 index: false
 is_name: false
