@@ -1,0 +1,8 @@
+{
+  "name": "@steedos/app-contracts-plus",
+  "version": "0.0.1",
+  "description": "A Steedos Contracts plus App",
+  "main": "package.service.js",
+  "license": "MIT",
+  "private": true
+}
