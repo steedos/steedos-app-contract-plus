@@ -20,6 +20,7 @@ is_enable: true
 label: 合同
 relatedList:
   - cms_files
+  - contract_payment_invoicefolder
   - contract_payments
   - contract_receipts
   - events

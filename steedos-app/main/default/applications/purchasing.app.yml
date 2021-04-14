@@ -7,6 +7,7 @@ is_creator: true
 objects:
   - contracts
   - contract_payments
+  - contract_payment_invoicefolder
   - contract_payment_invoice
   - contract_receipts
   - contract_receipt_invoice
