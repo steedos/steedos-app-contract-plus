@@ -8,7 +8,7 @@ is_name: false
 is_wide: false
 label: 收款状态
 multiple: false
-omit: false
+omit: true
 options:
   - label: 已收款
     value: received
