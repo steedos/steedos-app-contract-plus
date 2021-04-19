@@ -1,6 +1,6 @@
 Steedos.CRM = {};
 
-Steedos.CRM.showLeadreceiptForm = function (fields, formId, doc, onConfirm, title) {
+Steedos.CRM.showContractreceiptForm = function (fields, formId, doc, onConfirm, title) {
     var schema = Creator.getObjectSchema({ fields: fields });
     Modal.show("quickFormModal", { formId: formId, title: title || "编辑收款信息", confirmBtnText: `保存`, schema: schema, autoExpandGroup: true, doc: doc, onConfirm: onConfirm }, {
         backdrop: 'static',
@@ -8,7 +8,7 @@ Steedos.CRM.showLeadreceiptForm = function (fields, formId, doc, onConfirm, titl
     });
 }
 
-Steedos.CRM.receiptLead = function (record) {
+Steedos.CRM.contractReceipt = function (record) {
     
     const record_id = record._id;
     const object_name = "contract_receipts";
@@ -16,8 +16,8 @@ Steedos.CRM.receiptLead = function (record) {
     doc.new_receipts_state = record.contract_receipts_state__c;
     doc.new_receipt_date = record.receipt_date__c;
     doc.new_billno = record.billno__c;
-    var formId = 'leadreceiptForm';
-    Steedos.CRM.showLeadreceiptForm({
+    var formId = 'contractreceiptForm';
+    Steedos.CRM.showContractreceiptForm({
         contract_receipts_state__c: {
             label: "收款状态",
             type: 'select',
