@@ -1,0 +1,17 @@
+name: contract_state
+data_type: text
+filterable: false
+formula: CASE(contract.instance_state, "draft", "草稿", "pending", "审批中", "approved", "已核准", "rejected", "已驳回", "terminated", "已取消", "已完成")
+formula_blank_value: zeroes
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 合同审批状态
+omit: false
+readonly: false
+required: false
+searchable: false
+sort_no: 375
+sortable: false
+type: formula
