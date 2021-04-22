@@ -1,19 +1,19 @@
-name: money__c
+name: excluding_tax_amount
 data_type: currency
 filterable: false
-formula: quantity__c*price__c
+formula: money__c-ROUND(money__c*CASE(tax__c,"0.03", 0.03, "0.06", 0.06, "0.09", 0.09, 0.11),2)
 formula_blank_value: zeroes
 hidden: false
 index: false
 is_name: false
 is_wide: false
-label: 金额
+label: 不含税金额
 omit: false
 precision: 18
 readonly: false
 required: false
 scale: 2
 searchable: false
-sort_no: 235
+sort_no: 240
 sortable: false
 type: formula

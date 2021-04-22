@@ -6,9 +6,16 @@ is_name: false
 is_wide: false
 label: 开票内容
 omit: false
+options:
+  - label: 工程款
+    value: 工程款
+  - label: 服务费
+    value: 服务费
+  - label: 劳务费
+    value: 劳务费
 readonly: false
 required: true
 searchable: false
 sort_no: 210
 sortable: false
-type: text
+type: select

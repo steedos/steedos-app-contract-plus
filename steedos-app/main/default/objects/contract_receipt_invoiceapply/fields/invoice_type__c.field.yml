@@ -1,4 +1,5 @@
 name: invoice_type__c
+defaultValue: special_invoice
 filterable: false
 hidden: false
 index: false
@@ -8,10 +9,12 @@ label: 发票种类
 multiple: false
 omit: false
 options:
-  - label: 专票
-    value: special_ticket
-  - label: 普票
+  - label: 增值税专用发票
+    value: special_invoice
+  - label: 增值税普通发票
     value: regular_invoice
+  - label: 其他
+    value: others
 readonly: false
 required: true
 searchable: false
