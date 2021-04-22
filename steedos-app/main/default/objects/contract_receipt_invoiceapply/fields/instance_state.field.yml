@@ -1,0 +1,10 @@
+type: select
+label: 发票审批状态
+readonly: true
+omit: true
+hidden: false
+sort_no: 330
+filterable: true
+searchable: true
+sortable: true
+name: instance_state

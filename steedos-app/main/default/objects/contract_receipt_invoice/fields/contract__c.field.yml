@@ -10,11 +10,11 @@ omit: false
 optionsFunction: !<tag:yaml.org,2002:js/function> |-
   function(values) {
           var _options = [];
-          var receipt= _.isObject(values.receipt__c) ? values.receipt__c._id : values.receipt__c ;
+          var invoiceapply= _.isObject(values.invoiceapply__c) ? values.invoiceapply__c._id : values.invoiceapply__c ;
           if (!receipt) {
             return;
           }
-          var contract = Creator.odata.get('contract_receipts', receipt, 'contract');
+          var contract = Creator.odata.get('contract_receipt_invoiceapply', invoiceapply, 'contract');
           if (contract) {
             var thiscontract  = Creator.odata.get('contracts', contract.contract, 'name');
             if (thiscontract){

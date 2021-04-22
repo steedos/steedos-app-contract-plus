@@ -22,7 +22,8 @@ relatedList:
   - cms_files
   - contract_payment_invoicefolder
   - contract_payments
-  - contract_receipts
+  - contract_receipts  
+  - contract_receipt_invoiceapply
   - events
   - instances
   - audit_records

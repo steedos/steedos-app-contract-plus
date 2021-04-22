@@ -1,7 +1,6 @@
 name: taxrate__c
 filterable: false
-group: 开票申请
-hidden: true
+hidden: false
 index: false
 is_name: false
 is_wide: false

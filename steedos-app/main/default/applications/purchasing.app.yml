@@ -10,6 +10,7 @@ objects:
   - contract_payment_invoicefolder
   - contract_payment_invoice
   - contract_receipts
+  - contract_receipt_invoiceapply
   - contract_receipt_invoice
 sort: 20
 visible: true

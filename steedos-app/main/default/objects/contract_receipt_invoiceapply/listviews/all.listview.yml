@@ -1,0 +1,23 @@
+name: all
+columns:
+  - field: id__c
+    wrap: false
+  - field: money__c
+    wrap: false
+  - field: contract__c
+    wrap: false
+  - field: instance_state
+    wrap: false
+  - field: invoice_type__c
+    wrap: false
+  - field: account__c
+    wrap: false
+  - field: customer_bank__c
+    wrap: false
+filter_scope: space
+filters: []
+label: 所有
+scrolling_mode: standard
+shared: true
+show_count: false
+type: grid
