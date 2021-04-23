@@ -4,7 +4,7 @@ filterable: false
 formula: amount
 formula_blank_value: zeroes
 group: 开票申请
-hidden: false
+hidden: true
 index: false
 is_name: false
 is_wide: false
