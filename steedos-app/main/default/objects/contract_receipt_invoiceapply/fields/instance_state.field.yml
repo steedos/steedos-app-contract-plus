@@ -1,4 +1,5 @@
 type: select
+defaultValue: draft
 label: 发票审批状态
 readonly: true
 omit: true

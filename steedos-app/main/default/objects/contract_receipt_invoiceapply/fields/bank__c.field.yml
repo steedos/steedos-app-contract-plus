@@ -1,5 +1,8 @@
 name: bank__c
+data_type: text
 filterable: false
+formula: customer_bank__c.pk_bankdoc.name
+formula_blank_value: zeroes
 hidden: false
 index: false
 is_name: false
@@ -8,9 +11,8 @@ label: 开户行
 multiple: false
 omit: false
 readonly: false
-reference_to: bank
 required: false
 searchable: false
 sort_no: 190
 sortable: false
-type: lookup
+type: formula

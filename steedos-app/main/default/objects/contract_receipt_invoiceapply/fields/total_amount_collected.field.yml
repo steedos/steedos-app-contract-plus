@@ -1,7 +1,7 @@
 name: total_amount_collected
 data_type: currency
 filterable: false
-formula: contract__c.total_amount_collected__c
+formula: contract.total_amount_collected__c
 formula_blank_value: zeroes
 hidden: false
 index: false
