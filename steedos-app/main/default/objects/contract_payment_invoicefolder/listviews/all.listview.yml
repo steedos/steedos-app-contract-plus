@@ -8,7 +8,7 @@ columns:
     wrap: false
   - field: sumprice__c
     wrap: false
-  - field: taxrate__c
+  - field: tax__c
     wrap: false
   - field: complete_invoice__c
     wrap: false

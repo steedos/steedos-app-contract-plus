@@ -5,7 +5,7 @@ enable_audit: true
 enable_chatter: false
 enable_events: false
 enable_files: true
-enable_inline_edit: true
+enable_inline_edit: false
 enable_instances: false
 enable_notes: false
 enable_search: true
