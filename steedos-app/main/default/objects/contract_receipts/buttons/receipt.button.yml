@@ -1,0 +1,5 @@
+name: receipt
+is_enable: true
+label: 编辑收款信息
+'on': record_only
+visible: true

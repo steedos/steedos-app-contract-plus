@@ -6,7 +6,7 @@ is_name: false
 is_wide: true
 label: 合同名称
 omit: false
-readonly: false
+readonly: true
 required: true
 searchable: true
 sort_no: 10

@@ -16,6 +16,10 @@ searchable: false
 sort_no: 500
 sortable: true
 summary_field: amount
+summary_filters: 
+  - field: contract_receipts_state__c
+    operation: '='
+    value: unreceived
 summary_object: contract_receipts
 summary_type: sum
 type: summary

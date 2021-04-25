@@ -1,0 +1,16 @@
+name: management_fee_scale
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 管理费比例
+omit: false
+precision: 18
+readonly: false
+required: true
+scale: 2
+searchable: false
+sort_no: 243
+sortable: false
+type: percent

@@ -12,5 +12,5 @@ required: false
 searchable: false
 sort_no: 190
 sortable: false
-type: master_detail
-write_requires_master_read: false
+type: lookup
+write_requires_master_read: true

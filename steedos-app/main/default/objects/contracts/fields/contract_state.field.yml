@@ -1,7 +1,7 @@
 name: contract_state
 defaultValue: notapproval
 filterable: false
-hidden: false
+hidden: true
 index: false
 is_name: false
 is_wide: false
@@ -13,6 +13,8 @@ options:
     value: pending
   - label: 已核准
     value: approved
+  - label: 已完成
+    value: completed
   - label: 已驳回
     value: rejected
   - label: 已取消

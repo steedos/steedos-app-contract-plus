@@ -1,7 +1,8 @@
 name: invoice_type__c
+defaultValue: special_invoice
 filterable: false
 group: 开票申请
-hidden: false
+hidden: true
 index: false
 is_name: false
 is_wide: false
@@ -9,14 +10,12 @@ label: 发票类型
 multiple: false
 omit: false
 options:
-  - label: 电子发票
-    value: electronic_invoice
-  - label: 普通发票
-    value: regular_invoice
-  - label: 专用发票
+  - label: 增值税专用发票
     value: special_invoice
-  - label: 无发票
-    value: no_invoice
+  - label: 增值税普通发票
+    value: regular_invoice
+  - label: 其他
+    value: others
 readonly: false
 required: false
 searchable: false

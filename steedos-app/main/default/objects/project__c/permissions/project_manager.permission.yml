@@ -1,4 +1,4 @@
-name: 项目信息.项目管理员
+name: 项目信息.项目维护权限
 allowCreate: true
 allowDelete: true
 allowEdit: true

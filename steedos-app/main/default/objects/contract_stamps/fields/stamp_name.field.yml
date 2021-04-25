@@ -13,4 +13,4 @@ searchable: true
 sort_no: 50
 sortable: false
 type: master_detail
-write_requires_master_read: false
+write_requires_master_read: true

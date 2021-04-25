@@ -2,5 +2,6 @@ name: contract_type
 label: 分类
 reference_to: contract_types
 required: true
+readonly: true
 sort_no: 160
 type: lookup

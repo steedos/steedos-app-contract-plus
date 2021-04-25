@@ -28,14 +28,14 @@ filter_fields:
   - contract_type
   - signed_date
   - othercompany
-  - contract_state
+  - instance_state
 filter_scope: space
 filters: |-
   function anonymous(
   ) {
 
       return [
-        ["contract_state","<>","terminated"]
+        ["instance_state","<>","terminated"]
       ];
 
   }

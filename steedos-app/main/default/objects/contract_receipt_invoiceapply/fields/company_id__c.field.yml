@@ -1,0 +1,16 @@
+name: company_id__c
+filterable: false
+hidden: true
+index: false
+is_name: false
+is_wide: false
+label: 我方单位
+reference_to: company
+multiple: false
+omit: false
+readonly: false
+required: false
+searchable: false
+sort_no: 205
+sortable: false
+type: lookup

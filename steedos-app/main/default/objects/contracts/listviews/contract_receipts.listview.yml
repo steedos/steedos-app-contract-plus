@@ -6,7 +6,7 @@ columns:
   - field: 'no'
     width: '150'
     wrap: true
-  - field: contract_state
+  - field: instance_state
     width: '120'
     wrap: true
   - field: othercompany
@@ -37,7 +37,7 @@ filter_fields:
   - contract_type
   - signed_date
   - othercompany
-  - contract_state
+  - instance_state
   - bop
 filter_scope: space
 filters:
@@ -50,7 +50,7 @@ filters:
   - field: othercompany
     is_default: true
     is_required: false
-  - field: contract_state
+  - field: instance_state
     is_default: true
     is_required: false
   - is_default: true

@@ -1,0 +1,25 @@
+name: tax__c
+filterable: false
+group: 开票申请
+hidden: true
+index: false
+is_name: false
+is_wide: false
+label: 税率
+multiple: false
+omit: false
+options:
+  - label: 3%
+    value: '0.03'
+  - label: 6%
+    value: '0.06'
+  - label: 9%
+    value: '0.09'
+  - label: 11%
+    value: '0.11'
+readonly: false
+required: false
+searchable: false
+sort_no: 245
+sortable: false
+type: select

@@ -9,10 +9,10 @@ multiple: false
 omit: false
 options:
   - label: 是
-    value: true
+    value: 是
   - label: 否
-    value: false
-readonly: false
+    value: 否
+readonly: true
 required: false
 searchable: true
 sort_no: 329

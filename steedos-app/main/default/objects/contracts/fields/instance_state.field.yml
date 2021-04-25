@@ -1,0 +1,9 @@
+type: select
+label: 合同审批状态
+readonly: true
+omit: true
+hidden: false
+sort_no: 430
+filterable: true
+searchable: true
+sortable: true

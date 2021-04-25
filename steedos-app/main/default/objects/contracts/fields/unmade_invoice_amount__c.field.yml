@@ -4,7 +4,7 @@ filterable: false
 formula: amount-made_invoice_amount__c
 formula_blank_value: zeroes
 group: 合同收款信息
-hidden: false
+hidden: true
 index: false
 is_name: false
 is_wide: false

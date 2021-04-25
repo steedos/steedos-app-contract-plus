@@ -11,7 +11,7 @@ is_wide: false
 label: 签约对象
 multiple: false
 omit: false
-readonly: false
+readonly: true
 reference_to: accounts
 required: true
 searchable: true

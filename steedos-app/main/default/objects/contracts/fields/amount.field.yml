@@ -7,7 +7,7 @@ is_wide: false
 label: 合同金额
 omit: false
 precision: 18
-readonly: false
+readonly: true
 required: true
 scale: 2
 searchable: false

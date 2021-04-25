@@ -7,10 +7,11 @@ is_wide: false
 label: 项目
 multiple: false
 omit: false
-readonly: false
+readonly: true
 reference_to: project__c
 required: false
 searchable: false
 sort_no: 415
 sortable: true
 type: master_detail
+write_requires_master_read: true

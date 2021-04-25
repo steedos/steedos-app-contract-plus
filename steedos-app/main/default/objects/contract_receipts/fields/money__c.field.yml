@@ -1,10 +1,10 @@
 name: money__c
 data_type: currency
 filterable: false
-formula: quantity__c*price__c
+formula: amount
 formula_blank_value: zeroes
 group: 开票申请
-hidden: false
+hidden: true
 index: false
 is_name: false
 is_wide: false

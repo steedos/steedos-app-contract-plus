@@ -1,0 +1,10 @@
+name: 项目信息.项目查看权限
+allowCreate: false
+allowDelete: false
+allowEdit: false
+allowRead: true
+modifyAllRecords: false
+modifyCompanyRecords: false
+permission_set_id: project_viewer
+viewAllRecords: true
+viewCompanyRecords: false

@@ -16,6 +16,6 @@ searchable: false
 sort_no: 480
 sortable: false
 summary_field: sumprice__c
-summary_object: contract_payments
+summary_object: contract_payment_invoicefolder
 summary_type: sum
 type: summary

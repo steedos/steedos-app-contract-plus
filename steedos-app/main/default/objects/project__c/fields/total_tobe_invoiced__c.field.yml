@@ -1,13 +1,13 @@
 name: total_tobe_invoiced__c
 data_type: currency
 filterable: false
-group: 项目收款信息
+group: 施工合同收款信息
 hidden: false
 index: false
 is_name: false
 is_wide: false
 label: 发票累计(待开票)
-omit: false
+omit: true
 precision: 18
 readonly: false
 required: false

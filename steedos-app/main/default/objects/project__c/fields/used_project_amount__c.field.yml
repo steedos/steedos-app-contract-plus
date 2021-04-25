@@ -1,13 +1,13 @@
 name: used_project_amount__c
 data_type: number
-defaultValue: '0'
 filterable: false
+group: 项目收付款信息
 hidden: false
 index: false
 is_name: false
 is_wide: false
-label: 工程合同已用金额
-omit: false
+label: 工程合同总金额
+omit: true
 precision: 18
 readonly: false
 required: false

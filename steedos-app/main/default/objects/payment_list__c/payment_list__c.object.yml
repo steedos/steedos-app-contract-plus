@@ -13,5 +13,5 @@ enable_share: false
 enable_tasks: false
 enable_workflow: false
 icon: product
-is_enable: true
+is_enable: false
 label: 付款清单
