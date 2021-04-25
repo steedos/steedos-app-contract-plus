@@ -1,5 +1,0 @@
-name: last_date_acceptance
-label: 约定验收期限
-type: date
-index: true
-sort_no: 480

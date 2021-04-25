@@ -1,5 +1,0 @@
-name: account
-label: 对方单位
-type: master_detail
-reference_to: accounts
-sort_no: 270

@@ -1,5 +1,0 @@
-name: acceptance_date
-label: 实际验收日期
-type: date
-index: true
-sort_no: 490

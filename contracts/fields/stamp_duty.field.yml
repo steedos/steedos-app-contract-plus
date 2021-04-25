@@ -1,5 +1,0 @@
-name: stamp_duty
-type: number
-label: 印花税额
-scale: 1
-sort_no: 400

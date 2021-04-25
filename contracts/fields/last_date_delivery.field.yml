@@ -1,5 +1,0 @@
-name: last_date_delivery
-label: 约定交付期限
-type: date
-index: true
-sort_no: 460

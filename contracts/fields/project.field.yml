@@ -1,6 +1,0 @@
-name: project
-type: text
-label: 计划编号
-filterable: true
-index: true
-sort_no: 110
