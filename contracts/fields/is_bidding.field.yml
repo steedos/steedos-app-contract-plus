@@ -1,0 +1,14 @@
+name: is_bidding
+type: select
+label: 是否招投标
+defaultValue: 否
+options:
+  - label: 是
+    value: 是
+  - label: 否
+    value: 否
+allowedValues:
+  - 是
+  - 否
+index: true
+sort_no: 340

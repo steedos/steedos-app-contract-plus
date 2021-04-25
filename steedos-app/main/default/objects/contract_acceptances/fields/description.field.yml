@@ -1,0 +1,5 @@
+name: description
+label: 验收意见
+type: textarea
+is_wide: true
+sort_no: 150

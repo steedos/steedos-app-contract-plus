@@ -1,0 +1,5 @@
+name: yinhuashuilv
+type: number
+label: 印花税率
+scale: 4
+sort_no: 390

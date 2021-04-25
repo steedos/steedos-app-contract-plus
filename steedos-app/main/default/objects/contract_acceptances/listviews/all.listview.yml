@@ -1,0 +1,9 @@
+name: all
+label: 所有
+columns:
+  - name
+  - contract
+  - account
+  - due_date
+  - accept_date
+filter_scope: space

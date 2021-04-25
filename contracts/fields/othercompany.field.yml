@@ -1,0 +1,5 @@
+name: othercompany
+type: text
+label: 对方单位名称
+index: true
+sort_no: 280

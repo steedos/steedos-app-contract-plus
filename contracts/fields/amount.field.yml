@@ -1,0 +1,8 @@
+name: amount
+label: 金额
+type: number
+scale: 2
+required: true
+sortable: true
+index: true
+sort_no: 150

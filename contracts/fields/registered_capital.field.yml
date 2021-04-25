@@ -1,0 +1,6 @@
+name: registered_capital
+type: number
+label: 注册资金
+scale: 2
+hidden: true
+sort_no: 320

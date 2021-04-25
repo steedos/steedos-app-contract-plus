@@ -1,0 +1,5 @@
+name: pretax_amount
+type: number
+label: 不含税金额
+scale: 2
+sort_no: 370

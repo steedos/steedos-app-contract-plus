@@ -1,0 +1,5 @@
+name: due_date
+label: 计划验收日期
+type: date
+sortable: true
+sort_no: 130

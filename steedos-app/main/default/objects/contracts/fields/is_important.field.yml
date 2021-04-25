@@ -1,0 +1,13 @@
+name: is_important
+type: select
+label: 是否重大合同
+defaultValue: 否
+options:
+  - label: 是重大合同
+    value: 是
+  - label: 不是重大合同
+    value: 否
+allowedValues:
+  - 是
+  - 否
+sort_no: 330

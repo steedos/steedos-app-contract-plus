@@ -1,0 +1,10 @@
+name: company_id
+label: 承办单位
+required: true
+omit: false
+hidden: false
+sortable: true
+index: true
+type: lookup
+reference_to: company
+sort_no: 220

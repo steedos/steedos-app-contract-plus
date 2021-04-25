@@ -7,11 +7,13 @@ is_creator: true
 sort: 90
 objects:
   - contracts
+  - contract_acceptances
   - contract_payments
   - contract_payment_invoicefolder
   - contract_payment_invoice
   - contract_receipts
   - contract_receipt_invoice
+
 visible: true
 admin_menus:
   - _id: contracts

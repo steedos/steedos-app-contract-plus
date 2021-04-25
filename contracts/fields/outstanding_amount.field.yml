@@ -1,0 +1,6 @@
+name: outstanding_amount
+type: number
+label: 未结金额
+scale: 2
+index: true
+sort_no: 420

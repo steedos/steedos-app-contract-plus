@@ -1,0 +1,33 @@
+name: contract_state
+type: select
+label: 合同履行状态
+options:
+  - label: 未签订
+    value: 未签订
+  - label: 进行中
+    value: 进行中
+  - label: 解除
+    value: 解除
+  - label: 异常
+    value: 异常
+  - label: 已验收
+    value: 已验收
+  - label: 完毕
+    value: 完毕
+  - label: 违约但继续履行
+    value: 违约但继续履行
+  - label: 未指定
+    value: 未指定
+allowedValues:
+  - 未签订
+  - 进行中
+  - 解除
+  - 异常
+  - 已验收
+  - 完毕
+  - 违约但继续履行
+  - 未指定
+defaultValue: 未指定
+required: true
+index: true
+sort_no: 170

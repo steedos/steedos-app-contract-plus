@@ -1,0 +1,6 @@
+name: advance_amount
+type: number
+label: 已付金额
+scale: 2
+index: true
+sort_no: 410

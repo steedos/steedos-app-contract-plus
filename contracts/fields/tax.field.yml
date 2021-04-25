@@ -1,0 +1,5 @@
+name: tax
+type: number
+label: 合同税
+scale: 2
+sort_no: 380

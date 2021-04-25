@@ -1,0 +1,5 @@
+name: fileid
+type: text
+label: 申请单id
+hidden: true
+sort_no: 520

@@ -1,0 +1,5 @@
+name: accept_date
+label: 实际验收日期
+type: date
+sortable: true
+sort_no: 140

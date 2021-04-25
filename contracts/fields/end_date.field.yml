@@ -1,0 +1,7 @@
+name: end_date
+label: 结束日期
+type: date
+sortable: true
+filterable: true
+index: true
+sort_no: 190

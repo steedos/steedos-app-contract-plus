@@ -1,0 +1,6 @@
+name: company_id
+omit: true
+hidden: false
+type: lookup
+reference_to: company
+sort_no: 160

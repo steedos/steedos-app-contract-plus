@@ -1,0 +1,8 @@
+name: account
+label: 单位
+type: master_detail
+reference_to: accounts
+sortable: true
+omit: true
+filterable: true
+sort_no: 120

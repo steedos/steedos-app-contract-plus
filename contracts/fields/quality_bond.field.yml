@@ -1,0 +1,5 @@
+name: quality_bond
+type: number
+label: 质量保证金
+scale: 2
+sort_no: 430

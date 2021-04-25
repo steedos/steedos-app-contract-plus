@@ -1,0 +1,9 @@
+name: recent
+label: 最近查看
+columns:
+  - name
+  - contract
+  - account
+  - due_date
+  - accept_date
+filter_scope: space

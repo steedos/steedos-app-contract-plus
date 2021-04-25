@@ -1,0 +1,13 @@
+name: is_solid_investment
+type: select
+label: 是否固投项目
+defaultValue: 否
+options:
+  - label: 是
+    value: 是
+  - label: 否
+    value: 否
+allowedValues:
+  - 是
+  - 否
+sort_no: 360
