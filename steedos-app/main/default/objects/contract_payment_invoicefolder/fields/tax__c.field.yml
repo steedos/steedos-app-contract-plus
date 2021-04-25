@@ -1,16 +1,24 @@
-name: taxrate__c
+name: tax__c
 filterable: false
-hidden: true
+hidden: false
 index: false
 is_name: false
 is_wide: false
 label: 税率
 multiple: false
 omit: false
+options:
+  - label: 3%
+    value: '0.03'
+  - label: 6%
+    value: '0.06'
+  - label: 9%
+    value: '0.09'
+  - label: 11%
+    value: '0.11'
 readonly: false
-reference_to: account_tax
 required: false
 searchable: false
 sort_no: 200
 sortable: false
-type: lookup
+type: select
