@@ -1,6 +1,6 @@
 name: customer_contact
 label: 联系人
-type: master_detail
+type: lookup
 reference_to: contacts
 filterable: false
 sort_no: 290
