@@ -4,13 +4,21 @@ hidden: false
 index: false
 is_name: false
 is_wide: false
-label: 税额
+label: 税率
+multiple: false
 omit: false
-precision: 18
+options:
+  - label: 3%
+    value: '0.03'
+  - label: 6%
+    value: '0.06'
+  - label: 9%
+    value: '0.09'
+  - label: 11%
+    value: '0.11'
 readonly: false
 required: false
-scale: 2
 searchable: false
-sort_no: 490
+sort_no: 500
 sortable: false
-type: currency
+type: select

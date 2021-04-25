@@ -1,19 +1,19 @@
-name: notax_amount__c
+name: tax_amount__c
 data_type: currency
 filterable: false
-formula: amount__c - tax_amount__c
+formula: ROUND(amount__c*VALUE(TEXT(tax__c)),2)
 formula_blank_value: zeroes
 hidden: false
 index: false
 is_name: false
 is_wide: false
-label: 不含税金额
+label: 税额
 omit: false
 precision: 18
 readonly: false
 required: false
 scale: 2
 searchable: false
-sort_no: 480
+sort_no: 490
 sortable: false
 type: formula
