@@ -1,5 +1,0 @@
-name: delivery_date
-label: 实际交付日期
-type: date
-index: true
-sort_no: 470

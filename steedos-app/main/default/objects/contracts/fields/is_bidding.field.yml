@@ -1,7 +1,7 @@
 name: is_bidding
 filterable: false
 hidden: false
-index: false
+index: true
 is_name: false
 is_wide: false
 label: 是否招投标
@@ -19,6 +19,6 @@ options:
 readonly: false
 required: false
 searchable: false
-sort_no: 420
+sort_no: 340
 sortable: false
 type: select

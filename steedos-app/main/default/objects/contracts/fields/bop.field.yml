@@ -12,9 +12,11 @@ options:
     value: payment
   - label: 收款业务
     value: gathering
+  - label: 未指定
+    value: novalue
 readonly: false
 required: true
 searchable: false
-sort_no: 200
+sort_no: 130
 sortable: false
 type: select

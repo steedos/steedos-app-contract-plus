@@ -1,7 +1,7 @@
 name: signed_date
 filterable: true
 hidden: false
-index: false
+index: true
 is_name: false
 is_wide: false
 label: 签订日期
@@ -9,6 +9,6 @@ omit: false
 readonly: false
 required: false
 searchable: false
-sort_no: 190
+sort_no: 160
 sortable: true
 type: date

@@ -2,7 +2,7 @@ name: 'no'
 filterable: true
 formula: 'C-{00000}'
 hidden: false
-index: false
+index: true
 is_name: false
 is_wide: false
 label: 合同编号

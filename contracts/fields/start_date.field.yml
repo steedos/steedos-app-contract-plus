@@ -1,7 +1,0 @@
-name: start_date
-label: 开始日期
-type: date
-sortable: true
-filterable: true
-index: true
-sort_no: 180

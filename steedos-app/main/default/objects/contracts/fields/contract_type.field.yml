@@ -1,6 +1,7 @@
 name: contract_type
-label: 分类
+label: 合同分类
 reference_to: contract_types
 required: true
-sort_no: 160
+sort_no: 120
 type: lookup
+index: true
