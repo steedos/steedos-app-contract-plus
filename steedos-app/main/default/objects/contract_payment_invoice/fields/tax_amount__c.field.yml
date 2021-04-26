@@ -1,7 +1,7 @@
 name: tax_amount__c
 data_type: currency
 filterable: false
-formula: ROUND(amount__c*VALUE(TEXT(tax__c)),2)
+formula: 'ROUND(amount__c*VALUE(TEXT(tax__c)),2)'
 formula_blank_value: zeroes
 hidden: false
 index: false

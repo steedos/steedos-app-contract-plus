@@ -8,7 +8,9 @@ label: 合同
 multiple: false
 omit: false
 optionsFunction: !<tag:yaml.org,2002:js/function> |-
-  function(values) {
+  function(values
+  ) {
+
           var _options = [];
           var payment= _.isObject(values.payment__c) ? values.payment__c._id : values.payment__c;
           if (!payment) {
@@ -22,6 +24,7 @@ optionsFunction: !<tag:yaml.org,2002:js/function> |-
             }
           }
           return _options;
+
   }
 readonly: false
 reference_to: contracts

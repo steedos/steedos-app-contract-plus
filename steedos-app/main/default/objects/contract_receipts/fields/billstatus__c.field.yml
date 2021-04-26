@@ -1,7 +1,7 @@
 name: billstatus__c
 defaultValue: draft
-group: 开票申请
 filterable: false
+group: 开票申请
 hidden: true
 index: false
 is_name: false

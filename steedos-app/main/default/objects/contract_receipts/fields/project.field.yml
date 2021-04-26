@@ -1,5 +1,4 @@
 name: project
-data_type: text
 filterable: true
 hidden: false
 index: false

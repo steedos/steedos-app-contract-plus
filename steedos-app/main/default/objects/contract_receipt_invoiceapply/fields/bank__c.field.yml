@@ -8,7 +8,6 @@ index: false
 is_name: false
 is_wide: false
 label: 开户行
-multiple: false
 omit: false
 readonly: false
 required: false
