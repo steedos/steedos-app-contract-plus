@@ -1,0 +1,19 @@
+name: pending
+columns:
+  - field: name
+    wrap: false
+  - field: step_status
+    wrap: false
+  - field: modified
+    wrap: false
+  - field: original_actor
+    wrap: false
+  - field: actor
+    wrap: false
+filter_scope: space
+filters: [["step_status", "=", "pending"],["original_actor", "=", '{userId}']]
+label: 待办
+scrolling_mode: standard
+shared: true
+show_count: false
+type: grid
