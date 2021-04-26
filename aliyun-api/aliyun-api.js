@@ -1,0 +1,108 @@
+'use strict';
+
+// npm install aliyun-api-gateway --save
+const path = require('path');
+const fs = require('fs');
+const Client = require('./client');
+let express = require('express');
+let router = express.Router();
+let Cookies = require("cookies");
+let objectql = require('@steedos/objectql');
+let steedosConfig = objectql.getSteedosConfig();
+const auth = require("@steedos/auth");
+const axios = require("axios");
+
+const config ={
+    ocrservice:"https://ocrapi-mixed-multi-invoice.taobao.com/ocrservice/mixedMultiInvoice",
+    appKey:process.env.APP_KEY,
+    appSecret:process.env.APP_SECRET,
+    appCode:process.env.APP_CODE
+}
+
+var client = new Client(config.appKey, config.appSecret);
+
+const recognise =  async function (req, res, next){
+  try{
+      let cookies = new Cookies(req, res);
+      let userId = cookies.get("X-User-Id");
+      let spaceId = cookies.get("X-Space-Id");
+      // let authToken = cookies.get("X-Auth-Token");
+      const body = req.body;
+      console.log(body);
+      const invoice_image__c = body.invoice_image__c;
+      const filedata = await axios({
+          method: "GET",
+          url: invoice_image__c,
+          responseType:'arraybuffer',
+      })
+      console.log(filedata.data.length);
+      
+      const picdata = Buffer.from(filedata.data).toString('base64');
+
+      var result = await client.post(config.ocrservice, {
+        timeout: 5000, // 5s
+        headers: {
+          'Content-Type': 'application/octet-stream'
+        },
+        data: {
+          'img': picdata
+        }
+      });
+
+     
+      console.log(JSON.stringify(result));
+      if(result.error_code || !result.subMsgs){
+          res.status(200).send({
+            error_msg:result.error_msg,
+            error_code:result.error_code
+          });
+          return 
+      }
+      const originData = result.subMsgs[0].result.data;
+      let invoice = {}
+      invoice.pk_invoice = originData['发票号码']; // 待定
+      invoice.bill_type = result.subMsgs[0].type;
+      invoice.name = originData['发票号码'];
+      invoice.invoice_code = originData['发票代码'];
+      let kprq = originData['开票日期']; // "2020年08月28日"
+      invoice.date = new Date(kprq.substr(0,4) + '/' + kprq.substr(5,2) + '/' + kprq.substr(8,2));
+      invoice.jym = originData['校验码'];
+      invoice.hjje = originData['不含税金额'];
+      invoice.hjse = originData['发票税额'];
+      invoice.sl = originData['发票详单'][0] && originData['发票详单'][0]['税率'] || ''; //13% 替换成13 数字
+      invoice.sl = invoice.sl.replace('%','')
+      invoice.jshj = originData['发票金额'];
+      invoice.xsf_mc = originData['销售方名称'];
+      invoice.xsf_nsrsbh = originData['销售方税号'];
+      invoice.lslbs = originData['发票详单'][0]['税率']; // 待定
+      // invoice.zfbz = originData.data.zfbz ;// 待定
+      // invoice.status = originData.data. ;   //未找到对应字段
+      // invoice.company_id =  ;
+      // invoice.owner_organization =  ;
+      // invoice.owner =   ;
+      // invoice.payment_date =   ;
+      // invoice.contract =   ;
+      // invoice.contract_payable =  ;
+      // invoice.contract_payment =   ;
+      // invoice.account_payable_invoice =   ;
+      
+      invoice.owner = userId;
+      invoice.space = spaceId;
+      invoice = await objectql.getSteedosSchema().getObject('contract_invoice_account').insert(invoice);
+      console.log(invoice);
+      // let user = await objectql.getSteedosSchema().getObject('contract_invoice_account').findOne(userId, {fields: ['mobile']})
+
+      res.status(200).send({message:'SUCCESS'});
+  }catch(error){
+      console.error(error);
+      res.status(200).send({message:"ERROR"});
+  }
+}
+
+
+//OCR识别接口
+router.post("/api/aliyun/recognise",recognise );
+// module.exports = router
+exports.router = router;
+
+

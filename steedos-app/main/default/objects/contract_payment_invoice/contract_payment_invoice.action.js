@@ -7,7 +7,7 @@ module.exports = {
       let data = {};
       data.invoice_image__c = window.location.origin + "/api/files/images/" +  doc.invoice_image__c;
 
-      $.post("/api/yesfp/recognise",data,function(result){
+      $.post("/api/aliyun/recognise",data,function(result){
         console.log(result);
       });
     }

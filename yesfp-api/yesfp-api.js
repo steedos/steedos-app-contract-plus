@@ -5,7 +5,7 @@ let objectql = require('@steedos/objectql');
 let steedosConfig = objectql.getSteedosConfig();
 const auth = require("@steedos/auth");
 const axios = require("axios");
-const yesfp_sign = require("./yeafp-sign");
+const yesfp_sign = require("./yesfp-sign");
 
 const configurl ={
     domain:"https://yesfp.yonyoucloud.com",
