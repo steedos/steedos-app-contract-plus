@@ -1,0 +1,5 @@
+extend: process_instance_history
+icon: process
+is_enable: true
+hidden: false
+label: 批准过程

@@ -1,7 +1,6 @@
 name: count__c
 data_type: number
 filterable: false
-group: 已收票信息
 hidden: false
 index: false
 is_name: false

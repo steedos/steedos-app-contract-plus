@@ -1,4 +1,4 @@
-name: receipt__c
+name: invoiceapply__c
 filterable: false
 hidden: false
 index: false

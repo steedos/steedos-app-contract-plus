@@ -1,11 +1,24 @@
-type: select
-defaultValue: draft
-label: 发票审批状态
-readonly: true
-omit: true
-hidden: false
-sort_no: 330
-filterable: true
-searchable: true
-sortable: true
 name: instance_state
+defaultValue: draft
+filterable: true
+hidden: false
+label: 发票审批状态
+omit: true
+options:
+  - label: Draft
+    value: draft
+  - label: Pending
+    value: pending
+  - label: Completed
+    value: completed
+  - label: Approved
+    value: approved
+  - label: Rejected
+    value: rejected
+  - label: Terminated
+    value: terminated
+readonly: true
+searchable: true
+sort_no: 330
+sortable: true
+type: select

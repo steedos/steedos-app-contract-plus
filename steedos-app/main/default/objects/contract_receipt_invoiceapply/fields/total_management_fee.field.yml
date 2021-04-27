@@ -1,7 +1,7 @@
 name: total_management_fee
 data_type: currency
 filterable: false
-formula: ROUND(management_fee_scale*money__c,2)
+formula: 'ROUND(management_fee_scale*money__c,2)'
 formula_blank_value: zeroes
 hidden: false
 index: false

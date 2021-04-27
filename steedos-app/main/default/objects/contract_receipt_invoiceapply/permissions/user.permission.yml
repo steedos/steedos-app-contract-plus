@@ -7,3 +7,4 @@ viewAllRecords: false
 modifyAllRecords: false
 viewCompanyRecords: false
 modifyCompanyRecords: false
+permission_set_id: user
