@@ -64,17 +64,43 @@ const recognise =  async function (req, res, next){
       invoice.bill_type = result.subMsgs[0].type;
       invoice.name = originData['发票号码'];
       invoice.invoice_code = originData['发票代码'];
-      let kprq = originData['开票日期']; // "2020年08月28日"
-      invoice.date = new Date(kprq.substr(0,4) + '/' + kprq.substr(5,2) + '/' + kprq.substr(8,2));
-      invoice.jym = originData['校验码'];
-      invoice.hjje = originData['不含税金额'];
-      invoice.hjse = originData['发票税额'];
-      invoice.sl = originData['发票详单'][0] && originData['发票详单'][0]['税率'] || ''; //13% 替换成13 数字
-      invoice.sl = invoice.sl.replace('%','')
-      invoice.jshj = originData['发票金额'];
-      invoice.xsf_mc = originData['销售方名称'];
-      invoice.xsf_nsrsbh = originData['销售方税号'];
-      invoice.lslbs = originData['发票详单'][0]['税率']; // 待定
+
+      
+      let kprq = originData['开票日期'] || originData['日期']  || ''; // "2020年08月28日"  2021-01-30
+      kprq = kprq.replace('年','').replace('月','').replace('日','').replace('-','');
+      if(kprq !='' && kprq.length == 8){
+        invoice.date = new Date(kprq.substr(0,4) + '/' + kprq.substr(4,2) + '/' + kprq.substr(6,2));
+      }
+
+      if(invoice.bill_type == '出租车票'){
+        invoice.jshj = originData['金额'] || '';
+        invoice.jshj = invoice.jshj.replace('¥','').replace('￥','').replace('：','') ;
+      }else if(invoice.bill_type == '火车票'){
+        invoice.jshj = originData['票价'];
+      }else if(invoice.bill_type == '机票行程单'){
+        invoice.name = originData['电子客票号码'];
+        invoice.invoice_code = originData['印刷序号'];
+      }else if(invoice.bill_type == '定额发票'){
+        invoice.jshj = originData['小写金额'] || '';
+        invoice.jshj = invoice.jshj.replace('¥','').replace('￥','').replace('：','') ;
+      }else if(invoice.bill_type == '增值税发票'){
+        invoice.jym = originData['校验码'];
+        invoice.hjje = originData['不含税金额'];
+        invoice.hjse = originData['发票税额'];
+        if(originData['发票详单'] && originData['发票详单'][0]){
+          invoice.sl = originData['发票详单'][0]['税率'] || ''; //13% 替换成13 数字
+          invoice.sl = invoice.sl.replace('%','')
+        }
+        
+        invoice.jshj = originData['发票金额'];
+        invoice.xsf_mc = originData['销售方名称'];
+        invoice.xsf_nsrsbh = originData['销售方税号'];
+      }else{
+     
+      
+      }
+
+      // invoice.lslbs = originData['发票详单'][0]['税率']; // 待定
       // invoice.zfbz = originData.data.zfbz ;// 待定
       // invoice.status = originData.data. ;   //未找到对应字段
       // invoice.company_id =  ;
