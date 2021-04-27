@@ -5,7 +5,29 @@ index: false
 is_name: false
 is_wide: false
 label: 收票记录
+multiple: true
 omit: false
+optionsFunction: !<tag:yaml.org,2002:js/function> |-
+  function (values) {
+      if (!values || !values.contract) {
+          return [];
+      }
+      var contractId = _.isObject(values.contract) ? values.contract._id : values.contract;
+      var options, result, invoices;
+      result = [];
+      options = {
+          $filter: `(contract__c eq '${contractId}')`,
+          $select: 'name'
+      };
+      invoices = Creator.odata.query('contract_payment_invoicefolder', options, true);
+      invoices.forEach(function (sb) {
+          return result.push({
+              label: sb.name,
+              value: sb._id
+          });
+      })
+      return result;
+  }
 readonly: false
 reference_to: contract_payment_invoicefolder
 required: false
