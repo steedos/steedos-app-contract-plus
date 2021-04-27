@@ -1,6 +1,5 @@
 name: 'no'
 filterable: true
-formula: 'C-{00000}'
 hidden: false
 index: true
 is_name: false
@@ -12,4 +11,4 @@ required: false
 searchable: false
 sort_no: 100
 sortable: true
-type: autonumber
+type: text

@@ -8,14 +8,11 @@ label: 是否招投标
 multiple: false
 omit: false
 options:
-  - label: 已公开招投标
-    value: open
-  - label: 已邀请招投标
-    value: invite
-  - label: 已询价比价
-    value: enquiry
-  - label: 无需招投标
-    value: dispense_with
+  - label: 是
+    value: 是
+  - label: 否
+    value: 否
+defaultValue: 否
 readonly: false
 required: false
 searchable: false
