@@ -5,7 +5,29 @@ index: false
 is_name: false
 is_wide: false
 label: 开票申请
+multiple: true
 omit: false
+optionsFunction: !<tag:yaml.org,2002:js/function> |-
+  function (values) {
+      if (!values || !values.contract) {
+          return [];
+      }
+      var contractId = _.isObject(values.contract) ? values.contract._id : values.contract;
+      var options, result, invoices;
+      result = [];
+      options = {
+          $filter: `(contract eq '${contractId}')`,
+          $select: 'id__c'
+      };
+      invoices = Creator.odata.query('contract_receipt_invoiceapply', options, true);
+      invoices.forEach(function (sb) {
+          return result.push({
+              label: sb.id__c,
+              value: sb._id
+          });
+      })
+      return result;
+  }
 readonly: false
 reference_to: contract_receipt_invoiceapply
 required: false
