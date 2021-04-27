@@ -1,0 +1,14 @@
+name: invoice_number__c
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 发票号
+omit: true
+readonly: true
+required: false
+searchable: false
+sort_no: 360
+sortable: false
+type: text
