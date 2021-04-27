@@ -6,6 +6,7 @@ icon_slds: contract
 is_creator: true
 sort: 90
 objects:
+  - events
   - contracts
   - contract_acceptances
   - contract_payments
@@ -13,7 +14,9 @@ objects:
   - contract_payment_invoice
   - contract_receipts
   - contract_receipt_invoice
-
+  - accounts
+  - contacts
+  - reports
 visible: true
 admin_menus:
   - _id: contracts
