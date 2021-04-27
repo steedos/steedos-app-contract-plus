@@ -35,7 +35,7 @@ filters: |-
   ) {
 
       return [
-        ["contract_state","<>","terminated"]
+        ["instance_state","<>","terminated"]
       ];
 
   }

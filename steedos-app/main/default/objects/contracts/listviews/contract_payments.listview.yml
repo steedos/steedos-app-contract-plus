@@ -58,7 +58,7 @@ filters:
     field: bop
     operation: '='
     value:
-      - payment
+      - 支出
     is_required: false
 label: 付款业务
 shared: true

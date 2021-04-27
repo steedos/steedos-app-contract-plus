@@ -57,7 +57,7 @@ filters:
     field: bop
     operation: '='
     value:
-      - gathering
+      - 收入
     is_required: false
 label: 收款业务
 shared: true
