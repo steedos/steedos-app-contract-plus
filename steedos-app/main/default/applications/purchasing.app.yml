@@ -40,3 +40,7 @@ admin_menus:
     name: 国家/地区
     object_name: country
     parent: contracts
+  - _id: invoice_type__c
+    name: 发票类型
+    object_name: invoice_type__c
+    parent: contracts
