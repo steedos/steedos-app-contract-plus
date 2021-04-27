@@ -6,27 +6,8 @@ is_name: false
 is_wide: false
 label: 合同
 multiple: false
-omit: false
-optionsFunction: !<tag:yaml.org,2002:js/function> |-
-  function(values
-  ) {
-
-          var _options = [];
-          var invoiceapply= _.isObject(values.invoiceapply__c) ? values.invoiceapply__c._id : values.invoiceapply__c ;
-          if (!receipt) {
-            return;
-          }
-          var contract = Creator.odata.get('contract_receipt_invoiceapply', invoiceapply, 'contract');
-          if (contract) {
-            var thiscontract  = Creator.odata.get('contracts', contract.contract, 'name');
-            if (thiscontract){
-              _options = [{value: thiscontract._id, label: thiscontract.name}];
-            }
-          }
-          return _options;
-
-  }
-readonly: false
+omit: true
+readonly: true
 reference_to: contracts
 required: false
 searchable: false
