@@ -1,0 +1,8 @@
+name: invoice_amount_less
+active: true
+error_condition_formula: |-
+  OR(
+     ROUND((quantity__c*price__c), 2) < 0,
+     ROUND((quantity__c*price__c), 2) > contract.unmade_invoice_amount_c__c
+  )
+error_message: 开票金额不大于合同中的发票待开金额
