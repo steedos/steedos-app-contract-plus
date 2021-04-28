@@ -20,3 +20,5 @@ scrolling_mode: standard
 shared: true
 show_count: false
 type: grid
+sort:
+  - no__c: desc

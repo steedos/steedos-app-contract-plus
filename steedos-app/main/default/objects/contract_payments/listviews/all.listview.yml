@@ -10,6 +10,8 @@ columns:
     wrap: false
   - field: payment_status__c
     wrap: false
+  - field: contract_payments_state__c
+    wrap: false
   - field: due_date
     wrap: false
   - field: payment_date__c
@@ -25,4 +27,4 @@ label: 所有
 shared: true
 show_count: false
 sort:
-  - order: asc
+  - id__c: desc
