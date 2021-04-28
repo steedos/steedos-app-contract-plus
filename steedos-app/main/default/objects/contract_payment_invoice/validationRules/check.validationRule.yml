@@ -1,4 +1,4 @@
 name: check
-active: true
+active: false
 error_condition_formula: amount__c  >contract__c.amount
 error_message: 金额不能大于合同金额！
