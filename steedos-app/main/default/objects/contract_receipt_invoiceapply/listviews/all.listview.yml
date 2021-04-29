@@ -4,13 +4,13 @@ columns:
     wrap: false
   - field: money__c
     wrap: false
-  - field: contract__c
+  - field: contract
     wrap: false
   - field: instance_state
     wrap: false
   - field: invoice_type__c
     wrap: false
-  - field: account__c
+  - field: account
     wrap: false
   - field: customer_bank__c
     wrap: false
@@ -20,6 +20,7 @@ label: 所有
 scrolling_mode: standard
 shared: true
 show_count: false
-type: grid
 sort:
-  - id__c: desc
+  - field_name: id__c
+    order: desc
+type: grid

@@ -12,6 +12,7 @@ optionsFunction: !<tag:yaml.org,2002:js/function> |-
   ) {
 
 
+
           var _options = [];
           var contract = _.isObject(values.contract) ? values.contract._id : values.contract;
           if (!contract) {
@@ -25,6 +26,7 @@ optionsFunction: !<tag:yaml.org,2002:js/function> |-
             }
           }
           return _options;
+
 
 
   }

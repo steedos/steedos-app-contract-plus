@@ -14,7 +14,9 @@ enable_tasks: false
 enable_workflow: true
 form:
   validate: !<tag:yaml.org,2002:js/function> |-
-    function(formValues) {
+    function(formValues
+    ) {
+
       if (!formValues) {
         return;
       }
