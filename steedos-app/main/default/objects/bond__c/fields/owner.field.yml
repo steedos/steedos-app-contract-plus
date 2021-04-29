@@ -1,6 +1,6 @@
 name: owner
 filterable: false
-hidden: false
+hidden: true
 index: true
 is_name: false
 is_wide: false
