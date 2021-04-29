@@ -1,8 +1,8 @@
 name: standard_new
 is_enable: true
 label: 新建
-"on": list
+'on': list
 visible: |-
-  function() {
-      return false;
-  }
+  function () {
+          return false;
+      }

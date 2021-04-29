@@ -12,6 +12,18 @@ enable_search: false
 enable_share: false
 enable_tasks: false
 enable_workflow: false
+form:
+  validate: !<tag:yaml.org,2002:js/function> |-
+    function(formValues) {
+      if (!formValues) {
+        return;
+      }
+      var tax_amount__c = '0';
+      var amount__c = new BigNumber(formValues.amount__c || "0");
+      var tax__c = new BigNumber(formValues.tax__c || "0");
+      money = (amount__c * tax__c).toFixed(2);
+      $("[name='tax_amount__c']").val(money);
+    }
 icon: calibration
 is_enable: true
 label: 收票明细

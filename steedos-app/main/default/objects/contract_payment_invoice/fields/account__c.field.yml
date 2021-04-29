@@ -5,31 +5,10 @@ index: false
 is_name: false
 is_wide: false
 label: 销售方名称
-multiple: false
 omit: false
-optionsFunction: !<tag:yaml.org,2002:js/function> |-
-  function(values
-  ) {
-
-          var _options = [];
-          var payment = _.isObject(values.contract__c) ? values.contract__c._id : values.contract__c;
-          if (!payment) {
-            return;
-          }
-          var contract = Creator.odata.get('contracts', payment, 'othercompany');
-          if (contract) {
-            var thiscontract  = Creator.odata.get('accounts', contract.othercompany, 'name');
-            if (thiscontract){
-              _options = [{value: thiscontract._id, label: thiscontract.name}];
-            }
-          }
-          return _options;
-
-  }
 readonly: false
-reference_to: accounts
 required: false
 searchable: false
 sort_no: 430
 sortable: false
-type: lookup
+type: text
