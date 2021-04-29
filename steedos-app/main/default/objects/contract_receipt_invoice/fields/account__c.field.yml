@@ -8,27 +8,24 @@ label: 付款方名称
 multiple: false
 omit: false
 optionsFunction: !<tag:yaml.org,2002:js/function> |-
-  function(values
-  ) {
-
-          var _options = [];
-          var payment = _.isObject(values.contract__c) ? values.contract__c._id : values.contract__c;
-          if (!payment) {
-            return;
+  function(values) {
+      var _options = [];
+      var invoiceapply = _.isObject(values.invoiceapply__c) ? values.invoiceapply__c._id : values.invoiceapply__c;
+      if (!invoiceapply) {
+          return;
+      }
+      var contract_receipt_invoiceapply = Creator.odata.get('contract_receipt_invoiceapply', invoiceapply, 'account');
+      if (contract_receipt_invoiceapply) {
+          var account = Creator.odata.get('accounts', contract_receipt_invoiceapply.account, 'name');
+          if (account) {
+              _options = [{ value: account._id, label: account.name }];
           }
-          var contract = Creator.odata.get('contracts', payment, 'othercompany');
-          if (contract) {
-            var thiscontract  = Creator.odata.get('accounts', contract.othercompany, 'name');
-            if (thiscontract){
-              _options = [{value: thiscontract._id, label: thiscontract.name}];
-            }
-          }
-          return _options;
-
+      }
+      return _options;
   }
 readonly: false
 reference_to: accounts
-required: false
+required: true
 searchable: false
 sort_no: 170
 sortable: false
