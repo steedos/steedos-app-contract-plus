@@ -4,11 +4,13 @@ columns:
     wrap: false
   - field: deduction_base__c
     wrap: false
-  - field: withhold_scale__c
-    wrap: false
   - field: amount_deducted__c
     wrap: false
+  - field: actual_withhold__c
+    wrap: false
   - field: project__c
+    wrap: false
+  - field: receivable_base__c
     wrap: false
   - field: amount__c
     wrap: false

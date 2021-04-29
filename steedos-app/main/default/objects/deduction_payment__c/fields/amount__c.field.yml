@@ -1,4 +1,5 @@
 name: amount__c
+defaultValue: '0.00'
 filterable: false
 group: 收款明细
 hidden: false
