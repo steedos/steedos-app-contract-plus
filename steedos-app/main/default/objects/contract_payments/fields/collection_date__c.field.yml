@@ -1,0 +1,16 @@
+name: collection_date__c
+defaultValue: '{now}'
+filterable: false
+group: 工程到款情况
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 本次收款时间
+omit: false
+readonly: false
+required: false
+searchable: false
+sort_no: 440
+sortable: false
+type: date

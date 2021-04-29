@@ -1,0 +1,17 @@
+name: total_amount_collected__c
+filterable: false
+group: 工程到款情况
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 累计收款金额
+omit: true
+precision: 18
+readonly: false
+required: false
+scale: 2
+searchable: false
+sort_no: 460
+sortable: false
+type: currency

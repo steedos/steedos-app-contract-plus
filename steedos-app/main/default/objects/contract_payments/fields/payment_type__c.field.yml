@@ -1,0 +1,22 @@
+name: payment_type__c
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 付款类别
+multiple: false
+omit: false
+options:
+  - label: 合同付款
+    value: 合同付款
+  - label: 项目负责人付
+    value: 项目负责人付
+  - label: 其他付款
+    value: 其他付款
+readonly: false
+required: false
+searchable: false
+sort_no: 123
+sortable: false
+type: select

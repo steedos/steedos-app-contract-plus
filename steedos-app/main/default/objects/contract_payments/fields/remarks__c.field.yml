@@ -1,0 +1,16 @@
+name: remarks__c
+filterable: false
+group: 工程到款情况
+hidden: false
+index: false
+is_name: false
+is_wide: true
+label: 备注
+omit: false
+readonly: false
+required: false
+rows: 2
+searchable: false
+sort_no: 590
+sortable: false
+type: textarea
