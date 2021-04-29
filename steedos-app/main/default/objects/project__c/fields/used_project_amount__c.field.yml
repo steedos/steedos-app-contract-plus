@@ -16,6 +16,16 @@ searchable: false
 sort_no: 300
 sortable: false
 summary_field: amount
+summary_filters: 
+  - field: contract_type__c
+    operation: '='
+    value: 工程合同
+  - field: instance_state
+    operation: '<>'
+    value: terminated
+  - field: instance_state
+    operation: '<>'
+    value: rejected
 summary_object: contracts
 summary_type: sum
 type: summary
