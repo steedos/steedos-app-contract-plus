@@ -1,0 +1,14 @@
+name: bond_account__c
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 保证金入公司账户名
+omit: false
+readonly: false
+required: true
+searchable: false
+sort_no: 125
+sortable: false
+type: text
