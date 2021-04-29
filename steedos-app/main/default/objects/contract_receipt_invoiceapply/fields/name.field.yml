@@ -1,13 +1,13 @@
 name: name
 filterable: false
-hidden: true
+hidden: false
 index: true
 is_name: false
 is_wide: false
 label: 名称
-omit: true
+omit: false
 readonly: false
-required: false
+required: true
 searchable: true
 sort_no: 100
 sortable: false

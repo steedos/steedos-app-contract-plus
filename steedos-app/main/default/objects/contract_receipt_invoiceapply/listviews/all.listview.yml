@@ -1,16 +1,23 @@
 name: all
 columns:
   - field: id__c
+    width: '130'
     wrap: false
+  - field: name
+    wrap: true
   - field: money__c
+    width: '120'
     wrap: false
   - field: contract
-    wrap: false
+    wrap: true
   - field: instance_state
+    width: '120'
     wrap: false
   - field: invoice_type__c
+    width: '160'
     wrap: false
   - field: account
+    width: '230'
     wrap: false
   - field: customer_bank__c
     wrap: false
