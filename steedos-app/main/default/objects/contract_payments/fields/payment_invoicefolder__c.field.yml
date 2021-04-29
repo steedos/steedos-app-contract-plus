@@ -32,6 +32,6 @@ readonly: false
 reference_to: contract_payment_invoicefolder
 required: false
 searchable: false
-sort_no: 120
+sort_no: 128
 sortable: false
 type: lookup
