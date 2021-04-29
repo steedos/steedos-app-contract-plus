@@ -8,7 +8,9 @@ label: 开票申请
 multiple: true
 omit: false
 optionsFunction: !<tag:yaml.org,2002:js/function> |-
-  function (values) {
+  function(values
+  ) {
+
       if (!values || !values.contract) {
           return [];
       }
@@ -27,6 +29,7 @@ optionsFunction: !<tag:yaml.org,2002:js/function> |-
           });
       })
       return result;
+
   }
 readonly: false
 reference_to: contract_receipt_invoiceapply

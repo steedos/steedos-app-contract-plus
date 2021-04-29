@@ -1,0 +1,6 @@
+name: invoice_equal_amount
+active: false
+error_condition_formula: >-
+  ROUND((quantity__c*price__c), 2)!=amount && ROUND((quantity__c*price__c),
+  2)!=0
+error_message: 填写数量*单价时，必须等于您的收款金额！

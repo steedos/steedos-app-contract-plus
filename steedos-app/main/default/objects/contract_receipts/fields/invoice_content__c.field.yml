@@ -1,0 +1,24 @@
+name: invoice_content__c
+defaultValue: 工程款
+filterable: false
+group: 开票申请
+hidden: true
+index: false
+is_name: false
+is_wide: false
+label: 开票内容
+multiple: false
+omit: false
+options:
+  - label: 工程款
+    value: 工程款
+  - label: 服务费
+    value: 服务费
+  - label: 劳务费
+    value: 劳务费
+readonly: false
+required: false
+searchable: false
+sort_no: 235
+sortable: false
+type: select
