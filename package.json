@@ -27,7 +27,9 @@
   },
   "author": "Jack Zhuang",
   "dependencies": {
-    "@steedos/word-template": "^1.23.19",
+    "@steedos/metadata-api": "^1.23.27",
+    "@steedos/metadata-core": "^1.23.27",
+    "@steedos/word-template": "^1.23.27",
     "bignumber.js": "^9.0.1",
     "dotenv-flow": "^3.2.0",
     "underscore": "1.9.2"
