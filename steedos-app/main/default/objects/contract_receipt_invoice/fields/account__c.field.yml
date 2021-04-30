@@ -8,7 +8,9 @@ label: 付款方名称
 multiple: false
 omit: false
 optionsFunction: !<tag:yaml.org,2002:js/function> |-
-  function(values) {
+  function(values
+  ) {
+
       var _options = [];
       var invoiceapply = _.isObject(values.invoiceapply__c) ? values.invoiceapply__c._id : values.invoiceapply__c;
       if (!invoiceapply) {
@@ -22,6 +24,7 @@ optionsFunction: !<tag:yaml.org,2002:js/function> |-
           }
       }
       return _options;
+
   }
 readonly: false
 reference_to: accounts
