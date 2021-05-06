@@ -1294,6 +1294,11 @@
   resolved "https://registry.npm.taobao.org/@types/node/download/@types/node-11.15.44.tgz#5c3463a489ddd6d1d9f6717dff84e15097b0b362"
   integrity sha1-XDRjpInd1tHZ9nF9/4ThUJews2I=
 
+"@types/node@^14":
+  version "14.14.44"
+  resolved "https://registry.nlark.com/@types/node/download/@types/node-14.14.44.tgz#df7503e6002847b834371c004b372529f3f85215"
+  integrity sha1-33UD5gAoR7g0NxwASzclKfP4UhU=
+
 "@types/prop-types@*":
   version "15.7.3"
   resolved "https://registry.npm.taobao.org/@types/prop-types/download/@types/prop-types-15.7.3.tgz?cache=0&sync_timestamp=1605055564732&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fprop-types%2Fdownload%2F%40types%2Fprop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
@@ -1723,6 +1728,13 @@ aws4@^1.2.1, aws4@^1.6.0, aws4@^1.8.0:
   version "1.11.0"
   resolved "https://registry.npm.taobao.org/aws4/download/aws4-1.11.0.tgz?cache=0&sync_timestamp=1604101166484&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Faws4%2Fdownload%2Faws4-1.11.0.tgz#d61f46d83b2519250e2784daf5b09479a8b41c59"
   integrity sha1-1h9G2DslGSUOJ4Ta9bCUeai0HFk=
+
+axios@^0.21.1:
+  version "0.21.1"
+  resolved "https://registry.npm.taobao.org/axios/download/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha1-IlY0gZYvTWvemnbVFu8OXTwJsrg=
+  dependencies:
+    follow-redirects "^1.10.0"
 
 babel-helper-evaluate-path@^0.5.0:
   version "0.5.0"
@@ -3830,6 +3842,11 @@ flushwritable@^1.0.0:
   resolved "https://registry.npm.taobao.org/flushwritable/download/flushwritable-1.0.0.tgz#3e328d8fde412ad47e738e3be750b4d290043498"
   integrity sha1-PjKNj95BKtR+c44751C00pAENJg=
 
+follow-redirects@^1.10.0:
+  version "1.14.0"
+  resolved "https://registry.nlark.com/follow-redirects/download/follow-redirects-1.14.0.tgz?cache=0&sync_timestamp=1619369184337&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ffollow-redirects%2Fdownload%2Ffollow-redirects-1.14.0.tgz#f5d260f95c5f8c105894491feee5dc8993b402fe"
+  integrity sha1-9dJg+VxfjBBYlEkf7uXciZO0Av4=
+
 for-in@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/for-in/download/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
@@ -4421,6 +4438,14 @@ https-browserify@0.0.1:
   version "0.0.1"
   resolved "https://registry.npm.taobao.org/https-browserify/download/https-browserify-0.0.1.tgz#3f91365cabe60b77ed0ebba24b454e3e09d95a82"
   integrity sha1-P5E2XKvmC3ftDruiS0VOPgnZWoI=
+
+httpx@^2.2.7:
+  version "2.2.7"
+  resolved "https://registry.npm.taobao.org/httpx/download/httpx-2.2.7.tgz?cache=0&sync_timestamp=1604908782014&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fhttpx%2Fdownload%2Fhttpx-2.2.7.tgz#1e34198146e32ca3305a66c11209559e1cbeba09"
+  integrity sha1-HjQZgUbjLKMwWmbBEglVnhy+ugk=
+  dependencies:
+    "@types/node" "^14"
+    debug "^4.1.1"
 
 i18next-sprintf-postprocessor@^0.2.2:
   version "0.2.2"
