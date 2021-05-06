@@ -1,0 +1,8 @@
+name: payment_amount_less
+active: true
+error_condition_formula: |-
+  OR(
+     amount < 0,
+     amount > contract.amount
+  )
+error_message: 付款金额不能大于合同金额

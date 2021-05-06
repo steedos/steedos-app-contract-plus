@@ -1,6 +1,2 @@
 name: contract_viewall
-assigned_apps:
-  - purchasing
-  - supplier
 label: 合同管理_查看所有
-type: permission_set

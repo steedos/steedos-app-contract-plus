@@ -1,0 +1,17 @@
+name: total_advance_amount__c
+filterable: false
+group: 合同付款信息
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 项目累计垫付金额
+omit: true
+precision: 18
+readonly: false
+required: false
+scale: 2
+searchable: false
+sort_no: 1310
+sortable: false
+type: currency

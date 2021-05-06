@@ -3,3 +3,4 @@ icon: process
 is_enable: true
 hidden: false
 label: 批准过程
+name: process_instance_history

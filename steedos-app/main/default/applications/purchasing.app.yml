@@ -44,3 +44,7 @@ admin_menus:
     name: 发票类型
     object_name: invoice_type__c
     parent: contracts
+  - _id: tax_rates__c
+    name: 税率
+    object_name: tax_rates__c
+    parent: contracts

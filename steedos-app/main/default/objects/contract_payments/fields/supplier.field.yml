@@ -8,7 +8,9 @@ label: 收款方
 multiple: false
 omit: false
 optionsFunction: !<tag:yaml.org,2002:js/function> |-
-  function(values) {
+  function(values
+  ) {
+
           var _options = [];
           var contract = _.isObject(values.contract) ? values.contract._id : values.contract;
           if (!contract) {
@@ -22,6 +24,7 @@ optionsFunction: !<tag:yaml.org,2002:js/function> |-
             }
           }
           return _options;
+
   }
 readonly: false
 reference_to: accounts

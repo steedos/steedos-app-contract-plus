@@ -9,7 +9,6 @@ columns:
   - field: invoice_type__c
     wrap: false
 filter_fields:
-  - payment__c
   - contract__c
   - account__c
   - invoice_type__c
@@ -19,4 +18,7 @@ label: 所有
 scrolling_mode: standard
 shared: true
 show_count: false
+sort:
+  - field_name: no__c
+    order: desc
 type: grid

@@ -1,0 +1,17 @@
+name: payment_sacle__c
+data_type: percent
+filterable: false
+formula: amount / contract_amount__c
+formula_blank_value: zeroes
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 付款比例
+omit: false
+readonly: false
+required: false
+searchable: false
+sort_no: 123
+sortable: false
+type: formula

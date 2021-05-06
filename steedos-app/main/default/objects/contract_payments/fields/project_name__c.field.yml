@@ -7,8 +7,8 @@ is_wide: false
 label: 项目
 omit: true
 readonly: true
-required: false
 reference_to: project__c
+required: false
 searchable: false
 sort_no: 310
 sortable: false

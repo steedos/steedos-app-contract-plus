@@ -1,8 +1,5 @@
 name: tax_amount__c
-data_type: currency
 filterable: false
-formula: 'ROUND(amount__c*VALUE(TEXT(tax__c)),2)'
-formula_blank_value: zeroes
 hidden: false
 index: false
 is_name: false
@@ -16,4 +13,4 @@ scale: 2
 searchable: false
 sort_no: 490
 sortable: false
-type: formula
+type: number

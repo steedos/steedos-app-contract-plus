@@ -1,0 +1,20 @@
+name: contract_type__c
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 合同类型
+multiple: false
+omit: true
+options:
+  - label: 施工合同
+    value: 施工合同
+  - label: 工程合同
+    value: 工程合同
+readonly: true
+required: true
+searchable: false
+sort_no: 430
+sortable: false
+type: select

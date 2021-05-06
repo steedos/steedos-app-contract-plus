@@ -3,7 +3,7 @@ filterable: false
 formula: 'CRIA-{00000}'
 hidden: false
 index: false
-is_name: true
+is_name: false
 is_wide: false
 label: 开票申请编号
 omit: true
@@ -11,5 +11,5 @@ readonly: false
 required: false
 searchable: false
 sort_no: 335
-sortable: false
+sortable: true
 type: autonumber

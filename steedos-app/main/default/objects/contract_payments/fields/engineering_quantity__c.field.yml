@@ -1,0 +1,14 @@
+name: engineering_quantity__c
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 增/减工程量
+omit: false
+readonly: false
+required: false
+searchable: true
+sort_no: 127
+sortable: false
+type: text

@@ -25,4 +25,4 @@ label: 所有
 shared: true
 show_count: false
 sort:
-  - order: asc
+  - id__c: desc

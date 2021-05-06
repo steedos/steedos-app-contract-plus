@@ -3,7 +3,7 @@ data_type: currency
 filterable: false
 formula: all_contract_amount__c - used_project_amount__c
 formula_blank_value: zeroes
-group: 项目收付款信息
+group: 项目金额信息
 hidden: false
 index: false
 is_name: false

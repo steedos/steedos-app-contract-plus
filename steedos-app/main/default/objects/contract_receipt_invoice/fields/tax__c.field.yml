@@ -4,13 +4,13 @@ hidden: true
 index: false
 is_name: false
 is_wide: false
-label: 税额
+label: 税率
+multiple: false
 omit: false
-precision: 18
 readonly: false
+reference_to: tax_rates__c
 required: false
-scale: 2
 searchable: false
 sort_no: 210
 sortable: false
-type: currency
+type: lookup

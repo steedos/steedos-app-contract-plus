@@ -1,4 +1,5 @@
 name: dept__c
+defaultValue: '{user.organization._id}'
 filterable: false
 hidden: false
 index: false

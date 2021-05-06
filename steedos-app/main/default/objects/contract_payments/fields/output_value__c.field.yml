@@ -1,0 +1,16 @@
+name: output_value__c
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 工程产值
+omit: false
+precision: 18
+readonly: false
+required: true
+scale: 2
+searchable: false
+sort_no: 125
+sortable: true
+type: number

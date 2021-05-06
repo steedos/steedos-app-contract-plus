@@ -1,0 +1,10 @@
+name: 退保证金.退保证金发起
+allowCreate: true
+allowDelete: true
+allowEdit: true
+allowRead: true
+modifyAllRecords: false
+modifyCompanyRecords: false
+permission_set_id: bond_new
+viewAllRecords: false
+viewCompanyRecords: false

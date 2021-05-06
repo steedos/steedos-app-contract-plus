@@ -3,8 +3,8 @@ allowCreate: false
 allowDelete: false
 allowEdit: false
 allowRead: true
-viewAllRecords: false
 modifyAllRecords: false
-viewCompanyRecords: false
 modifyCompanyRecords: false
 permission_set_id: user
+viewAllRecords: false
+viewCompanyRecords: false

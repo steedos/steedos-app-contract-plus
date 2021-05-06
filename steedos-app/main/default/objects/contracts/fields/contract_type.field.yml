@@ -1,7 +1,16 @@
 name: contract_type
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
 label: 分类
+multiple: false
+omit: true
+readonly: true
 reference_to: contract_types
 required: true
-readonly: true
+searchable: false
 sort_no: 160
+sortable: false
 type: lookup

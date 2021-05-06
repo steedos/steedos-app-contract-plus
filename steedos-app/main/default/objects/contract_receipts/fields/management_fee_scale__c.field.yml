@@ -1,0 +1,15 @@
+name: management_fee_scale__c
+filterable: false
+group: 开票申请
+hidden: true
+index: false
+is_name: false
+is_wide: false
+label: 管理费比例
+omit: false
+readonly: false
+required: false
+searchable: false
+sort_no: 480
+sortable: false
+type: percent

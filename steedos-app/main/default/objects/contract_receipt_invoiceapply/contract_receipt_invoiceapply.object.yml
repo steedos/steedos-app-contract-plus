@@ -12,6 +12,21 @@ enable_search: true
 enable_share: false
 enable_tasks: false
 enable_workflow: true
+form:
+  validate: !<tag:yaml.org,2002:js/function> |-
+    function(formValues
+    ) {
+
+
+      if (!formValues) {
+        return;
+      }
+      var money = '0';
+      var quantity = new BigNumber(formValues.quantity__c || "0");
+      var price = new BigNumber(formValues.price__c || "0");
+      money = (quantity * price).toFixed(2);
+      $("[name='money__c']").val(money);
+    }
 icon: relationship
 is_enable: true
 label: 开票申请

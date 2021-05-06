@@ -4,10 +4,10 @@ hidden: false
 index: true
 is_name: false
 is_wide: false
-label: 编号
+label: 名称
 omit: false
 readonly: false
-required: false
+required: true
 searchable: true
 sort_no: 100
 sortable: false

@@ -1,0 +1,17 @@
+name: payment_receipt_mount__c
+filterable: false
+group: 合同付款信息
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 付款单累计收款金额
+omit: true
+precision: 18
+readonly: false
+required: false
+scale: 2
+searchable: false
+sort_no: 1280
+sortable: false
+type: currency

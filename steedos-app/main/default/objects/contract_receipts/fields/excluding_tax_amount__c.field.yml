@@ -1,0 +1,22 @@
+name: excluding_tax_amount__c
+data_type: currency
+filterable: false
+formula: >-
+  amount-ROUND(amount*CASE(tax__c,"0.03", 0.03, "0.06", 0.06, "0.09", 0.09,
+  0.11),2)
+formula_blank_value: zeroes
+group: 开票申请
+hidden: true
+index: false
+is_name: false
+is_wide: false
+label: 不含税金额
+omit: false
+precision: 18
+readonly: false
+required: false
+scale: 2
+searchable: false
+sort_no: 280
+sortable: false
+type: formula
