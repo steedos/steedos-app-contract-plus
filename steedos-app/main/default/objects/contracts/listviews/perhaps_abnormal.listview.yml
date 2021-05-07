@@ -1,6 +1,25 @@
-name: all
-label: 所有合同
+name: perhaps_abnormal
+label: 可能异常
+filter_scope: space
 show_count: true
+filters: !<tag:yaml.org,2002:js/function> |-
+  function anonymous(
+  ) {
+
+      var dayTime = 24 * 60 * 60 * 1000;
+      var time =  new Date().getTime() + dayTime;
+      time = new Date(moment(time).format('YYYY-MM-DD'));
+      return [
+        [["contract_state","=","异常"]],
+        'or',
+        [["last_date_delivery", "<", time],["delivery_date","=", null]],
+        "or",
+        [["last_date_acceptance", "<", time],["acceptance_date","=", null]],
+        "or",
+        [["last_date_payment", "<", time],["payment_date","=", null]]
+      ];
+
+  }
 columns:
   - field: 'no'
     width: 100
@@ -74,7 +93,6 @@ columns:
   - field: payment_date
     width: 100
     wrap: true
-filter_scope: space
 filter_fields:
   - company_id
   - contract_type
