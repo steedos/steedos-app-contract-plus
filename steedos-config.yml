@@ -39,3 +39,4 @@ plugins:
   - "@steedos/metadata-api"
   - "@steedos/word-template"
   - "@steedos/plugin-enterprise"
+  - "@steedos/plugin-jsreport"
