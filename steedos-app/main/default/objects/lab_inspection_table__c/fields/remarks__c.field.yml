@@ -1,0 +1,17 @@
+name: remarks__c
+defaultValue: 无
+filterable: false
+group: 四、存在问题及处理或反馈情况记录
+hidden: false
+index: false
+is_name: false
+is_wide: true
+label: （详细描述、有关现象、设备品牌、型号等）：
+omit: false
+readonly: false
+required: false
+rows: 2
+searchable: false
+sort_no: 540
+sortable: false
+type: textarea

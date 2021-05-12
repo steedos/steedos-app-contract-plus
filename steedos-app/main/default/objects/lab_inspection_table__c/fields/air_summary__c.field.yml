@@ -1,0 +1,15 @@
+name: air_summary__c
+filterable: false
+group: 二、周边设备
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 情况摘要
+omit: false
+readonly: false
+required: false
+searchable: false
+sort_no: 310
+sortable: false
+type: text

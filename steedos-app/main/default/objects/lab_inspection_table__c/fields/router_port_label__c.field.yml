@@ -1,0 +1,22 @@
+name: router_port_label__c
+defaultValue: 正常
+filterable: false
+group: 三、网络设备、服务器
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 交换机、路由器端口标签，网线标签，电源线标签齐全，清晰明了
+multiple: false
+omit: false
+options:
+  - label: 正常
+    value: 正常
+  - label: 异常
+    value: 异常
+readonly: false
+required: false
+searchable: false
+sort_no: 400
+sortable: false
+type: select

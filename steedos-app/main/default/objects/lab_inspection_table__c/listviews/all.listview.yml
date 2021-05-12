@@ -1,0 +1,17 @@
+name: all
+columns:
+  - field: name
+    wrap: false
+  - field: review_time__c
+    wrap: false
+  - field: reviewer__c
+    wrap: false
+  - field: temperature__c
+    wrap: false
+filter_scope: space
+filters: []
+label: 所有
+scrolling_mode: standard
+shared: true
+show_count: false
+type: grid

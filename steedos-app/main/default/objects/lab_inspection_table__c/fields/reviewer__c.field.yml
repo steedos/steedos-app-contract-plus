@@ -1,0 +1,17 @@
+name: reviewer__c
+defaultValue: qEcJg5jat2oZCXTm3
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 巡检人
+multiple: false
+omit: false
+readonly: false
+reference_to: space_users
+required: false
+searchable: false
+sort_no: 130
+sortable: false
+type: lookup
