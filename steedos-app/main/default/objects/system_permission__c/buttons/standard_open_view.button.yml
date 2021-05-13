@@ -1,0 +1,5 @@
+name: standard_open_view
+is_enable: true
+label: standard_open_view
+'on': list_item
+visible: true

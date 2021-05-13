@@ -1,0 +1,16 @@
+name: recent
+columns:
+  - field: name
+    wrap: false
+  - field: system__c
+    wrap: false
+  - field: dept__c
+    wrap: false
+  - field: resrult__c
+    wrap: false
+filter_scope: space
+label: 最近查看
+scrolling_mode: standard
+shared: true
+show_count: false
+type: grid

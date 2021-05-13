@@ -1,0 +1,24 @@
+name: system_permission
+columns:
+  - field: name
+    wrap: false
+  - field: system__c
+    wrap: false
+  - field: dept__c
+    wrap: false
+  - field: resrult__c
+    wrap: false
+filter_fields:
+  - created
+filter_scope: space
+filters:
+  - is_default: true
+    field: created
+    operation: between
+    value: this_year
+    is_required: false
+label: 当年系统权限变更
+scrolling_mode: standard
+shared: true
+show_count: false
+type: grid

@@ -1,0 +1,5 @@
+name: permission_detail
+is_enable: true
+label: 权限变更明细表
+'on': list
+visible: true

@@ -1,0 +1,15 @@
+name: resrult__c
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: true
+label: 处理结果
+omit: false
+readonly: false
+required: true
+rows: 2
+searchable: false
+sort_no: 130
+sortable: false
+type: textarea
