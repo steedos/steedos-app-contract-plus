@@ -1,0 +1,10 @@
+name: 信息系统查询.信息部管理员
+allowCreate: false
+allowDelete: false
+allowEdit: false
+allowRead: true
+modifyAllRecords: false
+modifyCompanyRecords: false
+permission_set_id: admingroup
+viewAllRecords: false
+viewCompanyRecords: false

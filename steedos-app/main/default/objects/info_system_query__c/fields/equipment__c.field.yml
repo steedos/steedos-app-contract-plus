@@ -1,0 +1,16 @@
+name: equipment__c
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 设备清单
+multiple: true
+omit: false
+readonly: false
+reference_to: lab_equipment__c
+required: false
+searchable: false
+sort_no: 190
+sortable: false
+type: lookup

@@ -1,0 +1,14 @@
+name: project_proponents__c
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 开发单位
+omit: false
+readonly: false
+required: true
+searchable: false
+sort_no: 110
+sortable: false
+type: text
