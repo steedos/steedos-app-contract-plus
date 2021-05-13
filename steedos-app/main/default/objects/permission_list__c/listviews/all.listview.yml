@@ -1,0 +1,27 @@
+name: all
+columns:
+  - field: user__c
+    wrap: false
+  - field: account__c
+    wrap: false
+  - field: content__c
+    wrap: false
+  - field: description__c
+    wrap: false
+  - field: system_permissio__c
+    wrap: false
+  - field: system__c
+    wrap: false
+  - field: resrult__c
+    wrap: false
+  - field: created
+    wrap: false
+filter_scope: space
+label: 所有
+scrolling_mode: standard
+shared: true
+show_count: false
+sort:
+  - field_name: created
+    order: desc
+type: grid

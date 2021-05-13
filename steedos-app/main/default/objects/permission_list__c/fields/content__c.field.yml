@@ -1,0 +1,25 @@
+name: content__c
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 申请内容
+multiple: false
+omit: false
+options:
+  - label: 新增
+    value: 新增
+    color: 66B3FF
+  - label: 变更
+    value: 变更
+    color: FFFF66
+  - label: 注销
+    value: 注销
+    color: 66FF66
+readonly: false
+required: true
+searchable: false
+sort_no: 120
+sortable: false
+type: select
