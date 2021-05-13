@@ -1,0 +1,16 @@
+name: system_dept__c
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 系统主管部门
+multiple: false
+omit: false
+readonly: false
+reference_to: organizations
+required: false
+searchable: true
+sort_no: 130
+sortable: false
+type: lookup
