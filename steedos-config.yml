@@ -32,3 +32,6 @@ plugins:
   - "@steedos/metadata-api"
   - "@steedos/word-template"
   - "@steedos/plugin-enterprise"
+projectSchedule:
+  lab_inspection_table__c_rule: "0 0 * * * *"
+  space: "RJEqh6f8jwS8WQdkc"
