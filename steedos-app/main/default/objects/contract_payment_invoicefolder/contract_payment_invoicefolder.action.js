@@ -26,8 +26,8 @@ module.exports = {
       if(doc){
         let data = {};
         data.invoice_image__c = window.location.origin + "/api/files/files/" +  invoice_image__c;
-        // 填充记录数据
-        // data.xx = doc.xx
+        // 填充收票记录数据
+        Object.assign(data,doc)
         $.post("/api/aliyun/recognise",data,function(result){
           console.log(result);
         });

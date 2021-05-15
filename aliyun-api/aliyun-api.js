@@ -116,6 +116,28 @@ const recognise =  async function (req, res, next){
       invoice.space = spaceId;
       invoice = await objectql.getSteedosSchema().getObject('contract_invoice_account').insert(invoice);
       console.log(invoice);
+
+      let contract_payment_invoice = {};
+      contract_payment_invoice.account__c = invoice.xsf_mc ;// originData['销售方名称'];
+      contract_payment_invoice.amount__c = invoice.jshj  ; // originData['发票金额']
+      contract_payment_invoice.bill_date__c = invoice.date; // 开票日期;
+      contract_payment_invoice.check_code__c = invoice.jym; // 校验码;
+
+      contract_payment_invoice.credit_code__c = invoice.xsf_nsrsbh;  //销售方纳税人识别号
+      contract_payment_invoice.invoice_code__c = invoice.invoice_code; //发票代码
+      contract_payment_invoice.invoice_number__c = invoice.name; //发票号码
+      contract_payment_invoice.invoice_type__c = invoice.bill_type; //发票类型
+      contract_payment_invoice.name = invoice.name;  //名称
+      contract_payment_invoice.notax_amount__c = invoice.hjje; //不含税金额
+      contract_payment_invoice.tax__c = invoice.sl; //税率
+      contract_payment_invoice.tax_amount__c = invoice.hjse; //税额
+      
+      contract_payment_invoice.contract__c = body.contract__c ; //合同
+      contract_payment_invoice.payment_invoicefolder__c = body._id ; //收票记录
+      contract_payment_invoice.owner = userId;
+      contract_payment_invoice.space = spaceId;
+      contract_payment_invoice = await objectql.getSteedosSchema().getObject('contract_payment_invoice').insert(contract_payment_invoice);
+      console.log(contract_payment_invoice);
       // let user = await objectql.getSteedosSchema().getObject('contract_invoice_account').findOne(userId, {fields: ['mobile']})
 
       res.status(200).send({message:'SUCCESS'});
