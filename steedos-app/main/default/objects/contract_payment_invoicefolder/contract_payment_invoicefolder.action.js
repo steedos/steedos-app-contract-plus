@@ -37,10 +37,14 @@ module.exports = {
   invoiceIdentVisible: function(object_name, record_id, record_permissions, record){
     return true;
   },
-  invoiceCheck: function (object_name, record_id, fields) {
+  invoiceVerify: function (object_name, record_id, fields) {
      //发票查重验伪
+     let data = {record_id:record_id};
+     $.post("/api/yonyoucloud/invoiceVerify",data,function(result){
+      console.log(result);
+    });
   },
-  invoiceCheckVisible: function(object_name, record_id, record_permissions, record){
+  invoiceVerifyVisible: function(object_name, record_id, record_permissions, record){
     return true;
   },
 }

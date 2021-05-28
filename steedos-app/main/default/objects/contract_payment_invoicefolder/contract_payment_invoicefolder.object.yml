@@ -19,6 +19,6 @@ actions:
   invoiceIdent:
     label: 发票识别
     on: record
-  invoiceCheck:
+  invoiceVerify:
     label: 发票查重验伪
     on: record  

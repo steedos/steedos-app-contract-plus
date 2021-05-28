@@ -16,7 +16,11 @@ const config ={
     ocrservice:"https://ocrapi-mixed-multi-invoice.taobao.com/ocrservice/mixedMultiInvoice",
     appKey:process.env.APP_KEY,
     appSecret:process.env.APP_SECRET,
-    appCode:process.env.APP_CODE
+    appCode:process.env.APP_CODE,
+
+    // yonyou
+    verifyUrl: "https://api.yonyoucloud.com/apis/dst/verifyInvoiceWithType/verifyInvoiceWithType",
+    apicode:process.env.YONGYOU_API_CODE,
 }
 
 var client = new Client(config.appKey, config.appSecret);
@@ -147,9 +151,86 @@ const recognise =  async function (req, res, next){
   }
 }
 
+const formatDate = function(date){
+  if( date !== undefined && date instanceof Date){
+    let year = date.getFullYear(); 
+    let month = date.getMonth() + 1;
+    let day = date.getDate();
+    if(month < 10) month = "0" + month;
+    if(day < 10) day = "0" + day;
+    return "" + year + month + day ;
+  }
+  return "";
+}
 
+const invoiceVerify =  async function (req, res, next){
+  try{
+    let cookies = new Cookies(req, res);
+    let userId = cookies.get("X-User-Id");
+    let spaceId = cookies.get("X-Space-Id");
+    // let authToken = cookies.get("X-Auth-Token");
+    const body = req.body;
+    console.log(body);
+
+    let contract_payment_invoice_list = await objectql.getSteedosSchema().getObject('contract_payment_invoice').find({payment_invoicefolder__c: body.id});
+    console.log(contract_payment_invoice_list);
+    if(contract_payment_invoice_list == undefined || contract_payment_invoice_list.length == 0){
+      res.status(200).send({message:'SUCCESS'});
+      return;
+    }
+
+     /**
+     * 增值税专用发票：01 ；
+        货运运输业增值税专用发票：02 ；
+        机动车销售统一发票：03； 
+        增值税普通发票：04 ；
+        增值税普通发票（电子）：10 ；
+        增值税普通发票（卷式）：11 ；
+        通行费发票：14 ；
+        二手车发票：15，
+     */
+    console.log("***********verify**************");
+    const header = {"authoration":"apicode","apicode":config.apicode,"Content-Type":"application/json"}
+    for( let index = 0; index < contract_payment_invoice_list.length ; index ++ ){
+      let contract_payment_invoice  = contract_payment_invoice_list[index]; 
+      if(contract_payment_invoice.verification__c == undefined){
+        contract_payment_invoice.check_code__c == undefined && (contract_payment_invoice.check_code__c = '');
+        let data = {
+          "code": contract_payment_invoice.invoice_code__c, //发票代码
+          "date": formatDate(contract_payment_invoice.bill_date__c) ,  //开票日期，格式：yyyyMMdd
+          "number"  :contract_payment_invoice.invoice_number__c , // 发票号码
+          "priceWithoutTax" : contract_payment_invoice.notax_amount__c,//  发票金额（不含税）
+          "type" :  contract_payment_invoice.invoice_type__c == '增值税发票' ? '10' : '01' , //  发票类型（参考备注）
+          "verifyCode":  contract_payment_invoice.check_code__c.substr(contract_payment_invoice.check_code__c.length-6,6) ,//发票校验码后6位
+        }
+        console.log("data:")
+        console.log(data)
+        const verifyResult = await axios({
+            method: "post",
+            url: config.verifyUrl,
+            headers: header,
+            data:data
+        })
+        console.log("**********verifyResult***********");
+        console.log(verifyResult.data);
+        contract_payment_invoice.verification__c = verifyResult.data.Code + verifyResult.data.Msg
+        await objectql.getSteedosSchema().getObject('contract_payment_invoice').updateOne(contract_payment_invoice._id,contract_payment_invoice);
+      }
+    };
+   
+    
+    res.status(200).send({message:'SUCCESS'});
+  }catch(error){
+       console.log("******error**********");
+      console.error(error);
+      res.status(200).send({message:"ERROR"});
+  }
+}
 //OCR识别接口
 router.post("/api/aliyun/recognise",recognise );
+
+//查重验伪
+router.post("/api/yonyoucloud/invoiceVerify",invoiceVerify );
 // module.exports = router
 exports.router = router;
 
