@@ -1,0 +1,22 @@
+name: clean__c
+defaultValue: 正常
+filterable: false
+group: 一、机房环境（检查地面、墙壁、天花板是否有裂痕、水渍，机房内是否有鼠、蚁、蟑螂活动的痕迹，正常室温：22-26摄氏度，正常湿度：35%-65%）
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 机房地板是否干净整洁
+multiple: false
+omit: false
+options:
+  - label: 正常
+    value: 正常
+  - label: 异常
+    value: 异常
+readonly: false
+required: false
+searchable: false
+sort_no: 280
+sortable: false
+type: select
