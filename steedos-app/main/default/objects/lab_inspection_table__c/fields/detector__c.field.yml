@@ -1,0 +1,22 @@
+name: detector__c
+defaultValue: 正常
+filterable: false
+group: 二、周边设备
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 温湿检测器
+multiple: false
+omit: false
+options:
+  - label: 正常
+    value: 正常
+  - label: 异常
+    value: 异常
+readonly: false
+required: false
+searchable: false
+sort_no: 320
+sortable: false
+type: select

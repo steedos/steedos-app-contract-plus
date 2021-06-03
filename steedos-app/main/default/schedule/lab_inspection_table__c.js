@@ -49,6 +49,20 @@ module.exports = {
             'router_port_summary__c': '', // 情况摘要
             'temperature__c': '正常', // 温度
             'temperature_summary__c': '', // 情况摘要
+            'ground__c': '正常', // 地面
+            'ground_summary__c': '', // 情况摘要
+            'wall__c': '正常', // 墙壁
+            'wall_summary__c': '', // 情况摘要
+            'ceiling__c': '正常', // 天花板
+            'ceiling_summary__c': '', // 情况摘要
+            'mouseTrace__c': '正常', // 鼠蚁
+            'mouseTrace_summary__c': '', // 情况摘要
+            'explosive__c': '正常', // 易爆易燃
+            'explosive_summary__c': '', // 情况摘要
+            'clean__c': '正常', // 干净整洁
+            'clean_summary__c': '', // 情况摘要
+            'detector__c': '正常', // 温湿检测
+            'detector_summary__c': '', // 情况摘要
           };
           await labObj.insert(insertDoc);
         } else {
