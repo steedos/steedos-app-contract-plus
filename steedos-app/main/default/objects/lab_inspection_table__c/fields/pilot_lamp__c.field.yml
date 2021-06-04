@@ -1,0 +1,22 @@
+name: pilot_lamp__c
+defaultValue: 正常
+filterable: false
+group: 三、网络设备、服务器
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 服务器状态指示灯情况
+multiple: false
+omit: false
+options:
+  - label: 正常
+    value: 正常
+  - label: 异常
+    value: 异常
+readonly: false
+required: false
+searchable: false
+sort_no: 500
+sortable: false
+type: select

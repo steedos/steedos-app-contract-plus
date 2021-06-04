@@ -1,0 +1,22 @@
+name: IT运维管理
+code: itil_management
+icon_slds: entity
+is_creator: true
+is_new_window: false
+is_use_ie: false
+is_use_iframe: false
+mobile: false
+oauth2_enabled: false
+oauth2_logout_enabled: false
+objects:
+  - info_system_query__c
+  - system_permission__c
+  - permission_list__c
+  - system_permission_review__c
+  - program_permission__c
+  - lab_equipment__c
+  - cms_posts
+saml_enabled: false
+saml_logout_enabled: false
+sort: 9100
+visible: true
