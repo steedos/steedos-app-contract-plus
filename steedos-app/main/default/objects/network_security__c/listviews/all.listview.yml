@@ -1,0 +1,27 @@
+name: all
+columns:
+  - field: name
+    wrap: false
+  - field: system_query__c
+    wrap: false
+  - field: monthy_run__c
+    wrap: false
+  - field: system_loophole__c
+    wrap: false
+  - field: backup__c
+    wrap: false
+  - field: fault_acceptance__c
+    wrap: false
+  - field: system_execution__c
+    wrap: false
+  - field: others__c
+    wrap: false
+  - field: date_time__c
+    wrap: false
+filter_scope: space
+filters: []
+label: 所有
+scrolling_mode: standard
+shared: true
+show_count: false
+type: grid

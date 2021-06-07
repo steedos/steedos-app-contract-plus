@@ -1,0 +1,17 @@
+name: network_security__c
+custom: true
+enable_api: true
+enable_audit: true
+enable_chatter: false
+enable_events: false
+enable_files: false
+enable_inline_edit: true
+enable_instances: false
+enable_notes: false
+enable_search: true
+enable_share: false
+enable_tasks: false
+enable_workflow: false
+icon: service_crew_member
+is_enable: true
+label: 网络及信息系统安全检查表

@@ -1,0 +1,21 @@
+name: all
+columns:
+  - field: name
+    wrap: false
+  - field: dept__c
+    wrap: false
+  - field: access_card__c
+    wrap: false
+  - field: applicant_date__c
+    wrap: false
+  - field: grant_date__c
+    wrap: false
+  - field: logout_date__c
+    wrap: false
+filter_scope: space
+filters: []
+label: 所有
+scrolling_mode: standard
+shared: true
+show_count: false
+type: grid
