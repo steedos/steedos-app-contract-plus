@@ -70,10 +70,17 @@ const recognise =  async function (req, res, next){
       invoice.invoice_code = originData['发票代码'];
 
       
-      let kprq = originData['开票日期'] || originData['日期']  || ''; // "2020年08月28日"  2021-01-30
-      kprq = kprq.replace('年','').replace('月','').replace('日','').replace('-','');
-      if(kprq !='' && kprq.length == 8){
-        invoice.date = new Date(kprq.substr(0,4) + '/' + kprq.substr(4,2) + '/' + kprq.substr(6,2));
+      let kprq = originData['开票日期'] || originData['日期']  || ''; // "2020年08月28日"  2021年6月2日 2021-01-30
+      kprq = kprq.replace('年','-').replace('月','-').replace('日','-');
+      if(kprq !=''){
+        if(kprq.length == 8){ // 20210130
+          invoice.date = new Date(kprq.substr(0,4) + '/' + kprq.substr(4,2) + '/' + kprq.substr(6,2));
+        }else {
+          let  adate = kprq.split('-');
+          if(adate != null && adate.length == 3){
+            invoice.date = new Date(adate[0] + '/' + adate[1] + '/' + adate[2]);
+          }
+        }
       }
 
       if(invoice.bill_type == '出租车票'){
@@ -93,7 +100,7 @@ const recognise =  async function (req, res, next){
         invoice.hjse = originData['发票税额'];
         if(originData['发票详单'] && originData['发票详单'][0]){
           invoice.sl = originData['发票详单'][0]['税率'] || ''; //13% 替换成13 数字
-          invoice.sl = invoice.sl.replace('%','')
+          invoice.sl = invoice.sl.replace('%','')/100
         }
         
         invoice.jshj = originData['发票金额'];
@@ -172,7 +179,7 @@ const invoiceVerify =  async function (req, res, next){
     const body = req.body;
     console.log(body);
 
-    let contract_payment_invoice_list = await objectql.getSteedosSchema().getObject('contract_payment_invoice').find({payment_invoicefolder__c: body.id});
+    let contract_payment_invoice_list = await objectql.getSteedosSchema().getObject('contract_payment_invoice').find({payment_invoicefolder__c: body.record_id});
     console.log(contract_payment_invoice_list);
     if(contract_payment_invoice_list == undefined || contract_payment_invoice_list.length == 0){
       res.status(200).send({message:'SUCCESS'});
@@ -193,7 +200,7 @@ const invoiceVerify =  async function (req, res, next){
     const header = {"authoration":"apicode","apicode":config.apicode,"Content-Type":"application/json"}
     for( let index = 0; index < contract_payment_invoice_list.length ; index ++ ){
       let contract_payment_invoice  = contract_payment_invoice_list[index]; 
-      if(contract_payment_invoice.verification__c == undefined){
+      if(contract_payment_invoice.verification__c == undefined || contract_payment_invoice.verification__c == ''){
         contract_payment_invoice.check_code__c == undefined && (contract_payment_invoice.check_code__c = '');
         let data = {
           "code": contract_payment_invoice.invoice_code__c, //发票代码
@@ -222,7 +229,7 @@ const invoiceVerify =  async function (req, res, next){
     res.status(200).send({message:'SUCCESS'});
   }catch(error){
        console.log("******error**********");
-      console.error(error);
+      // console.error(error);
       res.status(200).send({message:"ERROR"});
   }
 }

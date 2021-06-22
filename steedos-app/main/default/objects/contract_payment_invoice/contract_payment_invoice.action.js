@@ -13,7 +13,7 @@ module.exports = {
     }
   },
   invoiceIdentVisible: function(object_name, record_id, record_permissions, record){
-    return true;
+    return false;
   },
   // reset: function(object_name, record_id, fields){
   //     var record = Creator.odata.get(object_name, record_id);

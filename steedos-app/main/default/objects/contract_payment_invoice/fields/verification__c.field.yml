@@ -1,12 +1,12 @@
 name: verification__c
 filterable: false
-hidden: true
+hidden: false
 index: false
 is_name: false
 is_wide: false
 label: 验证结果
 omit: false
-readonly: false
+readonly: true
 required: false
 searchable: false
 sort_no: 500
