@@ -30,6 +30,7 @@ module.exports = {
         Object.assign(data,doc)
         $.post("/api/aliyun/recognise",data,function(result){
           console.log(result);
+          location.reload();
         });
       }
     }

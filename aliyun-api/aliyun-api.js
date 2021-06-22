@@ -71,14 +71,17 @@ const recognise =  async function (req, res, next){
 
       
       let kprq = originData['开票日期'] || originData['日期']  || ''; // "2020年08月28日"  2021年6月2日 2021-01-30
-      kprq = kprq.replace('年','-').replace('月','-').replace('日','-');
+      kprq = kprq.replace('年','-').replace('月','-').replace('日','');
       if(kprq !=''){
-        if(kprq.length == 8){ // 20210130
-          invoice.date = new Date(kprq.substr(0,4) + '/' + kprq.substr(4,2) + '/' + kprq.substr(6,2));
-        }else {
+        if(kprq.length == 8 && kprq.indexOf('-') == -1){ // 20210130
+          invoice.date = new Date(kprq.substr(0,4) + '-' + kprq.substr(4,2) + '-' + kprq.substr(6,2));
+        }else { // 2021-6-2 和 2021-06-02 结果不一样， 需要统一转换成 yyyy-MM-dd格式
           let  adate = kprq.split('-');
           if(adate != null && adate.length == 3){
-            invoice.date = new Date(adate[0] + '/' + adate[1] + '/' + adate[2]);
+            let year = adate[0];
+            let month = adate[1].length == 1 ? '0'+adate[1]  : adate[1];
+            let day = adate[2].length == 1 ? '0'+adate[2]  : adate[2];
+            invoice.date = new Date(year + '-' +  month  + '-' + day);
           }
         }
       }
