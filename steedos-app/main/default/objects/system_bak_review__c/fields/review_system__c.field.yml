@@ -1,0 +1,16 @@
+name: review_system__c
+filterable: false
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 系统全称
+omit: false
+readonly: false
+reference_to: info_system_query__c
+required: true
+searchable: false
+sort_no: 120
+sortable: false
+type: master_detail
+write_requires_master_read: false

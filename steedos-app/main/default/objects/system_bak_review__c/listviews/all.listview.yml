@@ -1,0 +1,21 @@
+name: all
+columns:
+  - field: review_system__c
+    wrap: false
+  - field: time__c
+    wrap: false
+  - field: tester__c
+    wrap: false
+  - field: file__c
+    wrap: false
+  - field: created
+    wrap: false
+filter_scope: space
+filters: []
+label: 所有
+scrolling_mode: standard
+shared: true
+sort:
+  - field_name: created
+    order: desc
+type: grid

@@ -1,0 +1,15 @@
+name: pressure_tap__c
+filterable: false
+group: 测试内容
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 测压点
+omit: false
+readonly: false
+required: false
+searchable: false
+sort_no: 170
+sortable: false
+type: boolean

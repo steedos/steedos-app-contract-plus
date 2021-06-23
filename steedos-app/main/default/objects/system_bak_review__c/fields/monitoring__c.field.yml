@@ -1,0 +1,15 @@
+name: monitoring__c
+filterable: false
+group: 测试内容
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 监测点
+omit: false
+readonly: false
+required: false
+searchable: false
+sort_no: 200
+sortable: false
+type: boolean
