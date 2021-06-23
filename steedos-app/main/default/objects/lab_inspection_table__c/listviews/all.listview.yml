@@ -38,3 +38,6 @@ scrolling_mode: standard
 shared: true
 show_count: false
 type: grid
+sort:
+  - field_name: created
+    order: desc
