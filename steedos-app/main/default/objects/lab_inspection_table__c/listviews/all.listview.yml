@@ -1,12 +1,35 @@
 name: all
 columns:
   - field: name
-    wrap: false
+    wrap: true
   - field: review_time__c
+    width: '160'
     wrap: false
   - field: reviewer__c
+    width: '72'
     wrap: false
   - field: temperature__c
+    width: '72'
+    wrap: false
+  - field: humidity__c
+    width: '72'
+    wrap: false
+  - field: ground__c
+    wrap: false
+  - field: wall__c
+    wrap: false
+  - field: mouseTrace__c
+    wrap: false
+  - field: explosive__c
+    wrap: false
+  - field: air_conditioning__c
+    width: '72'
+    wrap: false
+  - field: ups__c
+    width: '100'
+    wrap: false
+  - field: server__c
+    width: '110'
     wrap: false
 filter_scope: space
 filters: []

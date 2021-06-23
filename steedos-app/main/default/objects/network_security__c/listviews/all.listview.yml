@@ -24,4 +24,7 @@ label: 所有
 scrolling_mode: standard
 shared: true
 show_count: false
+sort:
+  - field_name: date_time__c
+    order: desc
 type: grid
