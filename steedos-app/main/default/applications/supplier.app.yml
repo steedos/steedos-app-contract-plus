@@ -1,0 +1,13 @@
+name: 业务伙伴
+code: supplier
+description: 业务伙伴的基本信息、资质审查、评价、联系人等。
+from_code_id: supplier
+icon_slds: approval
+is_creator: true
+objects:
+  - accounts
+  - account_banks
+  - contracts
+  - contacts
+sort: 18
+visible: false

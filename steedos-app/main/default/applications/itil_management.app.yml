@@ -15,7 +15,11 @@ objects:
   - system_permission_review__c
   - program_permission__c
   - lab_equipment__c
+  - access_card__c
   - cms_posts
+  - network_security__c
+  - lab_inspection_table__c
+  - system_bak_review__c
 saml_enabled: false
 saml_logout_enabled: false
 sort: 9100

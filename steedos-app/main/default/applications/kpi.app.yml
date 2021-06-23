@@ -1,6 +1,6 @@
-name: 机房巡检
-code: lab_review
-icon_slds: macros
+name: 绩效考核
+code: kpi
+icon_slds: skill_entity
 is_creator: true
 is_new_window: false
 is_use_ie: false
@@ -9,7 +9,10 @@ mobile: false
 oauth2_enabled: false
 oauth2_logout_enabled: false
 objects:
-  - lab_inspection_table__c
+  - assessment_template__c
+  - instances
+  - score_record__c
+  - assessment_cycle__c
 saml_enabled: false
 saml_logout_enabled: false
 sort: 9100

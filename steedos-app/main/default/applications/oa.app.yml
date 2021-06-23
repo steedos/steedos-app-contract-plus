@@ -1,0 +1,26 @@
+name: 审批
+code: oa
+description: 协同办公系统，包含审批、文档、公告、任务、日程等模块。
+from_code_id: oa
+icon_slds: groups
+is_creator: true
+is_new_window: false
+is_use_ie: false
+is_use_iframe: false
+mobile: false
+mobile_objects:
+  - instances
+  - cms_posts
+  - announcements
+  - space_users
+  - tasks
+  - events
+oauth2_enabled: false
+oauth2_logout_enabled: false
+objects:
+  - instances
+  - reports
+saml_enabled: false
+saml_logout_enabled: false
+sort: 10
+visible: true

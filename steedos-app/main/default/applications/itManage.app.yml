@@ -1,6 +1,6 @@
-name: 机房巡检
-code: lab_review
-icon_slds: macros
+name: IT测试
+code: itManage
+icon_slds: answer_best
 is_creator: true
 is_new_window: false
 is_use_ie: false
@@ -9,7 +9,9 @@ mobile: false
 oauth2_enabled: false
 oauth2_logout_enabled: false
 objects:
-  - lab_inspection_table__c
+  - instances
+  - info_system_query__c
+  - cms_posts
 saml_enabled: false
 saml_logout_enabled: false
 sort: 9100
