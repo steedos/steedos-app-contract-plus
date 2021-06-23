@@ -4,9 +4,15 @@ columns:
     wrap: false
   - field: dept__c
     wrap: false
-  - field: access_card__c
+  - field: applicant__c
     wrap: false
   - field: applicant_date__c
+    wrap: false
+  - field: publisher__c
+    wrap: false
+  - field: dep__c
+    wrap: false
+  - field: card__c
     wrap: false
   - field: grant_date__c
     wrap: false
@@ -18,4 +24,7 @@ label: 所有
 scrolling_mode: standard
 shared: true
 show_count: false
+sort:
+  - field_name: applicant_date__c
+    order: desc
 type: grid

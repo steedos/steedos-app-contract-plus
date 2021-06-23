@@ -5,10 +5,12 @@ index: false
 is_name: false
 is_wide: false
 label: 单位/部门
+multiple: false
 omit: false
-readonly: false
+readonly: true
+reference_to: organizations
 required: false
 searchable: false
 sort_no: 120
 sortable: false
-type: text
+type: lookup
