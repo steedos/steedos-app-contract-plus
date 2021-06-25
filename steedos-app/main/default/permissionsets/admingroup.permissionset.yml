@@ -1,0 +1,5 @@
+name: admingroup
+assigned_apps:
+  - itil_management
+label: 信息部管理员
+type: permission_set
