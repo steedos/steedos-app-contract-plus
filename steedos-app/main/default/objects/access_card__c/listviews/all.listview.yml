@@ -2,22 +2,27 @@ name: all
 columns:
   - field: name
     wrap: false
-  - field: dept__c
-    wrap: false
   - field: applicant__c
+    wrap: false
+    width: '80'
+  - field: dept__c
     wrap: false
   - field: applicant_date__c
     wrap: false
+    width: '120'
   - field: publisher__c
     wrap: false
+    width: '80'
   - field: dep__c
     wrap: false
   - field: card__c
     wrap: false
   - field: grant_date__c
     wrap: false
+    width: '120'
   - field: logout_date__c
     wrap: false
+    width: '120'
 filter_scope: space
 filters: []
 label: 所有

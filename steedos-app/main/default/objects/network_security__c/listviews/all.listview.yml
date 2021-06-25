@@ -1,23 +1,31 @@
 name: all
 columns:
   - field: name
-    wrap: false
+    wrap: true
   - field: system_query__c
     wrap: false
+    width: '110'
   - field: monthy_run__c
     wrap: false
+    width: '130'
   - field: system_loophole__c
     wrap: false
+    width: '120'
   - field: backup__c
     wrap: false
+    width: '130'
   - field: fault_acceptance__c
     wrap: false
+    width: '120'
   - field: system_execution__c
     wrap: false
+    width: '130'
   - field: others__c
     wrap: false
+    width: '130'
   - field: date_time__c
     wrap: false
+    width: '160'
 filter_scope: space
 filters: []
 label: 所有

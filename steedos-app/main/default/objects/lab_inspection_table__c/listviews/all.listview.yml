@@ -39,5 +39,5 @@ shared: true
 show_count: false
 type: grid
 sort:
-  - field_name: created
+  - field_name: review_time__c
     order: desc
