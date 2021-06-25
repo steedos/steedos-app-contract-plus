@@ -1,7 +1,15 @@
-allowCreate: true
-allowDelete: true
-allowEdit: true
+name: 信息系统查询.用户
+allowCreate: false
+allowDelete: false
+allowEdit: false
 allowRead: true
 modifyAllRecords: false
+modifyCompanyRecords: false
 permission_set_id: user
+unreadable_fields:
+  - project_proponents__c
+  - mobile__c
+  - phone__c
+  - equipment__c
 viewAllRecords: true
+viewCompanyRecords: false

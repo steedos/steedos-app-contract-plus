@@ -1,7 +1,10 @@
-allowCreate: true
-allowDelete: true
-allowEdit: true
-allowRead: true
+name: 程序权限变更.用户
+allowCreate: false
+allowDelete: false
+allowEdit: false
+allowRead: false
 modifyAllRecords: false
+modifyCompanyRecords: false
 permission_set_id: user
 viewAllRecords: false
+viewCompanyRecords: false

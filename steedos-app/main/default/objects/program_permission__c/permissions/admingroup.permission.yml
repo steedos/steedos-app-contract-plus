@@ -1,10 +1,10 @@
-name: 机房巡检表.机房巡检管理员
-allowCreate: true
+name: 程序权限变更.信息部管理员
+allowCreate: false
 allowDelete: true
 allowEdit: true
 allowRead: true
 modifyAllRecords: true
 modifyCompanyRecords: false
-permission_set_id: lab_manager
+permission_set_id: admingroup
 viewAllRecords: true
 viewCompanyRecords: false

@@ -1,5 +1,5 @@
-name: 信息系统查询.信息部管理员
-allowCreate: true
+name: 系统权限变更.信息部管理员
+allowCreate: false
 allowDelete: true
 allowEdit: true
 allowRead: true
