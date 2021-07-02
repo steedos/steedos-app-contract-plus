@@ -11,4 +11,4 @@ required: false
 searchable: false
 sort_no: 190
 sortable: false
-type: datetime
+type: date
