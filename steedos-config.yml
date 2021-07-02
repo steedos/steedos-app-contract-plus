@@ -33,6 +33,6 @@ plugins:
   - "@steedos/word-template"
   - "@steedos/plugin-enterprise"
 projectSchedule:
-  lab_inspection_table__c_rule: "0 0 0 * * *"
+  lab_inspection_table__c_rule: "0 0 0 * * 1-5"
   network_security__c_rule: "0 0 9 1 * *"
   space: "xmrXuNBgva6gDb7yB"
