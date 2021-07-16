@@ -14,4 +14,4 @@ enable_tasks: false
 enable_workflow: true
 icon: cms
 is_enable: true
-label: 程序权限变更
+label: 系统程序变更
